@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"65cdb983-b532-3a1c-bbcc-da54439e3d41","name":"surface water","version":"00.00.000","category":{"@type":"Category","@id":"a9a7aa43-0fe5-3cdb-830e-01fb5274a694","name":"resource"},"modelType":"FLOW"}

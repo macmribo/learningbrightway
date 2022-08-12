@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"cbe49c04-ad3e-338b-be8c-d60426d2fe4d","name":"5239: Other Financial Investment Activities","version":"00.00.000","category":{"@type":"Category","@id":"d646b266-0e69-3743-95ad-151a13ba2da9","name":"52: Finance and Insurance"},"modelType":"FLOW"}

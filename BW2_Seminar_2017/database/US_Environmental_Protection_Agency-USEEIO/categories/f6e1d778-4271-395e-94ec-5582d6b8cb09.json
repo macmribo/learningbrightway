@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"f6e1d778-4271-395e-94ec-5582d6b8cb09","name":"6219: Other Ambulatory Health Care Services","version":"00.00.000","category":{"@type":"Category","@id":"dfb12733-41e6-32dd-9cce-b3e0322545c7","name":"62: Health Care and Social Assistance"},"modelType":"PROCESS"}

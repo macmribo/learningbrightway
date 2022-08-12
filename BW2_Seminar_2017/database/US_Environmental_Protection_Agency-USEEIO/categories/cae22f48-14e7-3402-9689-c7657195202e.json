@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"cae22f48-14e7-3402-9689-c7657195202e","name":"8123: Drycleaning and Laundry Services","version":"00.00.000","category":{"@type":"Category","@id":"322e44ec-9ffa-3d72-824e-f051fafe631c","name":"81: Other Services (except Public Administration)"},"modelType":"PROCESS"}

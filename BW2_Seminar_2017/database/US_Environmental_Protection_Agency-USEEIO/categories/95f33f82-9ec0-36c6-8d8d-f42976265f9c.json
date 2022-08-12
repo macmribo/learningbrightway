@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"95f33f82-9ec0-36c6-8d8d-f42976265f9c","name":"3326: Spring and Wire Product Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"196f44d8-40ec-37ed-8e73-a0c0825569eb","name":"31-33: Manufacturing"},"modelType":"FLOW"}

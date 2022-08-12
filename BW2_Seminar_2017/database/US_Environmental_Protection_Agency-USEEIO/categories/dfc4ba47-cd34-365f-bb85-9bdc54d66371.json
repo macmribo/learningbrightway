@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"dfc4ba47-cd34-365f-bb85-9bdc54d66371","name":"3322: Cutlery and Handtool Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"196f44d8-40ec-37ed-8e73-a0c0825569eb","name":"31-33: Manufacturing"},"modelType":"FLOW"}

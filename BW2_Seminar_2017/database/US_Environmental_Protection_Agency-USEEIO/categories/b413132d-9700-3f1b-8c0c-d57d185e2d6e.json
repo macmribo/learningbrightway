@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"b413132d-9700-3f1b-8c0c-d57d185e2d6e","name":"5242: Agencies, Brokerages, and Other Insurance Related Activities","version":"00.00.000","category":{"@type":"Category","@id":"d646b266-0e69-3743-95ad-151a13ba2da9","name":"52: Finance and Insurance"},"modelType":"FLOW"}

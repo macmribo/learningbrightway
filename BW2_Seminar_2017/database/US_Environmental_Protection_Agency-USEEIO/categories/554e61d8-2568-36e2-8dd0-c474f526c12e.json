@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"554e61d8-2568-36e2-8dd0-c474f526c12e","name":"6213: Offices of Other Health Practitioners","version":"00.00.000","category":{"@type":"Category","@id":"dfb12733-41e6-32dd-9cce-b3e0322545c7","name":"62: Health Care and Social Assistance"},"modelType":"PROCESS"}

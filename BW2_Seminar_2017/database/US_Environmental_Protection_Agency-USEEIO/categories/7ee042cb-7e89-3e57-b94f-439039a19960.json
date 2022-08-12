@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"7ee042cb-7e89-3e57-b94f-439039a19960","name":"3351: Electric Lighting Equipment Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"00388557-8210-3c1a-b8d8-08fe34203c28","name":"31-33: Manufacturing"},"modelType":"PROCESS"}

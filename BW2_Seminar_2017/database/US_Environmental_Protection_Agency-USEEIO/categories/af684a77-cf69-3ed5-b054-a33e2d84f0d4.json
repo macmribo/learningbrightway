@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"af684a77-cf69-3ed5-b054-a33e2d84f0d4","name":"3111: Animal Food Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"00388557-8210-3c1a-b8d8-08fe34203c28","name":"31-33: Manufacturing"},"modelType":"PROCESS"}

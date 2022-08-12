@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"f7acd949-6d41-388c-8c80-b0cf05de345e","name":"1121: Cattle Ranching and Farming","version":"00.00.000","category":{"@type":"Category","@id":"558c2e3b-5de8-3389-b418-a00d6a3da410","name":"11: Agriculture, Forestry, Fishing and Hunting"},"modelType":"PROCESS"}

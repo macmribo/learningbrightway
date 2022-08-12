@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"8e7a0952-06c4-35d0-9f45-d005616b1a78","name":"3254: Pharmaceutical and Medicine Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"196f44d8-40ec-37ed-8e73-a0c0825569eb","name":"31-33: Manufacturing"},"modelType":"FLOW"}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"35ea0e5b-8fc9-3f74-a889-a1025789fed1","name":"3332: Industrial Machinery Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"196f44d8-40ec-37ed-8e73-a0c0825569eb","name":"31-33: Manufacturing"},"modelType":"FLOW"}

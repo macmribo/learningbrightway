@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"a46387fa-8239-3834-96f0-b5202a5b8ae8","name":"8111: Automotive Repair and Maintenance","version":"00.00.000","category":{"@type":"Category","@id":"98ec10c7-cadc-3279-88ed-ea4db4887bb8","name":"81: Other Services (except Public Administration)"},"modelType":"FLOW"}

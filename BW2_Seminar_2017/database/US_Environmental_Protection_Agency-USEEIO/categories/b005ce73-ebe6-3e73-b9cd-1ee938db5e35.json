@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"b005ce73-ebe6-3e73-b9cd-1ee938db5e35","name":"7111: Performing Arts Companies","version":"00.00.000","category":{"@type":"Category","@id":"62af7844-4fef-3217-bd69-99fccaf7c6e5","name":"71: Arts, Entertainment, and Recreation"},"modelType":"FLOW"}

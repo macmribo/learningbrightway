@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"6f8b99c4-b14f-360f-a600-7c936a7046a0","name":"3279: Other Nonmetallic Mineral Product Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"196f44d8-40ec-37ed-8e73-a0c0825569eb","name":"31-33: Manufacturing"},"modelType":"FLOW"}

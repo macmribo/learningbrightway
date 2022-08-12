@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"737045f1-55b7-330e-932a-85f6277434a9","name":"1123: Poultry and Egg Production","version":"00.00.000","category":{"@type":"Category","@id":"e0b7c0f1-1843-3870-bb0a-00442ccbe8be","name":"11: Agriculture, Forestry, Fishing and Hunting"},"modelType":"FLOW"}

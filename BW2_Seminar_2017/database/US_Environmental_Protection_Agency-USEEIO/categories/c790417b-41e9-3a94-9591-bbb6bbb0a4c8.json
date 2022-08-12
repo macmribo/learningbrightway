@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"c790417b-41e9-3a94-9591-bbb6bbb0a4c8","name":"Government","version":"00.00.000","category":{"@type":"Category","@id":"a9781d4c-f031-30b4-96fe-45416e3385dc","name":"Other Activities"},"modelType":"FLOW"}

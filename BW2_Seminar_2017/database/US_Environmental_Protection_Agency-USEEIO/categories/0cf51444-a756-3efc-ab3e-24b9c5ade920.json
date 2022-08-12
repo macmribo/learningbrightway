@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"0cf51444-a756-3efc-ab3e-24b9c5ade920","name":"8129: Other Personal Services","version":"00.00.000","category":{"@type":"Category","@id":"322e44ec-9ffa-3d72-824e-f051fafe631c","name":"81: Other Services (except Public Administration)"},"modelType":"PROCESS"}

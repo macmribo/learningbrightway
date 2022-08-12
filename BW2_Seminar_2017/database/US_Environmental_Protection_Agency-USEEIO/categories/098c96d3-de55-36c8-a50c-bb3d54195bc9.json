@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"098c96d3-de55-36c8-a50c-bb3d54195bc9","name":"5151: Radio and Television Broadcasting","version":"00.00.000","category":{"@type":"Category","@id":"4de461fc-0196-3f2c-a9b9-e1d989723653","name":"51: Information"},"modelType":"PROCESS"}

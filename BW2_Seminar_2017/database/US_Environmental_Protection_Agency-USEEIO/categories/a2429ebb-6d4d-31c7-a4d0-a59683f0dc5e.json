@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"a2429ebb-6d4d-31c7-a4d0-a59683f0dc5e","name":"3345: Navigational, Measuring, Electromedical, and Control Instruments Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"00388557-8210-3c1a-b8d8-08fe34203c28","name":"31-33: Manufacturing"},"modelType":"PROCESS"}

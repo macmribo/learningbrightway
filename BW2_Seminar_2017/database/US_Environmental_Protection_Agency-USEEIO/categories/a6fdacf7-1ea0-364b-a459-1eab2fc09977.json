@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"a6fdacf7-1ea0-364b-a459-1eab2fc09977","name":"1113: Fruit and Tree Nut Farming","version":"00.00.000","category":{"@type":"Category","@id":"558c2e3b-5de8-3389-b418-a00d6a3da410","name":"11: Agriculture, Forestry, Fishing and Hunting"},"modelType":"PROCESS"}

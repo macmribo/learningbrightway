@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"092f2d78-61dc-3234-bfdc-c3399381754e","name":"1114: Greenhouse, Nursery, and Floriculture Production","version":"00.00.000","category":{"@type":"Category","@id":"e0b7c0f1-1843-3870-bb0a-00442ccbe8be","name":"11: Agriculture, Forestry, Fishing and Hunting"},"modelType":"FLOW"}

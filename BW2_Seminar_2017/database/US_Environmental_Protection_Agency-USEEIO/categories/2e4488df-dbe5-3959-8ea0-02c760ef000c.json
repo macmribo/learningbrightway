@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"2e4488df-dbe5-3959-8ea0-02c760ef000c","name":"5614: Business Support Services","version":"00.00.000","category":{"@type":"Category","@id":"a58ebc3b-bc27-302c-ba62-c1bf922e46eb","name":"56: Administrative and Support and Waste Management and Remediation Services"},"modelType":"PROCESS"}

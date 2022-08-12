@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"7ebdbdd9-4eaf-32f6-be69-580c4fcff28d","name":"8114: Personal and Household Goods Repair and Maintenance","version":"00.00.000","category":{"@type":"Category","@id":"98ec10c7-cadc-3279-88ed-ea4db4887bb8","name":"81: Other Services (except Public Administration)"},"modelType":"FLOW"}

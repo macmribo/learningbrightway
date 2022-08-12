@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"3c035f75-9b28-318a-b8eb-91380fa420e5","name":"6241: Individual and Family Services","version":"00.00.000","category":{"@type":"Category","@id":"55278662-e33a-3342-8d23-e7bb6335a65e","name":"62: Health Care and Social Assistance"},"modelType":"FLOW"}

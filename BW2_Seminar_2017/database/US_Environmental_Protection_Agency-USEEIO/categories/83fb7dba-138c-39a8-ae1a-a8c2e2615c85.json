@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"83fb7dba-138c-39a8-ae1a-a8c2e2615c85","name":"5121: Motion Picture and Video Industries","version":"00.00.000","category":{"@type":"Category","@id":"b920e806-f87b-364e-921d-83fd88ffd773","name":"51: Information"},"modelType":"FLOW"}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"62e78e49-ad19-3586-ae6d-b2e0a6d4bbab","name":"3361: Motor Vehicle Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"00388557-8210-3c1a-b8d8-08fe34203c28","name":"31-33: Manufacturing"},"modelType":"PROCESS"}

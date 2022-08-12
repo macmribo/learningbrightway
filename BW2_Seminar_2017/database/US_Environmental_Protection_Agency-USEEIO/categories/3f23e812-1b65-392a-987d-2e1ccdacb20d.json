@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"3f23e812-1b65-392a-987d-2e1ccdacb20d","name":"7139: Other Amusement and Recreation Industries","version":"00.00.000","category":{"@type":"Category","@id":"62af7844-4fef-3217-bd69-99fccaf7c6e5","name":"71: Arts, Entertainment, and Recreation"},"modelType":"FLOW"}

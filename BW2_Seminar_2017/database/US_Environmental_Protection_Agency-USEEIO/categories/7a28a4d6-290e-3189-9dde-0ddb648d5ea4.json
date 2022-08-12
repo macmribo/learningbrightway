@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"7a28a4d6-290e-3189-9dde-0ddb648d5ea4","name":"6111: Elementary and Secondary Schools","version":"00.00.000","category":{"@type":"Category","@id":"1d5d4195-d455-3eef-8321-4a2e8de8171e","name":"61: Educational Services"},"modelType":"FLOW"}

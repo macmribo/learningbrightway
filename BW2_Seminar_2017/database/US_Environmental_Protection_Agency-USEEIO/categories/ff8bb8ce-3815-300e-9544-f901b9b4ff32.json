@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"ff8bb8ce-3815-300e-9544-f901b9b4ff32","name":"5171: Wired Telecommunications Carriers","version":"00.00.000","category":{"@type":"Category","@id":"4de461fc-0196-3f2c-a9b9-e1d989723653","name":"51: Information"},"modelType":"PROCESS"}

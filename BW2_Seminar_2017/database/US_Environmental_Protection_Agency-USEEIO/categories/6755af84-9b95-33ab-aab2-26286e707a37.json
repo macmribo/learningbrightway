@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"6755af84-9b95-33ab-aab2-26286e707a37","name":"6211: Offices of Physicians","version":"00.00.000","category":{"@type":"Category","@id":"dfb12733-41e6-32dd-9cce-b3e0322545c7","name":"62: Health Care and Social Assistance"},"modelType":"PROCESS"}

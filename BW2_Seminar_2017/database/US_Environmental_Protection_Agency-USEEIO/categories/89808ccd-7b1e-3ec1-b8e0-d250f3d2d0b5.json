@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"89808ccd-7b1e-3ec1-b8e0-d250f3d2d0b5","name":"5152: Cable and Other Subscription Programming","version":"00.00.000","category":{"@type":"Category","@id":"4de461fc-0196-3f2c-a9b9-e1d989723653","name":"51: Information"},"modelType":"PROCESS"}

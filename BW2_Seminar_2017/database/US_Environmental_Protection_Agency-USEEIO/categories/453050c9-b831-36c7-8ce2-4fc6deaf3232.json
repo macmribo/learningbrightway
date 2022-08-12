@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"453050c9-b831-36c7-8ce2-4fc6deaf3232","name":"5182: Data Processing, Hosting, and Related Services","version":"00.00.000","category":{"@type":"Category","@id":"b920e806-f87b-364e-921d-83fd88ffd773","name":"51: Information"},"modelType":"FLOW"}

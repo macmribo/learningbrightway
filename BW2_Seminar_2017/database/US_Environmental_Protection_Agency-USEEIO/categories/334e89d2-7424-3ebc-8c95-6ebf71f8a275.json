@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"334e89d2-7424-3ebc-8c95-6ebf71f8a275","name":"5172: Wireless Telecommunications Carriers (except Satellite)","version":"00.00.000","category":{"@type":"Category","@id":"4de461fc-0196-3f2c-a9b9-e1d989723653","name":"51: Information"},"modelType":"PROCESS"}

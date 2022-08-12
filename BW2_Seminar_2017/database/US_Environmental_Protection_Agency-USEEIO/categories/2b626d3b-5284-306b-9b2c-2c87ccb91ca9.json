@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"2b626d3b-5284-306b-9b2c-2c87ccb91ca9","name":"2212: Natural Gas Distribution","version":"00.00.000","category":{"@type":"Category","@id":"264b3753-2e68-305d-aa07-2baef13cf9ce","name":"22: Utilities"},"modelType":"FLOW"}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"8436cab8-9e0c-3f3f-8cdb-1a6eddf0d44c","name":"8122: Death Care Services","version":"00.00.000","category":{"@type":"Category","@id":"322e44ec-9ffa-3d72-824e-f051fafe631c","name":"81: Other Services (except Public Administration)"},"modelType":"PROCESS"}

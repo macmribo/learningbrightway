@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"be16bc82-449c-3c0c-bcb4-f7769d0af682","name":"7132: Gambling Industries","version":"00.00.000","category":{"@type":"Category","@id":"714cb0ab-7f76-3430-abd2-84eb57bb09ab","name":"71: Arts, Entertainment, and Recreation"},"modelType":"PROCESS"}

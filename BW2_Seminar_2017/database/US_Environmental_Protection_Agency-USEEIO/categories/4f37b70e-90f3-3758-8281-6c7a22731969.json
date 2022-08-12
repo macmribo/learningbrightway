@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"4f37b70e-90f3-3758-8281-6c7a22731969","name":"5411: Legal Services","version":"00.00.000","category":{"@type":"Category","@id":"f5cd33ce-de6d-3327-b69f-715b34ce8605","name":"54: Professional, Scientific, and Technical Services"},"modelType":"FLOW"}

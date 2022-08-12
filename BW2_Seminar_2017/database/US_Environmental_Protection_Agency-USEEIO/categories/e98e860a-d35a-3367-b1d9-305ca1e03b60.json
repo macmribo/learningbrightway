@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"e98e860a-d35a-3367-b1d9-305ca1e03b60","name":"3346: Manufacturing and Reproducing Magnetic and Optical Media","version":"00.00.000","category":{"@type":"Category","@id":"00388557-8210-3c1a-b8d8-08fe34203c28","name":"31-33: Manufacturing"},"modelType":"PROCESS"}

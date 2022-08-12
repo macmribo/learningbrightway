@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"f6a13167-041a-35cb-99f7-3292f768bb2e","name":"5112: Software Publishers","version":"00.00.000","category":{"@type":"Category","@id":"b920e806-f87b-364e-921d-83fd88ffd773","name":"51: Information"},"modelType":"FLOW"}

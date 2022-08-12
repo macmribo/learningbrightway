@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"f1581141-87e2-3647-81ce-6fd43e3e34be","name":"unspecified","version":"00.00.000","category":{"@type":"Category","@id":"ea6e8298-199f-3b53-99e4-2523f24c03ec","name":"air"},"modelType":"FLOW"}

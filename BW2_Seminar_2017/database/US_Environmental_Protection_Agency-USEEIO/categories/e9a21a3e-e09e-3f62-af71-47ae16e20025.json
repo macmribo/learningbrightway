@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"e9a21a3e-e09e-3f62-af71-47ae16e20025","name":"1112: Vegetable and Melon Farming","version":"00.00.000","category":{"@type":"Category","@id":"e0b7c0f1-1843-3870-bb0a-00442ccbe8be","name":"11: Agriculture, Forestry, Fishing and Hunting"},"modelType":"FLOW"}

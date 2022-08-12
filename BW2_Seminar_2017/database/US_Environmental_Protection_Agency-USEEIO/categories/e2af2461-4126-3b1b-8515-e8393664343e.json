@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"e2af2461-4126-3b1b-8515-e8393664343e","name":"5417: Scientific Research and Development Services","version":"00.00.000","category":{"@type":"Category","@id":"f5cd33ce-de6d-3327-b69f-715b34ce8605","name":"54: Professional, Scientific, and Technical Services"},"modelType":"FLOW"}

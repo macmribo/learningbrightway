@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"8e6ddbf4-dcee-31e2-acd1-1f1c2694a66d","name":"in ground","version":"00.00.000","category":{"@type":"Category","@id":"a9a7aa43-0fe5-3cdb-830e-01fb5274a694","name":"resource"},"modelType":"FLOW"}

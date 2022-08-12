@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"174d47d0-4391-3329-a6a1-a3f967cc076e","name":"5321: Automotive Equipment Rental and Leasing","version":"00.00.000","category":{"@type":"Category","@id":"adb43f6c-3d13-3085-b831-959d23f2933d","name":"53: Real Estate and Rental and Leasing"},"modelType":"PROCESS"}

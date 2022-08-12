@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"2de5aa0d-0f05-3bd5-a257-4ebcb2228fa1","name":"5191: Other Information Services","version":"00.00.000","category":{"@type":"Category","@id":"4de461fc-0196-3f2c-a9b9-e1d989723653","name":"51: Information"},"modelType":"PROCESS"}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"72d0dc62-4cf0-34e2-bcb1-1ce0c9921ed1","name":"5241: Insurance Carriers","version":"00.00.000","category":{"@type":"Category","@id":"1e4fdc2f-fbc3-3995-a6f2-80be8c2de39c","name":"52: Finance and Insurance"},"modelType":"PROCESS"}

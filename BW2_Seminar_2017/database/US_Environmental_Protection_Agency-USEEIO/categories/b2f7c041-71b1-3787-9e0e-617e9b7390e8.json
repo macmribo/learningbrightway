@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"b2f7c041-71b1-3787-9e0e-617e9b7390e8","name":"3252: Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing","version":"00.00.000","category":{"@type":"Category","@id":"196f44d8-40ec-37ed-8e73-a0c0825569eb","name":"31-33: Manufacturing"},"modelType":"FLOW"}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"ba40decd-47cf-39f0-a1f7-78753e713cfe","name":"5415: Computer Systems Design and Related Services","version":"00.00.000","category":{"@type":"Category","@id":"f5cd33ce-de6d-3327-b69f-715b34ce8605","name":"54: Professional, Scientific, and Technical Services"},"modelType":"FLOW"}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"f811c94c-8bcb-3eb1-9de8-8fa21c788f93","name":"6214: Outpatient Care Centers","version":"00.00.000","category":{"@type":"Category","@id":"dfb12733-41e6-32dd-9cce-b3e0322545c7","name":"62: Health Care and Social Assistance"},"modelType":"PROCESS"}
