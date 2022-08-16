@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # 1 &ensp; Brightway 2 - From Project creation to LCA calculations
+# # 1 &ensp; From project creation to LCA calculations
 
 # These series of notebooks replicate those from [Brightway Seminar 2017 by Chris Mutel and Pascal Lesage](https://github.com/PoutineAndRosti/Brightway-Seminar-2017). Please go there for a full experience. This one is a more 'in a nutshell' version. I used the FORWAST database. An extra feature of this notebook is that all the links are updated to the [new official documentation page](https://2.docs.brightway.dev/index.html).
 # 
