@@ -57,24 +57,27 @@ bw.projects.report();
 # In[6]:
 
 
-bw.projects.set_current('MW_1')
+bw.projects.set_current('1-BW2')
 
 
 # Setup biosphere and LCIA methods with `bw2setup()`.
 
-# In[7]:
-
-
-bw.bw2setup()
-
-
 # In[8]:
+
+
+if 'biosphere3' in bw.databases:
+     print('Database already loaded!')
+else:    
+    bw.bw2setup()
+
+
+# In[9]:
 
 
 bw.databases
 
 
-# In[9]:
+# In[10]:
 
 
 bio = bw.Database('biosphere3')
@@ -84,7 +87,7 @@ bio = bw.Database('biosphere3')
 
 # Here you can see all the methods you can call on the bw object:
 
-# In[10]:
+# In[11]:
 
 
 dir(bw);
@@ -92,19 +95,19 @@ dir(bw);
 
 # Let's assign the database to a variable:
 
-# In[11]:
+# In[12]:
 
 
 my_bio = bw.Database('biosphere3')
 
 
-# In[12]:
+# In[13]:
 
 
 type(my_bio)
 
 
-# In[13]:
+# In[14]:
 
 
 len(my_bio)
@@ -112,7 +115,7 @@ len(my_bio)
 
 # Let's check its properties and methods:
 
-# In[14]:
+# In[15]:
 
 
 dir(my_bio);
@@ -127,7 +130,7 @@ dir(my_bio);
 #   
 # Lets start with `random`:
 
-# In[15]:
+# In[16]:
 
 
 my_bio.random()
@@ -135,14 +138,14 @@ my_bio.random()
 
 # It gives us a random bioosphere activity, to use it properly we need to assign it to a variable.
 
-# In[16]:
+# In[17]:
 
 
 random_biosphere = my_bio.random()
 random_biosphere
 
 
-# In[17]:
+# In[18]:
 
 
 type(random_biosphere)
@@ -164,7 +167,7 @@ type(random_biosphere)
 # 
 # To see what the activity contains, we can convert it to a dictionary:
 
-# In[18]:
+# In[19]:
 
 
 random_biosphere.as_dict()
@@ -172,7 +175,7 @@ random_biosphere.as_dict()
 
 # Let's get some activities:
 
-# In[19]:
+# In[20]:
 
 
 my_bio.get(random_biosphere['code'])
@@ -182,7 +185,7 @@ my_bio.get(random_biosphere['code'])
 
 # ##### **Exercise 1.2.1:** Use `bw.get_activity()` to retrieve the random biosphere activity. 
 
-# In[20]:
+# In[21]:
 
 
 code = random_biosphere['code']
@@ -193,7 +196,7 @@ bw.get_activity(random_biosphere_key)
 
 # You can always find the `key` to an activity using the `.key` property:
 
-# In[21]:
+# In[22]:
 
 
 random_biosphere.key
@@ -201,7 +204,7 @@ random_biosphere.key
 
 # Let's now search through our database!
 
-# In[22]:
+# In[23]:
 
 
 my_bio.search('carbon dioxide'); # You can also use bw.Database('biosphere3').search('carbon dioxide')
@@ -209,7 +212,7 @@ my_bio.search('carbon dioxide'); # You can also use bw.Database('biosphere3').se
 
 # We can also iterate over the database, this method uses [*list comprehension*]https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions which allow us to add filters and personalize the search.
 
-# In[23]:
+# In[24]:
 
 
 [act for act in my_bio if 'Carbon dioxide' in act['name'] 
@@ -223,7 +226,7 @@ my_bio.search('carbon dioxide'); # You can also use bw.Database('biosphere3').se
 
 # Activities returned by searches or list comprehensions can be assigned to variables, but to do so, one needs to identify the activity by index. Based on the above, I can refine my filters to ensure the list comprehension only returns one activity, and then choose it without fear of choosing the wrong one.
 
-# In[24]:
+# In[25]:
 
 
 activity_I_want = [act for act in my_bio if 'Carbon dioxide' in act['name'] 
@@ -236,7 +239,7 @@ activity_I_want
 # ##### **Exercise 1.2.2:** Look for and assign to a variable an emission of nitrous oxide emitted to air in the "urban air" subcompartment.
 # 
 
-# In[25]:
+# In[26]:
 
 
 exercise_activity = [act for act in my_bio if 'nitrogen' in act['name']
@@ -246,7 +249,7 @@ exercise_activity
 
 # Now we select the first one:
 
-# In[26]:
+# In[27]:
 
 
 exercise_activity = exercise_activity[0]
@@ -257,15 +260,15 @@ exercise_activity
 
 # As mentioned before, we also installed methods:
 
-# In[1]:
+# In[28]:
 
 
-list(bw.methods);
+list(bw.methods)
 
 
 # Select a random method:
 
-# In[28]:
+# In[29]:
 
 
 bw.methods.random()
@@ -273,7 +276,7 @@ bw.methods.random()
 
 # This is just an informative tuple, to get the actual method we use:
 
-# In[29]:
+# In[30]:
 
 
 bw.Method(bw.methods.random())
@@ -281,7 +284,7 @@ bw.Method(bw.methods.random())
 
 # Of course, a random method is probably not useful except to play around. To find an actual method, one can again use list comprehensions. Let's say I am interested in using the IPCC2013 100 years method:
 
-# In[30]:
+# In[31]:
 
 
 [m for m in bw.methods if 'IPCC' in str(m) and ('2013') in str(m) and '100' in str(m)]
@@ -289,7 +292,7 @@ bw.Method(bw.methods.random())
 
 # We can select the one we are interested in like we did before, assigning it to a variable and choose by subscripting. 
 
-# In[31]:
+# In[32]:
 
 
 select1 = [m for m in bw.methods if 'IPCC' in str(m) and ('2013') in str(m) and '100' in str(m)][0]
@@ -298,7 +301,7 @@ select1
 
 # We can also refine searches:
 
-# In[32]:
+# In[33]:
 
 
 ipcc2013 = [m for m in bw.methods if 'IPCC' in m[0]
@@ -308,13 +311,13 @@ ipcc2013 = [m for m in bw.methods if 'IPCC' in m[0]
 ipcc2013
 
 
-# In[33]:
+# In[34]:
 
 
 type(ipcc2013)
 
 
-# In[34]:
+# In[35]:
 
 
 ipcc_2013_method = bw.Method(ipcc2013)
@@ -322,25 +325,25 @@ ipcc_2013_method = bw.Method(ipcc2013)
 
 # Let's check the methods associated with this method object:
 
-# In[35]:
+# In[36]:
 
 
 dir(ipcc_2013_method);
 
 
-# In[36]:
+# In[37]:
 
 
 ipcc_2013_method.name
 
 
-# In[37]:
+# In[38]:
 
 
 ipcc_2013_method.metadata;
 
 
-# In[38]:
+# In[39]:
 
 
 ipcc_2013_method.metadata['unit']
@@ -348,7 +351,7 @@ ipcc_2013_method.metadata['unit']
 
 # **Question:** What is inside this method object? Let's check it out!
 
-# In[39]:
+# In[40]:
 
 
 ipcc_2013_method.load();
@@ -359,7 +362,7 @@ ipcc_2013_method.load();
 # ##### **Exercise 1.3.1:** Create a dictionary with `keys = elementary flow names` and `values = characterization factors `for the `TRACI` "respiratory effects, inorganics" method (including long-term emissions).  
 # Bonus (optional): Generate a Pandas Series with the resulting dictionary. 
 
-# In[40]:
+# In[41]:
 
 
 # Query 1
@@ -369,7 +372,7 @@ ipcc_2013_method.load();
 
 # Selecting:
 
-# In[41]:
+# In[42]:
 
 
 # Query 1
@@ -380,27 +383,27 @@ TRACI_resp_effect_tuple
 
 # Now let's make a dictionary, let's assing the tuple to a `Method`:
 
-# In[42]:
+# In[43]:
 
 
 TRACI_resp_effect_method = bw.Method(TRACI_resp_effect_tuple)
 TRACI_resp_effect_method
 
 
-# In[43]:
+# In[44]:
 
 
 TRACI_resp_effect_method.load()
 
 
-# In[44]:
+# In[45]:
 
 
 TRACI_resp_effect_dict = {bw.get_activity(ef[0])['name']:ef[1] for ef in TRACI_resp_effect_method.load()}
 TRACI_resp_effect_dict
 
 
-# In[45]:
+# In[46]:
 
 
 # Bonus: put the whole thing in a neat Pandas series
@@ -425,10 +428,7 @@ from pathlib import Path
 if 'forwast' in bw.databases:
     print('Database has already been imported!')
 else:
-    filepath = ("/Users/mmendez/Documents/Postdoc/Software_dev/Brightway/BW_Tutorials/databases/forwast.bw2package.zip")
-    dirpath = os.path.dirname(filepath)
-    zipfile.ZipFile(filepath).extractall(dirpath)
-    bw.BW2Package.import_file(os.path.join(dirpath, "forwast.bw2package"))
+    bw.BW2Package.import_file(os.path.join("forwast.bw2package"))
 
 
 # Since this is a `bw2.package` you don't have to do anything else. Now, when you import other database like an `excel`, `xml` or `ecospold` types of databases, you need to run the following commands:
@@ -585,7 +585,7 @@ print('As dictionary: ', random_techno_exchange.as_dict) # Exchange as a diction
 # 
 # *NOTE:* If you get a `list index out of range error` when trying to subscript your list comprehension, it means your list comprehension is empty, i.e. that there are no biosphere flows associated with the activity.
 
-# In[62]:
+# In[61]:
 
 
 # Assign the exchange to a variable:
@@ -593,28 +593,28 @@ random_bio_exchange = [exc for exc in random_act.biosphere()][0]
 random_bio_exchange
 
 
-# In[63]:
+# In[62]:
 
 
 # Output of biosphere exchange
 random_bio_exchange.output
 
 
-# In[64]:
+# In[63]:
 
 
 # Is it the same as the output of the technosphere exchange? It should be!
 random_bio_exchange.output == random_techno_exchange.output
 
 
-# In[65]:
+# In[64]:
 
 
 # Database of the random biosphere exchange input - `.input`directly returns the activity proxy!
 random_bio_exchange.input.key[0]
 
 
-# In[ ]:
+# In[65]:
 
 
 # Amount of exchange
@@ -627,7 +627,7 @@ random_bio_exchange['amount']
 # 
 # This greatly speeds up work if you need to iterate over all activities or exchanges. The resulting object is quite big, so you should do this only if the gain in efficiency is worth it.
 
-# In[ ]:
+# In[66]:
 
 
 fw_loaded = fw.load()
@@ -646,14 +646,14 @@ fw_loaded; # As always, get rid of the ';' to see the output, it might take some
 
 # Let's create our first LCA object using our random activity and our IPCC method.
 
-# In[ ]:
+# In[67]:
 
 
 functional_unit = {random_act:1}
 method = ipcc2013
 
 
-# In[ ]:
+# In[68]:
 
 
 myFirstLCA_quick = bw.LCA(functional_unit, method)
@@ -661,7 +661,7 @@ myFirstLCA_quick = bw.LCA(functional_unit, method)
 
 # These are the steps to get to the impact scores:
 
-# In[ ]:
+# In[69]:
 
 
 myFirstLCA_quick.lci()    # Builds matrices, solves the system, generates an LCI matrix.
@@ -672,7 +672,7 @@ myFirstLCA_quick.score    # Returns the score, i.e. the sum of the characterized
 
 # Let's not take a closer look at the LCA object and its methods/attributes. We'll do this by creating a new LCA object:
 
-# In[ ]:
+# In[70]:
 
 
 myFirstLCA = bw.LCA(functional_unit, ipcc2013)
@@ -682,7 +682,7 @@ myFirstLCA = bw.LCA(functional_unit, ipcc2013)
 
 # With `.demand` we see the functional unit we defined:
 
-# In[ ]:
+# In[71]:
 
 
 myFirstLCA.demand
@@ -690,14 +690,14 @@ myFirstLCA.demand
 
 # To access the actual activity from the demand, you would do this:
 
-# In[ ]:
+# In[72]:
 
 
 demanded_act = list(myFirstLCA_quick.demand.keys())[0]
 demanded_act
 
 
-# In[ ]:
+# In[73]:
 
 
 demanded_act == random_act
@@ -739,13 +739,13 @@ demanded_act == random_act
 # 
 # Let's load the structured array of the forwast database you are working with now as a neat pandas dataframe.
 
-# In[ ]:
+# In[74]:
 
 
 fw.filepath_processed()
 
 
-# In[ ]:
+# In[75]:
 
 
 your_structured_array = np.load(fw.filepath_processed())
@@ -756,7 +756,7 @@ pd.DataFrame(your_structured_array).head()
 # 
 # * `input and output` columns are integers that map to an activity. This mapping is found in the mapping.pickle file in the project directory and it looks something like this:
 
-# In[ ]:
+# In[76]:
 
 
 pd.Series(bw.mapping).head()
@@ -783,7 +783,7 @@ pd.Series(bw.mapping).head()
 # Let's now finally unpack what the `.lci()` does:
 # 
 
-# In[ ]:
+# In[77]:
 
 
 myFirstLCA.lci()
@@ -791,7 +791,7 @@ myFirstLCA.lci()
 
 # Here's what the structured arrays *now* look like:
 
-# In[ ]:
+# In[78]:
 
 
 pd.DataFrame(myFirstLCA.bio_params).head(5) # Technosphere parameters are at myFirstLCA.tech_params
@@ -810,7 +810,7 @@ pd.DataFrame(myFirstLCA.bio_params).head(5) # Technosphere parameters are at myF
 # Here what this dictionary looks like:
 # 
 
-# In[ ]:
+# In[79]:
 
 
 myFirstLCA.activity_dict;
@@ -826,7 +826,7 @@ myFirstLCA.activity_dict;
 
 
 
-# In[ ]:
+# In[80]:
 
 
 # Getting the key from the `demand` attribute:
@@ -840,7 +840,7 @@ print("The column index for activity {} is {}.".format(act_key, col_index))
 # 
 # We can do this by reversing our dictionaries:
 
-# In[ ]:
+# In[81]:
 
 
 myFirstLCA_rev_activity_dict = {value:key for key, value in myFirstLCA.activity_dict.items()}
@@ -851,7 +851,7 @@ myFirstLCA_rev_activity_dict;
 # `.reverse_dict()` returns three reverse dictionaries (reverse activity dict, reverse product dict, reverse biosphere dict) *in that order*. The syntax for creating and assigning these reverse dictionaries is:
 # 
 
-# In[ ]:
+# In[82]:
 
 
 myFirstLCA_rev_act_dict, myFirstLCA_rev_product_dict, myFirstLCA_rev_bio_dict = myFirstLCA.reverse_dict()
@@ -865,7 +865,7 @@ myFirstLCA_rev_act_dict, myFirstLCA_rev_product_dict, myFirstLCA_rev_bio_dict = 
 # 
 # The $A$ matrix, with elements $a_{ij}$ provides information on the amount of input or output of product $i$ comes from activity $j$. When $i = j$, the element  $a_{ij}$  is the **reference flow** for the activity described in the column.
 
-# In[ ]:
+# In[83]:
 
 
 myFirstLCA.technosphere_matrix
@@ -876,7 +876,7 @@ myFirstLCA.technosphere_matrix
 # We can have an idea of what it stores by printing it out:
 # 
 
-# In[ ]:
+# In[84]:
 
 
 print(myFirstLCA.technosphere_matrix)
@@ -886,7 +886,7 @@ print(myFirstLCA.technosphere_matrix)
 # 
 # We already know found the column number for that activity:
 
-# In[ ]:
+# In[85]:
 
 
 print("As a reminder, the column index for  {} is  {}.".format(act_key, col_index))
@@ -899,14 +899,14 @@ print("As a reminder, the column index for  {} is  {}.".format(act_key, col_inde
 # * e specify rows first, then columns
 # * : refers to "the whole row" or "the whole column" (depending if it is passed first or second in the [])
 
-# In[ ]:
+# In[86]:
 
 
 myColumn = myFirstLCA.technosphere_matrix[:, col_index]
 myColumn
 
 
-# In[ ]:
+# In[87]:
 
 
 print(myColumn)
@@ -922,7 +922,7 @@ print(myColumn)
 
 # 1) Converting the CSR matrix to a COO matrix:
 
-# In[ ]:
+# In[88]:
 
 
 myColumnCOO = myColumn.tocoo()
@@ -931,7 +931,7 @@ myColumnCOO
 
 # It is still a sparse matrix with the same number of elements, and it looks quite like the CSR version when we print it out:
 
-# In[ ]:
+# In[89]:
 
 
 print(myColumnCOO)
@@ -939,7 +939,7 @@ print(myColumnCOO)
 
 # 2) Get the activity code for each element using the **reverse product dictionary** we produced above:
 
-# In[ ]:
+# In[90]:
 
 
 # Using a list comprehension:
@@ -948,7 +948,7 @@ print(myColumnCOO)
 
 # It would be even nicer to get the names for these:
 
-# In[ ]:
+# In[91]:
 
 
 names_of_my_inputs = [bw.get_activity(myFirstLCA_rev_product_dict[i])['name'] for i in myColumnCOO.row]
@@ -957,7 +957,7 @@ names_of_my_inputs;
 
 # We can put these in a neat Pandas Series, with actual names and amounts:
 
-# In[ ]:
+# In[92]:
 
 
 # First create a dict with the information I want:
@@ -968,7 +968,7 @@ pd.Series(myColumnAsDict, name="Nice series with information on exchanges in my 
 
 # Alternative way to generate similar information without even looking at the matrices:
 
-# In[ ]:
+# In[93]:
 
 
 pd.Series({bw.get_activity(exc.input)['name']:exc.amount for exc in random_act.technosphere()}, 
@@ -983,28 +983,28 @@ pd.Series({bw.get_activity(exc.input)['name']:exc.amount for exc in random_act.t
 # ##### **Exercise 1.5.1:** Create a Pandas Series with the elementary flows of the activity supplying the reference flow for myFirstLCA.
 # 
 
-# In[ ]:
+# In[94]:
 
 
 myBioColumn = myFirstLCA.biosphere_matrix[:, col_index]
 myBioColumn
 
 
-# In[ ]:
+# In[95]:
 
 
 myBioColumnCOO = myBioColumn.tocoo() # Add .data to get an array with the values
 #myBioColumnCOO
 
 
-# In[ ]:
+# In[96]:
 
 
 myBioNames = [bw.get_activity(myFirstLCA_rev_bio_dict[row])['name'] for row in myBioColumnCOO.row]
 #myBioNames
 
 
-# In[ ]:
+# In[97]:
 
 
 myBioDict = dict(zip(myBioNames,myBioColumnCOO.data))
@@ -1015,7 +1015,7 @@ pd.Series(myBioDict)
 
 # The demand array is the $f$ in $A s = f$ (where $s$ is the supply array. It is an attribute of the LCA object.
 
-# In[ ]:
+# In[98]:
 
 
 myFirstLCA.demand_array
@@ -1023,7 +1023,7 @@ myFirstLCA.demand_array
 
 # Looks like it is all zeros, but not so. Can you spot the one?
 
-# In[ ]:
+# In[99]:
 
 
 myFirstLCA.demand_array.sum()
@@ -1032,7 +1032,7 @@ myFirstLCA.demand_array.sum()
 # If you don't want to manually search the `1` like where is [Waldo](https://en.wikipedia.org/wiki/Where%27s_Wally%3F), we can know this by using our `activity_dict`.
 # 
 
-# In[ ]:
+# In[100]:
 
 
 demand_database = list(myFirstLCA.demand.keys())[0]['database']
@@ -1040,14 +1040,14 @@ demand_code = list(myFirstLCA.demand.keys())[0]['code']
 (demand_database, demand_code)
 
 
-# In[ ]:
+# In[101]:
 
 
 row_of_demand = myFirstLCA.activity_dict[(demand_database, demand_code)]
 row_of_demand # Row number of our demand vector containing the functional unit.
 
 
-# In[ ]:
+# In[102]:
 
 
 myFirstLCA.demand_array[row_of_demand]
@@ -1074,13 +1074,13 @@ myFirstLCA.demand_array[row_of_demand]
 
 # Vector containing the amount each activity, it will need to provide to meet the functional demand, i.e. $s = A^{-1}f$.
 
-# In[ ]:
+# In[103]:
 
 
 myFirstLCA.supply_array;
 
 
-# In[ ]:
+# In[104]:
 
 
 myFirstLCA.supply_array.shape
@@ -1090,7 +1090,7 @@ myFirstLCA.supply_array.shape
 
 # Contains the inventory by *activity* (i.e. not summed). In other words, we do not have $g = BA^{-1}f$, but rather  $G = B \cdot diag(A^{-1}f)$
 
-# In[ ]:
+# In[105]:
 
 
 myFirstLCA.inventory
@@ -1098,7 +1098,7 @@ myFirstLCA.inventory
 
 # We can aggregate the LCI results along the columns (i.e. calculate the **cradle-to-gate inventory**):
 
-# In[ ]:
+# In[106]:
 
 
 LCI_cradle_to_gate = myFirstLCA.inventory.sum(axis=1)
@@ -1109,27 +1109,27 @@ LCI_cradle_to_gate.shape
 
 # I had an issue replicating this exercise since the emissions were different in mine and it does not have 'urban air' subcompartment. What I did was finding the code in `myFirstLCA.biosphere_dict` that has a nitrogen oxide and directly setting it to the value. I know it is not the smartest, but I will keep practicing search queries.
 
-# In[ ]:
+# In[107]:
 
 
 NOx_act = [act for act in my_bio if act['code'] == 'c1b91234-6f24-417b-8309-46111d09c457'][0]
 NOx_act
 
 
-# In[ ]:
+# In[108]:
 
 
 NOx_act.key
 
 
-# In[ ]:
+# In[109]:
 
 
 NOx_row = myFirstLCA.biosphere_dict[NOx_act]
 NOx_row
 
 
-# In[ ]:
+# In[110]:
 
 
 print('Producing 1 kg of the random activity uses', myFirstLCA.inventory[NOx_row, :].sum(), 'kg of nitrogen oxide.')
@@ -1141,7 +1141,7 @@ print('Producing 1 kg of the random activity uses', myFirstLCA.inventory[NOx_row
 
 # The LCIA calculation is done via the `.lcia()` method.
 
-# In[ ]:
+# In[111]:
 
 
 myFirstLCA.lcia()
@@ -1152,7 +1152,7 @@ myFirstLCA.lcia()
 # * Characterized inventory.
 # 
 
-# In[ ]:
+# In[112]:
 
 
 myFirstLCA.characterization_matrix # Matrix of characterization factors
@@ -1166,7 +1166,7 @@ print(myFirstLCA.characterized_inventory.shape)
 
 # The overall score is now an attribute of the `LCA` object:
 
-# In[ ]:
+# In[113]:
 
 
 myFirstLCA.score
@@ -1178,7 +1178,7 @@ myFirstLCA.score
 
 # We also could have determined what this score was by summing the elements of our `characterized_inventory` matrix:
 
-# In[ ]:
+# In[114]:
 
 
 myFirstLCA.characterized_inventory.sum()
@@ -1186,7 +1186,7 @@ myFirstLCA.characterized_inventory.sum()
 
 # We could also have calculated it by multiplying the inventory and characterization factors ourselves:
 
-# In[ ]:
+# In[115]:
 
 
 (myFirstLCA.characterization_matrix * myFirstLCA.inventory).sum()
@@ -1194,7 +1194,7 @@ myFirstLCA.characterized_inventory.sum()
 
 # We could also calculate the score by elementary flow (summing columns for each rows), irrespective of the unit process that produced it:
 
-# In[ ]:
+# In[116]:
 
 
 elementary_flow_contribution = myFirstLCA.characterized_inventory.sum(axis=1) #Axis is the dimension I want to sum over:
@@ -1204,7 +1204,7 @@ elementary_flow_contribution
 
 # Notice that is has **two** dimensions. The result is in fact a one-dimensional matrix:
 
-# In[ ]:
+# In[117]:
 
 
 type(elementary_flow_contribution)
@@ -1212,7 +1212,7 @@ type(elementary_flow_contribution)
 
 # To convert it to an array (probably more useful for many purposes), you can use any of the following approaches (they all have exactly the same output).
 
-# In[ ]:
+# In[118]:
 
 
 elementary_flow_contribution.A1 
@@ -1226,7 +1226,7 @@ elementary_flow_contribution.A1
 # 
 # 
 
-# In[ ]:
+# In[119]:
 
 
 # Create array with the results per column (i.e. per activity)
@@ -1234,7 +1234,7 @@ results_by_activity = (myFirstLCA.characterized_inventory.sum(axis=0)).A1
 results_by_activity;
 
 
-# In[ ]:
+# In[120]:
 
 
 # Create a list of names in columns
@@ -1242,7 +1242,7 @@ list_of_names_in_columns = [bw.get_activity(myFirstLCA_rev_act_dict[col])['name'
                             for col in range(myFirstLCA.characterized_inventory.shape[1])]
 
 
-# In[ ]:
+# In[121]:
 
 
 pd.Series(index=list_of_names_in_columns, data=results_by_activity).sort_values(ascending=False).head(10)
@@ -1257,22 +1257,22 @@ pd.Series(index=list_of_names_in_columns, data=results_by_activity).sort_values(
 
 # ##### **Exercise 1.5.2:** Assign the two activities to variables DK and EU respectively.
 
-# In[ ]:
+# In[122]:
 
 
 [act for act in fw if "Coal" in act['name']]
 
 
-# In[ ]:
+# In[128]:
 
 
-DK = [act for act in fw if "Electricity" in act['name']][1]
-EU = [act for act in fw if "Electricity" in act['name']][0]
+DKCoal = [act for act in fw if "Electricity" in act['name']][1]
+EUCoal = [act for act in fw if "Electricity" in act['name']][0]
 
 
 # Let's also compare these according to their carbon footprint as measured with the IPCC method we already selected above:
 
-# In[ ]:
+# In[129]:
 
 
 ipcc_2013_method
@@ -1280,7 +1280,7 @@ ipcc_2013_method
 
 # ### 1.6.1 &ensp; One at a time approach
 
-# In[ ]:
+# In[130]:
 
 
 DKCoalLCA = bw.LCA({DKCoal:1}, ipcc_2013_method.name)
@@ -1293,7 +1293,7 @@ DKCoalLCA.score
 # ##### **Exercise 1.5.3:** Do the LCA for Europe.
 # 
 
-# In[ ]:
+# In[131]:
 
 
 EUCoalLCA = bw.LCA({EUCoal:1}, ipcc_2013_method.name)
@@ -1302,7 +1302,7 @@ EUCoalLCA.lcia()
 EUCoalLCA.score
 
 
-# In[ ]:
+# In[132]:
 
 
 #Compare results:
@@ -1316,7 +1316,7 @@ else:
 
 # ### 1.6.2 &ensp; "Delta" LCA approach
 
-# In[ ]:
+# In[133]:
 
 
 deltaLCA = bw.LCA({DKCoal:1, EUCoal:-1}, ipcc_2013_method.name)
@@ -1325,7 +1325,7 @@ deltaLCA.lcia()
 deltaLCA.score
 
 
-# In[ ]:
+# In[134]:
 
 
 #Compare results:
@@ -1341,7 +1341,7 @@ else:
 
 # Say we want to evaluate the indicator results for our `random_act` for all [ReCiPe](https://www.rivm.nl/en/life-cycle-assessment-lca/recipe) midpoint categories (with long-term emissions).
 
-# In[ ]:
+# In[135]:
 
 
 # Make a list of all impact method names (tuples):
@@ -1353,7 +1353,7 @@ RCP_mid;
 
 # Simplest way: for loop, using `switch` method:
 
-# In[ ]:
+# In[136]:
 
 
 myThirdLCA = bw.LCA({random_act:1}, RCP_mid[0]) # Do LCA with one impact category
@@ -1368,7 +1368,7 @@ for category in RCP_mid:
           )
 
 
-# In[ ]:
+# In[137]:
 
 
 myFirstLCA_unitProcessContribution = myFirstLCA.characterized_inventory.sum(axis=0).A1
@@ -1382,39 +1382,39 @@ myFirstLCA_unitProcessRelativeContribution = myFirstLCA_unitProcessContribution/
 # 
 # Calculation setups: dictionary with lists of functional units and methods.
 
-# In[ ]:
+# In[138]:
 
 
 list_functional_units = [{DKCoal.key:1}, {EUCoal.key:1}]
 list_methods = RCP_mid
 
 
-# In[ ]:
+# In[139]:
 
 
 bw.calculation_setups['DK_vs_EU_coal'] = {'inv':list_functional_units, 'ia':list_methods}
 bw.calculation_setups['DK_vs_EU_coal'];
 
 
-# In[ ]:
+# In[140]:
 
 
 myMultiLCA = bw.MultiLCA('DK_vs_EU_coal')
 
 
-# In[ ]:
+# In[141]:
 
 
 myMultiLCA.results.shape
 
 
-# In[ ]:
+# In[142]:
 
 
 myMultiLCA.results;
 
 
-# In[ ]:
+# In[143]:
 
 
 pd.DataFrame(index=RCP_mid, columns=[DKCoal['name'], EUCoal['name']], data=myMultiLCA.results.T)
@@ -1422,7 +1422,7 @@ pd.DataFrame(index=RCP_mid, columns=[DKCoal['name'], EUCoal['name']], data=myMul
 
 # You can also create "fuller" DataFrames. Here is with code from [here](https://stackoverflow.com/questions/42984831/create-a-dataframe-from-multilca-results-in-brightway2):
 
-# In[ ]:
+# In[144]:
 
 
 scores = pd.DataFrame(myMultiLCA.results, columns=myMultiLCA.methods)

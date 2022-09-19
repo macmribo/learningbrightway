@@ -106,7 +106,7 @@ for process_key, process_values in uslci.data['processes'].items():
 print('There are {} products'.format(total_prod))
 
 
-# ##### So, according to this, we have 454 products and productions. So the matrix should be square! Brightway is adding more production flows than it should. Let us fix that! I am suspecting the dummy flows are the issue. Also, it seems like waste flows are labeled as production.
+# So, according to this, we have 454 products and productions. So the matrix should be square! Brightway is adding more production flows than it should. Let us fix that! I am suspecting the dummy flows are the issue. Also, it seems like waste flows are labeled as production.
 
 # Now let's check how many processes has waste as output:
 
