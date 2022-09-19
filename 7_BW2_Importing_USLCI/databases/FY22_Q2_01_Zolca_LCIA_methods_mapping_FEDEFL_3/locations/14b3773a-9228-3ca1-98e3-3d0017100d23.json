@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"14b3773a-9228-3ca1-98e3-3d0017100d23","name":"Indian Ocean Territories","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"AUS-IOT","latitude":-10.69,"longitude":104.61,"geometry":{"type":"Point","coordinates":[104.61,-10.69]}}

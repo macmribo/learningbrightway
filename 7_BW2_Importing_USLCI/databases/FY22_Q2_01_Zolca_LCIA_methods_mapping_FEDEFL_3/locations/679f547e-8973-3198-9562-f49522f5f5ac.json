@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"679f547e-8973-3198-9562-f49522f5f5ac","name":"Electric Reliability Council of Texas","description":"reference location, sources: DataSmart","version":"00.00.000","code":"ERCOT","latitude":31.1,"longitude":-97.64,"geometry":{"type":"Point","coordinates":[-97.64,31.1]}}

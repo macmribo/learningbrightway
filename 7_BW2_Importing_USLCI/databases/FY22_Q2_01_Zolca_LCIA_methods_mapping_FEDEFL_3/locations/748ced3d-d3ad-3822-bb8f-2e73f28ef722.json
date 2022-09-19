@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"748ced3d-d3ad-3822-bb8f-2e73f28ef722","name":"Sub-Sahara Africa","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"AFR","latitude":-1.23,"longitude":18.32,"geometry":{"type":"Point","coordinates":[18.32,-1.23]}}

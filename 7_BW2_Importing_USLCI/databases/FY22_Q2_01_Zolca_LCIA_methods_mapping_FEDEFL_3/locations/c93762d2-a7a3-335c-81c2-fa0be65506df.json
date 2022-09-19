@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c93762d2-a7a3-335c-81c2-fa0be65506df","name":"Europe with NORDEL (NCPA)","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"Europe with NORDEL (NCPA)","latitude":54.06,"longitude":29.67,"geometry":{"type":"Point","coordinates":[29.67,54.06]}}

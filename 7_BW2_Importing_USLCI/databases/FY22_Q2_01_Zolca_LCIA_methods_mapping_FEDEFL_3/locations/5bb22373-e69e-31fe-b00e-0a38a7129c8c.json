@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5bb22373-e69e-31fe-b00e-0a38a7129c8c","name":"Tasmania","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"AUS-TSM","latitude":-41.93,"longitude":146.59,"geometry":{"type":"Point","coordinates":[146.59,-41.93]}}

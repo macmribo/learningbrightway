@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b89fbb5e-5b12-3fbf-84e0-dde2a1af83e7","name":"China, Anhui (安徽)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-AH","latitude":31.82,"longitude":117.22,"geometry":{"type":"Point","coordinates":[117.22,31.82]}}

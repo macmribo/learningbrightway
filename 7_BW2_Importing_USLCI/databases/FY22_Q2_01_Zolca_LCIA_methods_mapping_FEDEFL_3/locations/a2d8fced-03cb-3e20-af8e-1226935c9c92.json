@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"a2d8fced-03cb-3e20-af8e-1226935c9c92","name":"Kosovo","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"XK","latitude":42.57,"longitude":20.87,"geometry":{"type":"Point","coordinates":[20.87,42.57]}}

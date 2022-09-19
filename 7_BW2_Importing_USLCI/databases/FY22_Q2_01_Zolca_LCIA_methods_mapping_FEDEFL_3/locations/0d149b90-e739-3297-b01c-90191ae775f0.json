@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"0d149b90-e739-3297-b01c-90191ae775f0","name":"Italy","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"IT","latitude":42.7,"longitude":12.8,"geometry":{"type":"Point","coordinates":[12.8,42.7]}}

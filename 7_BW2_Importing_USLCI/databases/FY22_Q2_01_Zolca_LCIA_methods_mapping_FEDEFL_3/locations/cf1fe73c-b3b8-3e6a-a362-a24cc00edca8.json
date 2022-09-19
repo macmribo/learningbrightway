@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"cf1fe73c-b3b8-3e6a-a362-a24cc00edca8","name":"United States, North Carolina","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-NC","latitude":35.64,"longitude":-79.84,"geometry":{"type":"Point","coordinates":[-79.84,35.64]}}

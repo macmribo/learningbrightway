@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c4f314d4-d365-310d-89a0-42946be99544","name":"Canada, Nova Scotia","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-NS","latitude":45.15,"longitude":-63.32,"geometry":{"type":"Point","coordinates":[-63.32,45.15]}}

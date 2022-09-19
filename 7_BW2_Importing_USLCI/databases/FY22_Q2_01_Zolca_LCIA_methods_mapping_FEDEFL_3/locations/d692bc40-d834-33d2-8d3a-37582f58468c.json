@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d692bc40-d834-33d2-8d3a-37582f58468c","name":"Greece","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GR","latitude":39.66,"longitude":21.76,"geometry":{"type":"Point","coordinates":[21.76,39.66]}}

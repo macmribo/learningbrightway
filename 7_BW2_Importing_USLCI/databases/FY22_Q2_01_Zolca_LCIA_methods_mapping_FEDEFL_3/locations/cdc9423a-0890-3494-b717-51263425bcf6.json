@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"cdc9423a-0890-3494-b717-51263425bcf6","name":"United States, Missouri","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-MO","latitude":38.46,"longitude":-92.3,"geometry":{"type":"Point","coordinates":[-92.3,38.46]}}

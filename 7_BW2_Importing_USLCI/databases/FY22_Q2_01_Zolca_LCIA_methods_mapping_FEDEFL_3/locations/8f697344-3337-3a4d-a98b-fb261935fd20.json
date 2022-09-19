@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8f697344-3337-3a4d-a98b-fb261935fd20","name":"China, Hebei (河北)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-HB","latitude":39.55,"longitude":116.12,"geometry":{"type":"Point","coordinates":[116.12,39.55]}}

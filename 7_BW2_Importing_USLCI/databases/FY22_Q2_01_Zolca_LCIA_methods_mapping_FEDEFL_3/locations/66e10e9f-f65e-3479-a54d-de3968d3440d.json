@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"66e10e9f-f65e-3479-a54d-de3968d3440d","name":"Nigeria","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NG","latitude":9.59,"longitude":8.1,"geometry":{"type":"Point","coordinates":[8.1,9.59]}}

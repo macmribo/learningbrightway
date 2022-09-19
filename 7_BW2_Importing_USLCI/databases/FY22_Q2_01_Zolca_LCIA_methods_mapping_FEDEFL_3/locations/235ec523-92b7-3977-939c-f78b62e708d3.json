@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"235ec523-92b7-3977-939c-f78b62e708d3","name":"Papua New Guinea","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PG","latitude":-5.94,"longitude":143.45,"geometry":{"type":"Point","coordinates":[143.45,-5.94]}}

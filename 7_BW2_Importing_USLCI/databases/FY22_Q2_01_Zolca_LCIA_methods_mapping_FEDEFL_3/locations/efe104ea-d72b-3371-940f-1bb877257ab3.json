@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"efe104ea-d72b-3371-940f-1bb877257ab3","name":"United States, District of Columbia","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-DC","latitude":38.89,"longitude":-77.02,"geometry":{"type":"Point","coordinates":[-77.02,38.89]}}

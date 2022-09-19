@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7e764aa6-b752-3530-855f-0373606d1886","name":"Texas Regional Entity","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"TRE","latitude":30.91,"longitude":-99.21,"geometry":{"type":"Point","coordinates":[-99.21,30.91]}}

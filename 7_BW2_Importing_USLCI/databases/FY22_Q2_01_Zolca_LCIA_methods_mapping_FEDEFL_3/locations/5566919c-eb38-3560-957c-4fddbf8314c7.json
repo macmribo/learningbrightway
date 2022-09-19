@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5566919c-eb38-3560-957c-4fddbf8314c7","name":"Southwest Power Pool","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"SPP","latitude":36.18,"longitude":-97.9,"geometry":{"type":"Point","coordinates":[-97.9,36.18]}}

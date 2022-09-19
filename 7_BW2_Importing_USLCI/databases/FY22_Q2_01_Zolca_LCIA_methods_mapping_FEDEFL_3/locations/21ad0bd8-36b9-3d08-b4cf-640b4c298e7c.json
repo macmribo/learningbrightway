@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"21ad0bd8-36b9-3d08-b4cf-640b4c298e7c","name":"Barbados","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BB","latitude":13.15,"longitude":-59.55,"geometry":{"type":"Point","coordinates":[-59.55,13.15]}}

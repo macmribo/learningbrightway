@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8f93bdbf-02dd-37f2-9c94-15b7adb0520c","name":"China, Jiangxi (江西)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-JX","latitude":27.61,"longitude":115.71,"geometry":{"type":"Point","coordinates":[115.71,27.61]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ed8f5b7e-7439-3143-b43a-93dc753618ae","name":"Marshall Islands","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MH","latitude":7.59,"longitude":168.96,"geometry":{"type":"Point","coordinates":[168.96,7.59]}}

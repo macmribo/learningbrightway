@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b787d22d-9cb0-3342-a58b-f546039117bc","name":"Aruba","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AW","latitude":12.51,"longitude":-69.97,"geometry":{"type":"Point","coordinates":[-69.97,12.51]}}

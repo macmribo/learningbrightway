@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"cd0acfe0-85ee-30f8-b439-1fb9b8009bed","name":"Other Pacific Asia","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"PAS","latitude":12.39,"longitude":123.83,"geometry":{"type":"Point","coordinates":[123.83,12.39]}}

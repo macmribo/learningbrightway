@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6226f7cb-e59e-39a9-8b5c-ef6f94f966fd","name":"Sudan","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SD","latitude":15.98,"longitude":29.93,"geometry":{"type":"Point","coordinates":[29.93,15.98]}}

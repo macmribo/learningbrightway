@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"85a8277c-cb62-3889-ae66-71d05d9263d3","name":"United States, Massachusetts","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-MA","latitude":42.23,"longitude":-71.53,"geometry":{"type":"Point","coordinates":[-71.53,42.23]}}

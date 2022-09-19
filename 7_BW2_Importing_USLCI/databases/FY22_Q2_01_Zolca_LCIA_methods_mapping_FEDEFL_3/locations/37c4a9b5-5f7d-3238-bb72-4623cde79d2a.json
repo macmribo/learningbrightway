@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"37c4a9b5-5f7d-3238-bb72-4623cde79d2a","name":"China, Henan (河南)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-HE","latitude":33.88,"longitude":113.6,"geometry":{"type":"Point","coordinates":[113.6,33.88]}}

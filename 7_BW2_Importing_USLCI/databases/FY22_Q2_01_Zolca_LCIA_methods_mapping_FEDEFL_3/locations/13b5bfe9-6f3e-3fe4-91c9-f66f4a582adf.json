@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"13b5bfe9-6f3e-3fe4-91c9-f66f4a582adf","name":"India","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"IN","latitude":21.0,"longitude":78.5,"geometry":{"type":"Point","coordinates":[78.5,21.0]}}

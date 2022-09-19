@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"324d8a1d-3f81-3730-9509-9a48cee0c5b6","name":"Costa Rica","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CR","latitude":9.97,"longitude":-83.94,"geometry":{"type":"Point","coordinates":[-83.94,9.97]}}

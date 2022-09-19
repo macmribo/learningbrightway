@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7dabf5c1-98b0-3ab2-aaa4-2bb03a113e55","name":"Swaziland","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SZ","latitude":-26.56,"longitude":31.49,"geometry":{"type":"Point","coordinates":[31.49,-26.56]}}

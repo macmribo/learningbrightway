@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8c37ce4b-665f-30ac-abb4-0fd2a3c43b04","name":"Churchill Falls Generating Station","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"Churchill Falls","latitude":53.52,"longitude":-63.99,"geometry":{"type":"Point","coordinates":[-63.99,53.52]}}

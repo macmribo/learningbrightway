@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d54185b7-1f61-3c30-a396-ac4bc44d3269","name":"Seychelles","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SC","latitude":-4.64,"longitude":55.47,"geometry":{"type":"Point","coordinates":[55.47,-4.64]}}

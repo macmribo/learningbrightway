@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"326dde39-0b64-3523-b09f-aa0f427066d8","name":"Southern Africa","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-SASIA","latitude":-25.49,"longitude":22.53,"geometry":{"type":"Point","coordinates":[22.53,-25.49]}}

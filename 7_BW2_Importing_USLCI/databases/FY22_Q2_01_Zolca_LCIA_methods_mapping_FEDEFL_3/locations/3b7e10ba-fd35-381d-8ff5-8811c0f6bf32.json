@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"3b7e10ba-fd35-381d-8ff5-8811c0f6bf32","name":"United States, Vermont","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-VT","latitude":44.04,"longitude":-72.7,"geometry":{"type":"Point","coordinates":[-72.7,44.04]}}

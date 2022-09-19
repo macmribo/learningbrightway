@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6108d9a8-6ab3-3a57-b470-a194c15a1d16","name":"Saskatchewan","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-SK","latitude":54.41,"longitude":-105.88,"geometry":{"type":"Point","coordinates":[-105.88,54.41]}}

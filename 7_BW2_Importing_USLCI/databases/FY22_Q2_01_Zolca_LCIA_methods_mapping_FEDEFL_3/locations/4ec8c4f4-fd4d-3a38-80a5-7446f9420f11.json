@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4ec8c4f4-fd4d-3a38-80a5-7446f9420f11","name":"United States, Virginia","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-VA","latitude":37.76,"longitude":-78.2,"geometry":{"type":"Point","coordinates":[-78.2,37.76]}}

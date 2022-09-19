@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4e29342d-9904-364e-9e25-fd3b92558e2f","name":"Central African Republic","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CF","latitude":6.57,"longitude":20.48,"geometry":{"type":"Point","coordinates":[20.48,6.57]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d6fd0924-e324-3506-a9ae-0295adf59567","name":"Monaco","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MC","latitude":43.75,"longitude":7.41,"geometry":{"type":"Point","coordinates":[7.41,43.75]}}

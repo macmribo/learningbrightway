@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ceaa2d09-0b6e-398c-98b3-41c15d7db178","name":"Queensland","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"AUS-QNS","latitude":-22.57,"longitude":144.55,"geometry":{"type":"Point","coordinates":[144.55,-22.57]}}

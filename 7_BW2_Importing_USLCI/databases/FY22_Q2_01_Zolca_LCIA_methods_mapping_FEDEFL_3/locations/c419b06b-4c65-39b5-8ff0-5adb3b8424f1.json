@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c419b06b-4c65-39b5-8ff0-5adb3b8424f1","name":"Bangladesh","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BD","latitude":24.21,"longitude":89.94,"geometry":{"type":"Point","coordinates":[89.94,24.21]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ef1cb6e7-2d14-3b18-8cc2-41037203f60b","name":"Falkland Islands (Malvinas)","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"FK","latitude":-51.66,"longitude":-58.69,"geometry":{"type":"Point","coordinates":[-58.69,-51.66]}}

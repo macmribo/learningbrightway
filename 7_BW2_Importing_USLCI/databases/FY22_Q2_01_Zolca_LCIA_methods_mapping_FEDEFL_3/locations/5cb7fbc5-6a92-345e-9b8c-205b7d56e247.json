@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5cb7fbc5-6a92-345e-9b8c-205b7d56e247","name":"China, Jilin (吉林)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-JL","latitude":43.67,"longitude":126.17,"geometry":{"type":"Point","coordinates":[126.17,43.67]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"10334e82-fe92-33bf-9d45-2decb730b1c2","name":"United States, Utah","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-UT","latitude":40.11,"longitude":-111.85,"geometry":{"type":"Point","coordinates":[-111.85,40.11]}}

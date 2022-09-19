@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"05b093bc-7b17-3c30-a09d-1c41f13e009a","name":"Australia and New Zealand","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-AUSTRALIANZ","latitude":-26.38,"longitude":135.98,"geometry":{"type":"Point","coordinates":[135.98,-26.38]}}

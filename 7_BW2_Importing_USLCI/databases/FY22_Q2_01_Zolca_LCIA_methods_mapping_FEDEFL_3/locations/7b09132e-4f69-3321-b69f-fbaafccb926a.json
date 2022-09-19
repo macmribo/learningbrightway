@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7b09132e-4f69-3321-b69f-fbaafccb926a","name":"China, Xizang (西藏自治区)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-XZ","latitude":31.69,"longitude":88.1,"geometry":{"type":"Point","coordinates":[88.1,31.69]}}

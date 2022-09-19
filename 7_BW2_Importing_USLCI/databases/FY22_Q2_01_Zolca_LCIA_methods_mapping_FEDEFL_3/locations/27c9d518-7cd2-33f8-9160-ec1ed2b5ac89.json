@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"27c9d518-7cd2-33f8-9160-ec1ed2b5ac89","name":"Macao","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MO","latitude":22.2,"longitude":113.54,"geometry":{"type":"Point","coordinates":[113.54,22.2]}}

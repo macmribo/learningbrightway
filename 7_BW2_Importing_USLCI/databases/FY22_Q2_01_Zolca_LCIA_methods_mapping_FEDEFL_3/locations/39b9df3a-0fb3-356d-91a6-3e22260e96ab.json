@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"39b9df3a-0fb3-356d-91a6-3e22260e96ab","name":"Benin","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BJ","latitude":10.54,"longitude":2.46,"geometry":{"type":"Point","coordinates":[2.46,10.54]}}

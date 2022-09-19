@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b74df323-e393-3b56-b635-a2cba7a7afba","name":"Morocco","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MA","latitude":32.7,"longitude":-5.75,"geometry":{"type":"Point","coordinates":[-5.75,32.7]}}

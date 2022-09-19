@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"0c3eee87-5877-3e08-bafd-45af750ca0b8","name":"China, Beijing (北京)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-BJ","latitude":40.17,"longitude":116.4,"geometry":{"type":"Point","coordinates":[116.4,40.17]}}

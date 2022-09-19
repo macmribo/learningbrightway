@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"18b049cc-8d85-3578-b929-df716f9f4e68","name":"Netherlands Antilles","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"AN","latitude":12.12,"longitude":-68.87,"geometry":{"type":"Point","coordinates":[-68.87,12.12]}}

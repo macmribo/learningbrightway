@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8091cd9d-b8ec-3623-a5a2-5b61ea85eb98","name":"China, Qinghai (青海)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-QH","latitude":35.74,"longitude":96.0,"geometry":{"type":"Point","coordinates":[96.0,35.74]}}

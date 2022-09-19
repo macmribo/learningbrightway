@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"3e7e122b-f08f-3843-ac96-1ba491089dc9","name":"Luxembourg","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"LU","latitude":49.77,"longitude":6.08,"geometry":{"type":"Point","coordinates":[6.08,49.77]}}

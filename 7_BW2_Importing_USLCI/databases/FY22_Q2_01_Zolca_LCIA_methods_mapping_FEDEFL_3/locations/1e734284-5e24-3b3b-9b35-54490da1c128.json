@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1e734284-5e24-3b3b-9b35-54490da1c128","name":"New Caledonia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NC","latitude":-21.35,"longitude":165.44,"geometry":{"type":"Point","coordinates":[165.44,-21.35]}}

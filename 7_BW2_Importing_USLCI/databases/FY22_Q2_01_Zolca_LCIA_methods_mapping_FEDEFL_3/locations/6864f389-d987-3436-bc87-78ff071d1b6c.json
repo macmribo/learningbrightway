@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6864f389-d987-3436-bc87-78ff071d1b6c","name":"Malaysia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MY","latitude":4.2,"longitude":102.19,"geometry":{"type":"Point","coordinates":[102.19,4.2]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"2ccce7fd-714d-3ce6-8a5d-909f98c8819f","name":"Western Australia","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"AUS-WAS","latitude":-25.46,"longitude":122.17,"geometry":{"type":"Point","coordinates":[122.17,-25.46]}}

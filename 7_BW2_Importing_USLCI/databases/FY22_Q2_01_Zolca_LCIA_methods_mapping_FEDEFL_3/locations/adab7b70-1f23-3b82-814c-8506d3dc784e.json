@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"adab7b70-1f23-3b82-814c-8506d3dc784e","name":"Croatia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"HR","latitude":45.72,"longitude":16.69,"geometry":{"type":"Point","coordinates":[16.69,45.72]}}

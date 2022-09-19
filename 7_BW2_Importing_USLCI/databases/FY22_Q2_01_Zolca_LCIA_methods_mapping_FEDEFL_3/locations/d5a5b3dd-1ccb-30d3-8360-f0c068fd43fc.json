@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d5a5b3dd-1ccb-30d3-8360-f0c068fd43fc","name":"Cook Islands","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CK","latitude":-21.21,"longitude":-159.78,"geometry":{"type":"Point","coordinates":[-159.78,-21.21]}}

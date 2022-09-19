@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9c7e385f-c425-3258-a571-a94454d24b2b","name":"Melanesia","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-MELANESIA","latitude":-7.79,"longitude":147.87,"geometry":{"type":"Point","coordinates":[147.87,-7.79]}}

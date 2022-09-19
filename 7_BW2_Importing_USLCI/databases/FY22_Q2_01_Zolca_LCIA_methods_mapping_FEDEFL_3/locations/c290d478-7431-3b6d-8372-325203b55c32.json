@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c290d478-7431-3b6d-8372-325203b55c32","name":"Canada, Nunavut","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-NU","latitude":71.03,"longitude":-88.84,"geometry":{"type":"Point","coordinates":[-88.84,71.03]}}

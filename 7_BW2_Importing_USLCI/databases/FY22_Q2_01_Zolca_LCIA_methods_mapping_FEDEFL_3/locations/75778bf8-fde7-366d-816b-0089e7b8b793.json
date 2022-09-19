@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"75778bf8-fde7-366d-816b-0089e7b8b793","name":"Finland","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"FI","latitude":64.5,"longitude":26.27,"geometry":{"type":"Point","coordinates":[26.27,64.5]}}

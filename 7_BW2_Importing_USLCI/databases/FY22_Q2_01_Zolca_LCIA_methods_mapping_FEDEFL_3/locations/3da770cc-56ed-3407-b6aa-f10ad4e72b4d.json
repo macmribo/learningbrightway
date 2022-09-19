@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"3da770cc-56ed-3407-b6aa-f10ad4e72b4d","name":"Jamaica","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"JM","latitude":18.15,"longitude":-77.32,"geometry":{"type":"Point","coordinates":[-77.32,18.15]}}

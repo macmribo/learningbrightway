@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b40feb9f-0afa-3eab-9c03-5085ecbbb908","name":"Cyprus No Mans Area","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Cyprus No Mans Area","latitude":35.1,"longitude":33.25,"geometry":{"type":"Point","coordinates":[33.25,35.1]}}

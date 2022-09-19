@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c12e01f2-a13f-3558-be1e-9e4aedb8242d","name":"Saudi Arabia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SA","latitude":24.02,"longitude":44.58,"geometry":{"type":"Point","coordinates":[44.58,24.02]}}

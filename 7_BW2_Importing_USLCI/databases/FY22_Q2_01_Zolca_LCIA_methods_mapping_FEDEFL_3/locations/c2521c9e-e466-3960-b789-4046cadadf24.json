@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c2521c9e-e466-3960-b789-4046cadadf24","name":"United States, Illinois","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-IL","latitude":40.33,"longitude":-89.0,"geometry":{"type":"Point","coordinates":[-89.0,40.33]}}

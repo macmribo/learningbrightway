@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"288ea1e1-79de-3bc8-8a29-958f9857d9d1","name":"Caribbean","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"UN-CARIBBEAN","latitude":20.15,"longitude":-74.91,"geometry":{"type":"Point","coordinates":[-74.91,20.15]}}

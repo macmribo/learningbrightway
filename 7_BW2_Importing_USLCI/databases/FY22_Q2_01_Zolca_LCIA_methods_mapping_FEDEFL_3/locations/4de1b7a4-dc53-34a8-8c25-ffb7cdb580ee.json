@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4de1b7a4-dc53-34a8-8c25-ffb7cdb580ee","name":"Ethiopia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"ET","latitude":8.62,"longitude":39.61,"geometry":{"type":"Point","coordinates":[39.61,8.62]}}

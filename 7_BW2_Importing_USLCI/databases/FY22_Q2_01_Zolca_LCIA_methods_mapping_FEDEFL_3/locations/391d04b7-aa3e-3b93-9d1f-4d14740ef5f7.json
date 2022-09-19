@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"391d04b7-aa3e-3b93-9d1f-4d14740ef5f7","name":"Canada, British Columbia","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-BC","latitude":54.74,"longitude":-124.76,"geometry":{"type":"Point","coordinates":[-124.76,54.74]}}

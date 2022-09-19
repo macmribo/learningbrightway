@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"255a5cac-7685-3722-b4d0-2f04c37be771","name":"Taiwan, Province of China","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TW","latitude":23.75,"longitude":120.94,"geometry":{"type":"Point","coordinates":[120.94,23.75]}}

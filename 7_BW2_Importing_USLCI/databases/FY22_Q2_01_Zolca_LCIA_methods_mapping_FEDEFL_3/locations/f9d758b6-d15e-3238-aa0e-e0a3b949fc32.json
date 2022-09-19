@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"f9d758b6-d15e-3238-aa0e-e0a3b949fc32","name":"Northern Africa","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-NAFRICA","latitude":23.88,"longitude":15.96,"geometry":{"type":"Point","coordinates":[15.96,23.88]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b380c952-746f-3cf9-89ae-d6562c7ee132","name":"Baltic System Operator","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"BALTSO","latitude":56.81,"longitude":24.72,"geometry":{"type":"Point","coordinates":[24.72,56.81]}}

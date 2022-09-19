@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9cea1e24-73aa-3499-95fa-34faac95b3e7","name":"Åland Islands","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AX","latitude":60.19,"longitude":19.95,"geometry":{"type":"Point","coordinates":[19.95,60.19]}}

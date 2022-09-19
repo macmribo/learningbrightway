@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6fac3ab6-03bb-3fb4-ae42-77786393194c","name":"Fiji","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"FJ","latitude":-17.81,"longitude":177.97,"geometry":{"type":"Point","coordinates":[177.97,-17.81]}}

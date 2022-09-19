@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"313a21d5-badc-3f56-b223-8ebf8c7690f6","name":"Timor-Leste","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TL","latitude":-8.82,"longitude":125.87,"geometry":{"type":"Point","coordinates":[125.87,-8.82]}}

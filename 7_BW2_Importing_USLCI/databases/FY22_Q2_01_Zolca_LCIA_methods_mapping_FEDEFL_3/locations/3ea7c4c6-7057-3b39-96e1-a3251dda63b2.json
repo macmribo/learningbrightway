@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"3ea7c4c6-7057-3b39-96e1-a3251dda63b2","name":"China, Sichuan (四川)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-SC","latitude":30.61,"longitude":102.7,"geometry":{"type":"Point","coordinates":[102.7,30.61]}}

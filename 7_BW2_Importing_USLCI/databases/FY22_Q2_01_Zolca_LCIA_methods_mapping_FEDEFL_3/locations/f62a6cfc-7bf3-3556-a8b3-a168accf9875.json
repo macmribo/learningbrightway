@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"f62a6cfc-7bf3-3556-a8b3-a168accf9875","name":"Western Electricity Coordinating Council","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"WECC","latitude":46.6,"longitude":-116.2,"geometry":{"type":"Point","coordinates":[-116.2,46.6]}}

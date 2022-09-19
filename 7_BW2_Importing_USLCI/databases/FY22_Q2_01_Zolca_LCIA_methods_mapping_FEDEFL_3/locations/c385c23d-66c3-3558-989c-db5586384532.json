@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c385c23d-66c3-3558-989c-db5586384532","name":"United States, Alabama","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-AL","latitude":32.79,"longitude":-86.8,"geometry":{"type":"Point","coordinates":[-86.8,32.79]}}

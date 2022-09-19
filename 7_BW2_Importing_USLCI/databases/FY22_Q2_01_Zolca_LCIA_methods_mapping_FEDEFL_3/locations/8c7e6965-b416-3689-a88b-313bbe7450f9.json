@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8c7e6965-b416-3689-a88b-313bbe7450f9","name":"Saint Kitts and Nevis","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"KN","latitude":17.34,"longitude":-62.76,"geometry":{"type":"Point","coordinates":[-62.76,17.34]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"89aa4b19-6b48-38a1-ba65-49bb1eaebd80","name":"Mauritius","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MU","latitude":-20.25,"longitude":57.58,"geometry":{"type":"Point","coordinates":[57.58,-20.25]}}

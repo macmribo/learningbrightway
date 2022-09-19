@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7d0db380-a5b9-3a8b-a1da-0bca241abda1","name":"Austria","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AT","latitude":47.68,"longitude":14.91,"geometry":{"type":"Point","coordinates":[14.91,47.68]}}

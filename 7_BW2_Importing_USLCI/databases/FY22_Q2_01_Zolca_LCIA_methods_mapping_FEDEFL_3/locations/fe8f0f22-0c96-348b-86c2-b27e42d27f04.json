@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"fe8f0f22-0c96-348b-86c2-b27e42d27f04","name":"Southern Europe","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-SEUROPE","latitude":41.48,"longitude":7.31,"geometry":{"type":"Point","coordinates":[7.31,41.48]}}

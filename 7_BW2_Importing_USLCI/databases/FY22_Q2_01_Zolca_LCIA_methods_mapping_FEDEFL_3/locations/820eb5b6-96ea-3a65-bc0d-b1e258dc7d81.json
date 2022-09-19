@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"820eb5b6-96ea-3a65-bc0d-b1e258dc7d81","name":"Cameroon","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CM","latitude":5.13,"longitude":12.27,"geometry":{"type":"Point","coordinates":[12.27,5.13]}}

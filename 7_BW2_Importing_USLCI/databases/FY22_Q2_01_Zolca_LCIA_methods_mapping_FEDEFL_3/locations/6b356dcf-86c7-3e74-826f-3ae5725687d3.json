@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6b356dcf-86c7-3e74-826f-3ae5725687d3","name":"Americas","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-AMERICAS","latitude":35.54,"longitude":-83.1,"geometry":{"type":"Point","coordinates":[-83.1,35.54]}}

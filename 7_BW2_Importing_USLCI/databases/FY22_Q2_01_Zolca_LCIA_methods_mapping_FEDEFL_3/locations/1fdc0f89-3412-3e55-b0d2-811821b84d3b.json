@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1fdc0f89-3412-3e55-b0d2-811821b84d3b","name":"Thailand","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TH","latitude":15.7,"longitude":100.84,"geometry":{"type":"Point","coordinates":[100.84,15.7]}}

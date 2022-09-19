@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b04ebbb9-1260-3d5b-a16f-5f2a16c4886e","name":"Victoria","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"AUS-VCT","latitude":-36.85,"longitude":144.3,"geometry":{"type":"Point","coordinates":[144.3,-36.85]}}

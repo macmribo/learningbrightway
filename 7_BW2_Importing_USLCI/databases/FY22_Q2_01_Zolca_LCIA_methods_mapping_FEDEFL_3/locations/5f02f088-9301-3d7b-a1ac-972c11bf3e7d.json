@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5f02f088-9301-3d7b-a1ac-972c11bf3e7d","name":"Germany","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"DE","latitude":51.11,"longitude":9.85,"geometry":{"type":"Point","coordinates":[9.85,51.11]}}

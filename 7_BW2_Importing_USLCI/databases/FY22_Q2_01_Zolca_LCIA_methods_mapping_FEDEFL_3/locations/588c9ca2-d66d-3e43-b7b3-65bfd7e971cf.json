@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"588c9ca2-d66d-3e43-b7b3-65bfd7e971cf","name":"Northeast Power Coordinating Council","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"NPCC","latitude":51.25,"longitude":-76.32,"geometry":{"type":"Point","coordinates":[-76.32,51.25]}}

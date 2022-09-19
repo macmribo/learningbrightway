@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"97282b27-8e5d-3186-af8e-57204e4820e5","name":"Albania","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AL","latitude":41.14,"longitude":20.06,"geometry":{"type":"Point","coordinates":[20.06,41.14]}}

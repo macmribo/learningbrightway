@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5523c88d-d347-31b7-8c61-7f632b7efdb7","name":"Bulgaria","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BG","latitude":42.76,"longitude":25.23,"geometry":{"type":"Point","coordinates":[25.23,42.76]}}

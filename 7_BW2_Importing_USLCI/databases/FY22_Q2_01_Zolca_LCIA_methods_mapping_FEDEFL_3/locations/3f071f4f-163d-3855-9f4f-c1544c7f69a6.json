@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"3f071f4f-163d-3855-9f4f-c1544c7f69a6","name":"Guinea-Bissau","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GW","latitude":12.12,"longitude":-14.65,"geometry":{"type":"Point","coordinates":[-14.65,12.12]}}

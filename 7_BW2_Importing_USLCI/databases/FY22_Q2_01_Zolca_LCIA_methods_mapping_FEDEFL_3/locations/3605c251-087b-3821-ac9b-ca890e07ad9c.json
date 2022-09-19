@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"3605c251-087b-3821-ac9b-ca890e07ad9c","name":"Romania","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"RO","latitude":45.84,"longitude":24.96,"geometry":{"type":"Point","coordinates":[24.96,45.84]}}

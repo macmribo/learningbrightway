@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"112e6937-5e63-32a1-ba68-730cbd933c75","name":"United States, South Dakota","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-SD","latitude":44.28,"longitude":-99.46,"geometry":{"type":"Point","coordinates":[-99.46,44.28]}}

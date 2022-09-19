@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"02cb9a5a-488d-3ea0-84d9-3ae7b315e386","name":"Western Asia","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-WASIA","latitude":28.46,"longitude":43.36,"geometry":{"type":"Point","coordinates":[43.36,28.46]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4f146d3d-de5e-3896-8bac-17f57c9eaa05","name":"Somaliland","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Somaliland","latitude":9.73,"longitude":46.25,"geometry":{"type":"Point","coordinates":[46.25,9.73]}}

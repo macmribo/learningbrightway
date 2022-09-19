@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"2b701fc6-ef0e-3b9a-9f4d-631863e904f6","name":"United States, Georgia","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-GA","latitude":32.98,"longitude":-83.64,"geometry":{"type":"Point","coordinates":[-83.64,32.98]}}

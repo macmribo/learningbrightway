@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b7745632-fc6d-37f8-85f0-f53c48027b96","name":"United States, Arizona","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-AZ","latitude":33.77,"longitude":-111.38,"geometry":{"type":"Point","coordinates":[-111.38,33.77]}}

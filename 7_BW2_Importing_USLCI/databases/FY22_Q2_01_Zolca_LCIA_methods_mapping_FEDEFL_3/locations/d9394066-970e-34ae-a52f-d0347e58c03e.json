@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d9394066-970e-34ae-a52f-d0347e58c03e","name":"Mauritania","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MR","latitude":20.26,"longitude":-10.33,"geometry":{"type":"Point","coordinates":[-10.33,20.26]}}

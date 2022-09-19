@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9c049173-fad5-34f8-9c68-231237df85b8","name":"Czech Republic","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CZ","latitude":49.74,"longitude":15.33,"geometry":{"type":"Point","coordinates":[15.33,49.74]}}

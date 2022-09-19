@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"f60425bb-5d9d-361c-8365-b042007676c0","name":"Central Asia","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"Central Asia","latitude":45.91,"longitude":66.48,"geometry":{"type":"Point","coordinates":[66.48,45.91]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"cda0fd29-18d1-3e20-ac87-1ed79a8d2bb0","name":"Midwest Reliability Organization","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"MRO","latitude":50.58,"longitude":-99.64,"geometry":{"type":"Point","coordinates":[-99.64,50.58]}}

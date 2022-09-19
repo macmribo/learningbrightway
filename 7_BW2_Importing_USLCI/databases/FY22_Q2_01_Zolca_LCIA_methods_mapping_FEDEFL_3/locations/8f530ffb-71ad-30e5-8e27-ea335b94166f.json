@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8f530ffb-71ad-30e5-8e27-ea335b94166f","name":"United States, Ohio","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-OH","latitude":40.37,"longitude":-82.77,"geometry":{"type":"Point","coordinates":[-82.77,40.37]}}

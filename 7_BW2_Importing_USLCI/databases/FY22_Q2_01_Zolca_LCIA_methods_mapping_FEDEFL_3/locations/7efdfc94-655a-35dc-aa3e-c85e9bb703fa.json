@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7efdfc94-655a-35dc-aa3e-c85e9bb703fa","name":"China","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CN","latitude":33.42,"longitude":106.51,"geometry":{"type":"Point","coordinates":[106.51,33.42]}}

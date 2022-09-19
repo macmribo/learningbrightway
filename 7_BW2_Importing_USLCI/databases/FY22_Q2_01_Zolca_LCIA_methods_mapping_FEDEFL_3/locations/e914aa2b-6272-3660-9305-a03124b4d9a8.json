@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e914aa2b-6272-3660-9305-a03124b4d9a8","name":"Spratly Islands","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Spratly Islands","latitude":10.54,"longitude":114.92,"geometry":{"type":"Point","coordinates":[114.92,10.54]}}

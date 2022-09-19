@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"a1555463-c361-3703-aa27-4a8b44e29192","name":"Zimbabwe","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"ZW","latitude":-19.0,"longitude":29.87,"geometry":{"type":"Point","coordinates":[29.87,-19.0]}}

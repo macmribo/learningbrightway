@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5e08be98-8691-354c-937b-997b4cb6ad97","name":"Guyana","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GY","latitude":4.79,"longitude":-58.97,"geometry":{"type":"Point","coordinates":[-58.97,4.79]}}

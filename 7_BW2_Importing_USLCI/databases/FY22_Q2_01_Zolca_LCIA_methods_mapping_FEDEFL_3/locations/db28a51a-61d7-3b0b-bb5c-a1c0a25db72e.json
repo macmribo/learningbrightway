@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"db28a51a-61d7-3b0b-bb5c-a1c0a25db72e","name":"Eastern Europe","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-EEUROPE","latitude":60.98,"longitude":92.13,"geometry":{"type":"Point","coordinates":[92.13,60.98]}}

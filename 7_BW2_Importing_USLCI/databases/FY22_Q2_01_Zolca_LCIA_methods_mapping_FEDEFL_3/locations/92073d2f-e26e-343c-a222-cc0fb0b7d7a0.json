@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"92073d2f-e26e-343c-a222-cc0fb0b7d7a0","name":"Gambia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GM","latitude":13.45,"longitude":-15.38,"geometry":{"type":"Point","coordinates":[-15.38,13.45]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"710998fd-1b7c-3235-9702-65650770a4b1","name":"Malta","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MT","latitude":35.89,"longitude":14.44,"geometry":{"type":"Point","coordinates":[14.44,35.89]}}

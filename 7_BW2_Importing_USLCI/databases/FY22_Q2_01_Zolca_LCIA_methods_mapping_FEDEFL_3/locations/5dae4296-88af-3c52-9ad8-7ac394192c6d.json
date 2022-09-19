@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5dae4296-88af-3c52-9ad8-7ac394192c6d","name":"Singapore","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SG","latitude":1.35,"longitude":103.8,"geometry":{"type":"Point","coordinates":[103.8,1.35]}}

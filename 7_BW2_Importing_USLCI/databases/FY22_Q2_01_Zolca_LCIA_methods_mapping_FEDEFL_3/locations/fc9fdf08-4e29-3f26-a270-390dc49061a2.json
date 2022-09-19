@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"fc9fdf08-4e29-3f26-a270-390dc49061a2","name":"Portugal","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PT","latitude":40.3,"longitude":-8.05,"geometry":{"type":"Point","coordinates":[-8.05,40.3]}}

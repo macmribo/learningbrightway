@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"afbe94cd-be69-393e-babc-9f1325fc7dff","name":"Senegal","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SN","latitude":15.01,"longitude":-14.88,"geometry":{"type":"Point","coordinates":[-14.88,15.01]}}

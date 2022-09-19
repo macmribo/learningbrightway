@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Source","@id":"3b61482c-5463-43fe-93da-d54584286949","name":"US EIA (2017b). Natural Gas Annual Data","description":"Natural Gas Annual Data Table 2. ","version":"00.00.002","lastChange":"2020-07-02T02:17:58.509-06:00","url":"https://www.eia.gov/naturalgas/annual/pdf/table_002.pdf","year":2017}

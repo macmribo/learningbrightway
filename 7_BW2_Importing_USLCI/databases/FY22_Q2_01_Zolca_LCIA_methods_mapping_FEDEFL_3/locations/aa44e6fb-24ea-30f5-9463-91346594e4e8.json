@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"aa44e6fb-24ea-30f5-9463-91346594e4e8","name":"Canada, New Brunswick","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-NB","latitude":46.61,"longitude":-66.37,"geometry":{"type":"Point","coordinates":[-66.37,46.61]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b3cd915d-7580-38bd-99d0-f2428fbb354a","name":"Myanmar","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MM","latitude":21.71,"longitude":96.04,"geometry":{"type":"Point","coordinates":[96.04,21.71]}}

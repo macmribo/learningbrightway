@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"64e1e1cb-e1ca-3e88-af3a-838a3e7b57d6","name":"Puerto Rico","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PR","latitude":18.22,"longitude":-66.46,"geometry":{"type":"Point","coordinates":[-66.46,18.22]}}

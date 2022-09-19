@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"959848ca-10cc-3a60-9a81-8ac11523dc63","name":"South Africa","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"ZA","latitude":-30.55,"longitude":23.12,"geometry":{"type":"Point","coordinates":[23.12,-30.55]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8812c36a-a5ae-336c-aa77-bf63211d899a","name":"Palestinian Territory, Occupied","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PS","latitude":32.03,"longitude":35.27,"geometry":{"type":"Point","coordinates":[35.27,32.03]}}

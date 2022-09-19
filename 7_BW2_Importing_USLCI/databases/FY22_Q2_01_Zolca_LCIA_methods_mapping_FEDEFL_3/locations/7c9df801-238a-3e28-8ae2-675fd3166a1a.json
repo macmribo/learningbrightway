@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7c9df801-238a-3e28-8ae2-675fd3166a1a","name":"Bahamas","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BS","latitude":24.62,"longitude":-78.01,"geometry":{"type":"Point","coordinates":[-78.01,24.62]}}

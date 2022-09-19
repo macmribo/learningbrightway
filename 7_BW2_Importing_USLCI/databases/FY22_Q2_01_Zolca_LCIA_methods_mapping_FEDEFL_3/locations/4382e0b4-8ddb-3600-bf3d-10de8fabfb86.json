@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4382e0b4-8ddb-3600-bf3d-10de8fabfb86","name":"Northern Territory","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"AUS-NTR","latitude":-19.41,"longitude":133.36,"geometry":{"type":"Point","coordinates":[133.36,-19.41]}}

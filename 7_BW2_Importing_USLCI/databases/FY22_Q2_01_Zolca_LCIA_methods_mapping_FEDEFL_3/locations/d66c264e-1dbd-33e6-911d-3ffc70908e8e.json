@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d66c264e-1dbd-33e6-911d-3ffc70908e8e","name":"Europe","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"RER","latitude":54.75,"longitude":15.24,"geometry":{"type":"Point","coordinates":[15.24,54.75]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"471c1f3f-c1dd-3bb8-8d03-41b03e4be59e","name":"Cyprus","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CY","latitude":35.04,"longitude":33.21,"geometry":{"type":"Point","coordinates":[33.21,35.04]}}

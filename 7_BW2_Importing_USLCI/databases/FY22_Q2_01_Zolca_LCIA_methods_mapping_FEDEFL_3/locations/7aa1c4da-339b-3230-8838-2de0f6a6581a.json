@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7aa1c4da-339b-3230-8838-2de0f6a6581a","name":"United States, Minnesota","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-MN","latitude":45.73,"longitude":-93.91,"geometry":{"type":"Point","coordinates":[-93.91,45.73]}}

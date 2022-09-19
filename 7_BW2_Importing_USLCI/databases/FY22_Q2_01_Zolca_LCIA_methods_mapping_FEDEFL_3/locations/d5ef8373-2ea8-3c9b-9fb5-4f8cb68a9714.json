@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d5ef8373-2ea8-3c9b-9fb5-4f8cb68a9714","name":"EU 25 plus candidate countries 2005 plus associated countries 2005","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"EU-25\u0026CC\u0026AC","latitude":0.0,"longitude":0.0}

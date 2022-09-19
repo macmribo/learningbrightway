@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d2a460df-08a4-3b7a-958f-635b540d90cb","name":"Guam","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GU","latitude":13.38,"longitude":144.7,"geometry":{"type":"Point","coordinates":[144.7,13.38]}}

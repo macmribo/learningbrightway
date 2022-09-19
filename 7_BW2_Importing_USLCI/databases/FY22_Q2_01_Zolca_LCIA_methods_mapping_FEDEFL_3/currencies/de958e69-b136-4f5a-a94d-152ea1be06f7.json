@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Currency","@id":"de958e69-b136-4f5a-a94d-152ea1be06f7","name":"Euro","description":"2015 average. Source: http://www.oanda.com","version":"00.00.000","code":"EUR","conversionFactor":1.10975474420153,"referenceCurrency":{"@type":"Currency","@id":"8eb00d1a-697a-407f-9bd5-c4bc5096acad","name":"US Dollar"}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"a6be8a33-b7c9-37f4-bfb7-6d9c9805c7eb","name":"Grenada","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GD","latitude":12.11,"longitude":-61.67,"geometry":{"type":"Point","coordinates":[-61.67,12.11]}}

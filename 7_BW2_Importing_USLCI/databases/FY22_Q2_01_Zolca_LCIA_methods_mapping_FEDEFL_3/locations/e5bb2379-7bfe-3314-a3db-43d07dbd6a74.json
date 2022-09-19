@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e5bb2379-7bfe-3314-a3db-43d07dbd6a74","name":"French Guiana","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GF","latitude":3.92,"longitude":-53.24,"geometry":{"type":"Point","coordinates":[-53.24,3.92]}}

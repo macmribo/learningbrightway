@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"25bc6654-798e-3508-ba0b-6343212a74fe","name":"Kenya","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"KE","latitude":0.53,"longitude":37.85,"geometry":{"type":"Point","coordinates":[37.85,0.53]}}

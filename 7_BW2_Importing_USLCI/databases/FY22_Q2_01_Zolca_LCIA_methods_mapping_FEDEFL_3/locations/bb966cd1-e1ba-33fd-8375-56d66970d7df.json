@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"bb966cd1-e1ba-33fd-8375-56d66970d7df","name":"United States, Michigan","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-MI","latitude":43.35,"longitude":-84.56,"geometry":{"type":"Point","coordinates":[-84.56,43.35]}}

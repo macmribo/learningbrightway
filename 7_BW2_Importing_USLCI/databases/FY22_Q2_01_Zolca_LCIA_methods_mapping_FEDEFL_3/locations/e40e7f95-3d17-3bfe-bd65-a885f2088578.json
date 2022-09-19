@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e40e7f95-3d17-3bfe-bd65-a885f2088578","name":"China, Heilongjiang (黑龙江省)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-HL","latitude":47.87,"longitude":127.74,"geometry":{"type":"Point","coordinates":[127.74,47.87]}}

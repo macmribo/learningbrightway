@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"2a552811-5dc6-3462-a113-dda562233bd7","name":"Dhekelia Sovereign Base Area","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Dhekelia Base","latitude":35.01,"longitude":33.79,"geometry":{"type":"Point","coordinates":[33.79,35.01]}}

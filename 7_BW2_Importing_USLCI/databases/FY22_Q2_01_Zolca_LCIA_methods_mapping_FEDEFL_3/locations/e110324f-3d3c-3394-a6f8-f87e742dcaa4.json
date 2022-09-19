@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e110324f-3d3c-3394-a6f8-f87e742dcaa4","name":"Eastern Africa","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-EAFRICA","latitude":-5.5,"longitude":37.09,"geometry":{"type":"Point","coordinates":[37.09,-5.5]}}

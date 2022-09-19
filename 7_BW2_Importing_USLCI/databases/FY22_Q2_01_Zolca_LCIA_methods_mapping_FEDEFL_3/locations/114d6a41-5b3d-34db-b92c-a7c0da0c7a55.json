@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"114d6a41-5b3d-34db-b92c-a7c0da0c7a55","name":"French Southern Territories","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TF","latitude":-49.3,"longitude":69.11,"geometry":{"type":"Point","coordinates":[69.11,-49.3]}}

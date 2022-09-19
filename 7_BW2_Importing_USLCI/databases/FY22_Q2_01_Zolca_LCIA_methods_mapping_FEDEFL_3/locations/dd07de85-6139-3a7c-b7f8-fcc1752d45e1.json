@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"dd07de85-6139-3a7c-b7f8-fcc1752d45e1","name":"Peru","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PE","latitude":-9.32,"longitude":-75.55,"geometry":{"type":"Point","coordinates":[-75.55,-9.32]}}

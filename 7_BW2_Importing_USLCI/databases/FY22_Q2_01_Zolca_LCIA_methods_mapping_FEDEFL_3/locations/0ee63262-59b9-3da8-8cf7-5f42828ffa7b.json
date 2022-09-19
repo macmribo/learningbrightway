@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"0ee63262-59b9-3da8-8cf7-5f42828ffa7b","name":"United States, Mississippi","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-MS","latitude":32.76,"longitude":-89.68,"geometry":{"type":"Point","coordinates":[-89.68,32.76]}}

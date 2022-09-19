@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d74eea48-99a6-3f9f-8bc5-27ef988ea0ff","name":"Iran, Islamic Republic of","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"IR","latitude":32.56,"longitude":54.3,"geometry":{"type":"Point","coordinates":[54.3,32.56]}}

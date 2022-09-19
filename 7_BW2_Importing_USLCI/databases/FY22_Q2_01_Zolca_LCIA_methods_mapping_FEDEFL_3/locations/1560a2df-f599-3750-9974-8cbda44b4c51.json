@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1560a2df-f599-3750-9974-8cbda44b4c51","name":"ReliabilityFirst Corporation","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"RFC","latitude":40.81,"longitude":-82.23,"geometry":{"type":"Point","coordinates":[-82.23,40.81]}}

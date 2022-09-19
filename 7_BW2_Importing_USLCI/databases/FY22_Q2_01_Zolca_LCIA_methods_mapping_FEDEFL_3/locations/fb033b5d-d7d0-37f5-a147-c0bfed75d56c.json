@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"fb033b5d-d7d0-37f5-a147-c0bfed75d56c","name":"Western Africa","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-WAFRICA","latitude":14.74,"longitude":-1.17,"geometry":{"type":"Point","coordinates":[-1.17,14.74]}}

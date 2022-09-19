@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d0ea3a63-8908-3b86-a4f9-10b6170de942","name":"Scarborough Reef","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Scarborough Reef","latitude":15.15,"longitude":117.75,"geometry":{"type":"Point","coordinates":[117.75,15.15]}}

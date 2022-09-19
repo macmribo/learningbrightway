@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8f775bae-e910-3a54-8541-f4a49f87b2f2","name":"Clipperton Island","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Clipperton Island","latitude":10.29,"longitude":-109.22,"geometry":{"type":"Point","coordinates":[-109.22,10.29]}}

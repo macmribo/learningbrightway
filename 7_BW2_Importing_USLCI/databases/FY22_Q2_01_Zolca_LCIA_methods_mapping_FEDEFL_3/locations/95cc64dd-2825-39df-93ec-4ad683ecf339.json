@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"95cc64dd-2825-39df-93ec-4ad683ecf339","name":"Serbia and Montenegro","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CS","latitude":43.86,"longitude":20.59,"geometry":{"type":"Point","coordinates":[20.59,43.86]}}

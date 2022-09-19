@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d58da822-8993-3d8c-8ec4-f40689c2847e","name":"Oman","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"OM","latitude":21.65,"longitude":57.4,"geometry":{"type":"Point","coordinates":[57.4,21.65]}}

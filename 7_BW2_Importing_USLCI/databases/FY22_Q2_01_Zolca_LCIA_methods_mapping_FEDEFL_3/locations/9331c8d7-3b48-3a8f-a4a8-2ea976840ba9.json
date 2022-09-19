@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9331c8d7-3b48-3a8f-a4a8-2ea976840ba9","name":"Asia without China","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Asia without China","latitude":47.17,"longitude":94.01,"geometry":{"type":"Point","coordinates":[94.01,47.17]}}

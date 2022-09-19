@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"a8ce62fb-3610-311c-8af0-a8bf4942f5a0","name":"United States, West Virginia","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-WV","latitude":38.46,"longitude":-80.96,"geometry":{"type":"Point","coordinates":[-80.96,38.46]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"560e664b-9150-3314-b530-1eaa6af5b067","name":"United States, New Mexico","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-NM","latitude":34.83,"longitude":-106.23,"geometry":{"type":"Point","coordinates":[-106.23,34.83]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"efad7abb-323e-3d40-9628-4c8a6da076a1","name":"Sweden","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SE","latitude":62.01,"longitude":15.27,"geometry":{"type":"Point","coordinates":[15.27,62.01]}}

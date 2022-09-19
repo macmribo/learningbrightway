@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"cfd7a475-f752-3ef8-95e8-d042c4511dd3","name":"Bajo Nuevo Bank (Petrel Is.)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Bajo Nuevo","latitude":15.81,"longitude":-79.83,"geometry":{"type":"Point","coordinates":[-79.83,15.81]}}

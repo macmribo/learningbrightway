@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"bc388e13-830e-35bd-8be3-d90b027ac5ad","name":"Ashmore and Cartier Islands","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"AUS-AC","latitude":-12.43,"longitude":123.58,"geometry":{"type":"Point","coordinates":[123.58,-12.43]}}

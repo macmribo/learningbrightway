@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"bef33c35-d56a-3154-a9e2-b20a11d7580f","name":"Canada, Northwest Territories","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-NT","latitude":66.36,"longitude":-119.0,"geometry":{"type":"Point","coordinates":[-119.0,66.36]}}

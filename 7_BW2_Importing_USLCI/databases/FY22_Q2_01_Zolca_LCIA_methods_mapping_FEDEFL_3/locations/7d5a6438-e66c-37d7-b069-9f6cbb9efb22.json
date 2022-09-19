@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7d5a6438-e66c-37d7-b069-9f6cbb9efb22","name":"United States, North Dakota","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-ND","latitude":47.53,"longitude":-99.79,"geometry":{"type":"Point","coordinates":[-99.79,47.53]}}

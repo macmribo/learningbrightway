@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e832ff92-78c2-3ab2-8f7d-d0ca126994bf","name":"South-Eastern Asia","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-SEASIA","latitude":7.93,"longitude":109.93,"geometry":{"type":"Point","coordinates":[109.93,7.93]}}

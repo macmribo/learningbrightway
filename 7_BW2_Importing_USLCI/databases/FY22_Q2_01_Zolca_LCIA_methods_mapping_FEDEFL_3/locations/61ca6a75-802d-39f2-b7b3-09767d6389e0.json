@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"61ca6a75-802d-39f2-b7b3-09767d6389e0","name":"China, Shanxi (山西)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-SX","latitude":37.57,"longitude":112.28,"geometry":{"type":"Point","coordinates":[112.28,37.57]}}

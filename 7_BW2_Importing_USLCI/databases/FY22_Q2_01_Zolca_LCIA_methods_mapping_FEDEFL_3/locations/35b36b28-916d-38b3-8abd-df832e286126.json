@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"35b36b28-916d-38b3-8abd-df832e286126","name":"Virgin Islands, U.S.","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"VI","latitude":17.96,"longitude":-64.78,"geometry":{"type":"Point","coordinates":[-64.78,17.96]}}

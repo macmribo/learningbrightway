@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"86596f8c-55cb-3a71-976f-6a56e871f29b","name":"United States, Maryland","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-MD","latitude":39.07,"longitude":-76.79,"geometry":{"type":"Point","coordinates":[-76.79,39.07]}}

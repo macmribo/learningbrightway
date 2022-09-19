@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"a8a64cef-262a-34de-8872-b68b63ab7cd8","name":"Southern Asia","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SAS","latitude":7.93,"longitude":109.93,"geometry":{"type":"Point","coordinates":[109.93,7.93]}}

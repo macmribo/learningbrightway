@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1494adfb-98f4-3dc3-83b2-10bead2efff7","name":"South Australia","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"AUS-SAS","latitude":-30.1,"longitude":135.82,"geometry":{"type":"Point","coordinates":[135.82,-30.1]}}

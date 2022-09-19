@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8364be66-e49f-36e8-8ea4-a8795d469fe3","name":"Al producing Area 3, South America","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"IAI Area 3","latitude":-15.98,"longitude":-57.19,"geometry":{"type":"Point","coordinates":[-57.19,-15.98]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"35ea51ba-f1fe-3f01-82ad-5f950855dde0","name":"Côte d\u0027Ivoire","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CI","latitude":7.63,"longitude":-5.55,"geometry":{"type":"Point","coordinates":[-5.55,7.63]}}

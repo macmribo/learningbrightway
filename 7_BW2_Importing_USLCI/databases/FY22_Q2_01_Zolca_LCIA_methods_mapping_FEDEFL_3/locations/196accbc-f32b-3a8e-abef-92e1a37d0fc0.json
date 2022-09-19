@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"196accbc-f32b-3a8e-abef-92e1a37d0fc0","name":"Saint Lucia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"LC","latitude":13.89,"longitude":-60.96,"geometry":{"type":"Point","coordinates":[-60.96,13.89]}}

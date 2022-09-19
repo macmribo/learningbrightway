@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"35c302ef-c91c-31e9-a4e6-490bbe01a06f","name":"Central European Power Association","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CENTREL","latitude":50.67,"longitude":18.82,"geometry":{"type":"Point","coordinates":[18.82,50.67]}}

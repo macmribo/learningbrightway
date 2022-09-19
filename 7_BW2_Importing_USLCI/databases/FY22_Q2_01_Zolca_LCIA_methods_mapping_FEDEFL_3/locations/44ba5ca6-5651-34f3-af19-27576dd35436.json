@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"44ba5ca6-5651-34f3-af19-27576dd35436","name":"Lesotho","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"LS","latitude":-29.58,"longitude":28.24,"geometry":{"type":"Point","coordinates":[28.24,-29.58]}}

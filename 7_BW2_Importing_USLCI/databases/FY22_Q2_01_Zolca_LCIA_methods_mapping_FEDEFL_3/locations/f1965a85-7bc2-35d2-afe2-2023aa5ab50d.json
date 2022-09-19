@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"f1965a85-7bc2-35d2-afe2-2023aa5ab50d","name":"Rest-of-World","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"RoW","latitude":0.0,"longitude":0.0}

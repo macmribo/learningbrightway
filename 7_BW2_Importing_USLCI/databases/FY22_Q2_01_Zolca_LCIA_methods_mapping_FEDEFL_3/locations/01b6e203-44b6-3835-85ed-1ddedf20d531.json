@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"01b6e203-44b6-3835-85ed-1ddedf20d531","name":"Tonga","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TO","latitude":-21.2,"longitude":-175.18,"geometry":{"type":"Point","coordinates":[-175.18,-21.2]}}

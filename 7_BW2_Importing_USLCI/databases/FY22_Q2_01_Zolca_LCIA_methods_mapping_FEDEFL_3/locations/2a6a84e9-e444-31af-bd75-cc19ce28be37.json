@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"2a6a84e9-e444-31af-bd75-cc19ce28be37","name":"Egypt","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"EG","latitude":26.49,"longitude":29.87,"geometry":{"type":"Point","coordinates":[29.87,26.49]}}

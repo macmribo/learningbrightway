@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b6717b91-c759-3cc0-bf30-aa9a784e6390","name":"Tokelau","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TK","latitude":-9.19,"longitude":-171.85,"geometry":{"type":"Point","coordinates":[-171.85,-9.19]}}

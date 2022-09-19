@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6515e168-6762-351f-b146-9deb97414906","name":"State Grid Corporation of China","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"SGCC","latitude":37.81,"longitude":103.55,"geometry":{"type":"Point","coordinates":[103.55,37.81]}}

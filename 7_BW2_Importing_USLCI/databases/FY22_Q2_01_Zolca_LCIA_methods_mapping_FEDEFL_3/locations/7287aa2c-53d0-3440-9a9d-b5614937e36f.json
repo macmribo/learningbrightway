@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7287aa2c-53d0-3440-9a9d-b5614937e36f","name":"French Polynesia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PF","latitude":-17.62,"longitude":-149.46,"geometry":{"type":"Point","coordinates":[-149.46,-17.62]}}

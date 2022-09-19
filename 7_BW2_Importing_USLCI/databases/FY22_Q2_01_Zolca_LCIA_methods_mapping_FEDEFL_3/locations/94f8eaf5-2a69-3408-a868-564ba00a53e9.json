@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"94f8eaf5-2a69-3408-a868-564ba00a53e9","name":"China, Inner Mongol (内蒙古自治区)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-NM","latitude":44.08,"longitude":113.9,"geometry":{"type":"Point","coordinates":[113.9,44.08]}}

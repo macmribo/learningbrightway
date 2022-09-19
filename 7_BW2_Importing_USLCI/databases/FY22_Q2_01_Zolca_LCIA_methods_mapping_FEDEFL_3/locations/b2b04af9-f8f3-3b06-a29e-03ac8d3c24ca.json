@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b2b04af9-f8f3-3b06-a29e-03ac8d3c24ca","name":"Antarctica","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AQ","latitude":-80.44,"longitude":21.3,"geometry":{"type":"Point","coordinates":[21.3,-80.44]}}

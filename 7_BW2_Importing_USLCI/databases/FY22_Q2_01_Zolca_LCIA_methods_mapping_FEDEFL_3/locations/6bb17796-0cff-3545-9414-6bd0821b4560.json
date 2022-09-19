@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6bb17796-0cff-3545-9414-6bd0821b4560","name":"Coral Sea Islands","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Coral Sea Islands","latitude":-19.1,"longitude":151.48,"geometry":{"type":"Point","coordinates":[151.48,-19.1]}}

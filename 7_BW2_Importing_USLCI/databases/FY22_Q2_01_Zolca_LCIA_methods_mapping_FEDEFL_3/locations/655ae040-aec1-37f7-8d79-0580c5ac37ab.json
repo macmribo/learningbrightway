@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"655ae040-aec1-37f7-8d79-0580c5ac37ab","name":"Pacific OECD (Japan, Australia, New Zealand)","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"PAO","latitude":-9.99,"longitude":148.97,"geometry":{"type":"Point","coordinates":[148.97,-9.99]}}

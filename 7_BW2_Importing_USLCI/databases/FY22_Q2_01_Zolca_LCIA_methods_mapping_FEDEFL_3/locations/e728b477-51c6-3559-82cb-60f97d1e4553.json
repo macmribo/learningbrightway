@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e728b477-51c6-3559-82cb-60f97d1e4553","name":"Libya","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"LY","latitude":27.04,"longitude":18.02,"geometry":{"type":"Point","coordinates":[18.02,27.04]}}

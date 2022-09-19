@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"55add3d8-45bf-3d87-a9b0-949b0da49c0a","name":"Japan","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"JP","latitude":36.49,"longitude":139.06,"geometry":{"type":"Point","coordinates":[139.06,36.49]}}

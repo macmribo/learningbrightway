@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9e854e58-6592-3fe3-961f-e89d56220808","name":"Cayman Islands","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"KY","latitude":19.31,"longitude":-81.19,"geometry":{"type":"Point","coordinates":[-81.19,19.31]}}

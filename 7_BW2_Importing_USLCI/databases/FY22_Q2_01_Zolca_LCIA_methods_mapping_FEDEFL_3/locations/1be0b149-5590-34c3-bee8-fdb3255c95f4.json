@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1be0b149-5590-34c3-bee8-fdb3255c95f4","name":"United States, Tennessee","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-TN","latitude":35.74,"longitude":-86.74,"geometry":{"type":"Point","coordinates":[-86.74,35.74]}}

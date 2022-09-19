@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"dcf0d7d2-cd12-3bf4-a580-d43f29785dd3","name":"Korea, Republic of","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"KR","latitude":36.5,"longitude":128.1,"geometry":{"type":"Point","coordinates":[128.1,36.5]}}

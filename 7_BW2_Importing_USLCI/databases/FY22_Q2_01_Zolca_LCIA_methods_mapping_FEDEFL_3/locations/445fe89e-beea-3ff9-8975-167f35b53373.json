@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"445fe89e-beea-3ff9-8975-167f35b53373","name":"United States, Florida","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-FL","latitude":27.83,"longitude":-81.71,"geometry":{"type":"Point","coordinates":[-81.71,27.83]}}

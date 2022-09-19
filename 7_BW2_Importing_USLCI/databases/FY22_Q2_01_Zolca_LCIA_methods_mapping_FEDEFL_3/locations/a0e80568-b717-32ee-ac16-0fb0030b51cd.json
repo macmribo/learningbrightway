@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"a0e80568-b717-32ee-ac16-0fb0030b51cd","name":"China, Guizhou (贵州)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-GZ","latitude":26.81,"longitude":106.87,"geometry":{"type":"Point","coordinates":[106.87,26.81]}}

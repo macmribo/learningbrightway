@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"742523da-ef59-3b4b-b184-09f46de05d0c","name":"Samoa","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"WS","latitude":-13.65,"longitude":-172.41,"geometry":{"type":"Point","coordinates":[-172.41,-13.65]}}

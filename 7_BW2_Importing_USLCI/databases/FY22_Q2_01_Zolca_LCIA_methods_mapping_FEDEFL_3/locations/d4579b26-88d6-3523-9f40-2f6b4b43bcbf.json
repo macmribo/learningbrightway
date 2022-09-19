@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d4579b26-88d6-3523-9f40-2f6b4b43bcbf","name":"Dominican Republic","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"DO","latitude":19.01,"longitude":-70.72,"geometry":{"type":"Point","coordinates":[-70.72,19.01]}}

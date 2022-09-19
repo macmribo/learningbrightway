@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"cf3fc916-339b-32ad-9c14-aca2425ccf53","name":"Nepal","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NP","latitude":28.25,"longitude":83.93,"geometry":{"type":"Point","coordinates":[83.93,28.25]}}

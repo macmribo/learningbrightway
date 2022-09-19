@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8b6ba8a9-5220-3f57-8627-6e64a0f1cb40","name":"Central and Eastern Europe","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"EEU","latitude":0.0,"longitude":0.0}

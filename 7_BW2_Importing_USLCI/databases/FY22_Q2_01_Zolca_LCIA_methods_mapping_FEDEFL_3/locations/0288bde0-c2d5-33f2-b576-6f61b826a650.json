@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"0288bde0-c2d5-33f2-b576-6f61b826a650","name":"Niue","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NU","latitude":-19.05,"longitude":-169.86,"geometry":{"type":"Point","coordinates":[-169.86,-19.05]}}

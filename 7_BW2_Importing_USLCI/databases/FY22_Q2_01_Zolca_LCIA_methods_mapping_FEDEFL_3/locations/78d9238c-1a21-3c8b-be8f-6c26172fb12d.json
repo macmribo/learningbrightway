@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"78d9238c-1a21-3c8b-be8f-6c26172fb12d","name":"Norfolk Island","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NF","latitude":-29.03,"longitude":167.95,"geometry":{"type":"Point","coordinates":[167.95,-29.03]}}

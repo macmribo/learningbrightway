@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4e42f7dd-43ec-3fe1-84de-58610557c5ba","name":"Antigua and Barbuda","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AG","latitude":17.07,"longitude":-61.78,"geometry":{"type":"Point","coordinates":[-61.78,17.07]}}

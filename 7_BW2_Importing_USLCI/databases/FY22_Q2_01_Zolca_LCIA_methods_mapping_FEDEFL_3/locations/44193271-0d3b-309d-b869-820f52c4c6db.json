@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"44193271-0d3b-309d-b869-820f52c4c6db","name":"SERC Reliability Corporation","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"SERC","latitude":34.99,"longitude":-86.47,"geometry":{"type":"Point","coordinates":[-86.47,34.99]}}

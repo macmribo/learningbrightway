@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ab86a1e1-ef70-3ff9-b959-067b723c5c24","name":"Montenegro","description":"reference location, sources: ISO 3166-1, ecoinvent 3","version":"00.00.000","code":"ME","latitude":42.79,"longitude":19.25,"geometry":{"type":"Point","coordinates":[19.25,42.79]}}

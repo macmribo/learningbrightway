@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"70f8ca91-42c2-3bae-a4e2-dcc1b8033abe","name":"United States, Indiana","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-IN","latitude":39.86,"longitude":-86.26,"geometry":{"type":"Point","coordinates":[-86.26,39.86]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"2c38b9e4-5cec-3b32-8dde-4e3d5b22c648","name":"Sint Maarten (Dutch part)","description":"reference location, sources: ISO 3166-1, ecoinvent 3","version":"00.00.000","code":"SX","latitude":12.56,"longitude":-68.33,"geometry":{"type":"Point","coordinates":[-68.33,12.56]}}

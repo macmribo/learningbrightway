@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"26403ec6-d537-3a31-b63e-294b44831734","name":"Lebanon","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"LB","latitude":33.92,"longitude":35.88,"geometry":{"type":"Point","coordinates":[35.88,33.92]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d9a20693-e28e-33ac-aa03-8df3b3bfa273","name":"Alaska Systems Coordinating Council","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"ASCC","latitude":60.53,"longitude":-143.14,"geometry":{"type":"Point","coordinates":[-143.14,60.53]}}

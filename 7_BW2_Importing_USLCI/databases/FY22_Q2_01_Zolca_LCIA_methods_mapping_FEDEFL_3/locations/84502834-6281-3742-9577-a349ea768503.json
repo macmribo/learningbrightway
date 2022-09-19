@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"84502834-6281-3742-9577-a349ea768503","name":"Latin America and the Caribbean","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"RLA","latitude":-10.11,"longitude":-65.62,"geometry":{"type":"Point","coordinates":[-65.62,-10.11]}}

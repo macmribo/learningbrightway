@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1f0eb098-5870-335e-a2fa-2f68a223b173","name":"Togo","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TG","latitude":8.79,"longitude":1.08,"geometry":{"type":"Point","coordinates":[1.08,8.79]}}

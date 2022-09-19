@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c97b334f-fd41-3a49-9708-3f1949632bc1","name":"New Zealand","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NZ","latitude":-42.63,"longitude":172.23,"geometry":{"type":"Point","coordinates":[172.23,-42.63]}}

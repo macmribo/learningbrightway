@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ca2b1447-f5e7-3554-b244-ee56ce0e92ff","name":"United States, New Hampshire","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-NH","latitude":43.41,"longitude":-71.56,"geometry":{"type":"Point","coordinates":[-71.56,43.41]}}

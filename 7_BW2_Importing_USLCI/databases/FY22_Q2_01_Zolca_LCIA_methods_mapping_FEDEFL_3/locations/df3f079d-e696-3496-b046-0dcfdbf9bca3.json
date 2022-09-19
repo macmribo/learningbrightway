@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"df3f079d-e696-3496-b046-0dcfdbf9bca3","name":"Belarus","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BY","latitude":53.54,"longitude":28.04,"geometry":{"type":"Point","coordinates":[28.04,53.54]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"674f3384-1e23-39ff-9d24-c85dc3b999de","name":"Jordan","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"JO","latitude":30.7,"longitude":36.31,"geometry":{"type":"Point","coordinates":[36.31,30.7]}}

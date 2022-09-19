@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e2494db3-71b1-310e-bc75-5ff220d01c47","name":"Canada, Manitoba","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-MB","latitude":54.92,"longitude":-97.43,"geometry":{"type":"Point","coordinates":[-97.43,54.92]}}

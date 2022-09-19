@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"dfed5bc1-77b8-3ab3-97c5-84e06566adc6","name":"Paraguay","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PY","latitude":-23.23,"longitude":-58.39,"geometry":{"type":"Point","coordinates":[-58.39,-23.23]}}

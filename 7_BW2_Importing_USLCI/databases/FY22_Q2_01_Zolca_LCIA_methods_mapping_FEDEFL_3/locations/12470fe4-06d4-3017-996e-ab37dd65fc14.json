@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"12470fe4-06d4-3017-996e-ab37dd65fc14","name":"Spain","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"ES","latitude":40.22,"longitude":-3.64,"geometry":{"type":"Point","coordinates":[-3.64,40.22]}}

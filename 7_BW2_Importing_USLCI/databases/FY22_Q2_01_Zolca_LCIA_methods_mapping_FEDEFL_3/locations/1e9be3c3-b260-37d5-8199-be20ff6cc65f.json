@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1e9be3c3-b260-37d5-8199-be20ff6cc65f","name":"China, Jiangsu (江苏)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-JS","latitude":32.97,"longitude":119.44,"geometry":{"type":"Point","coordinates":[119.44,32.97]}}

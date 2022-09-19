@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"24213e9e-14b7-3f9c-be7d-189643518a9d","name":"Canada, Prince Edward Island","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-PE","latitude":46.39,"longitude":-63.25,"geometry":{"type":"Point","coordinates":[-63.25,46.39]}}

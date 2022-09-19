@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"69206263-69b1-3058-84f5-e3d6f93b5f6e","name":"Bhutan","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BT","latitude":27.41,"longitude":90.42,"geometry":{"type":"Point","coordinates":[90.42,27.41]}}

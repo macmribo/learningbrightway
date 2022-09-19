@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d9c29677-6530-3ff5-92a5-ab979ed1f7a0","name":"Zambia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"ZM","latitude":-14.61,"longitude":26.32,"geometry":{"type":"Point","coordinates":[26.32,-14.61]}}

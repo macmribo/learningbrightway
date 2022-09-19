@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1d8a4975-693e-31eb-9ca5-4878098d608f","name":"Martinique","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MQ","latitude":14.65,"longitude":-61.02,"geometry":{"type":"Point","coordinates":[-61.02,14.65]}}

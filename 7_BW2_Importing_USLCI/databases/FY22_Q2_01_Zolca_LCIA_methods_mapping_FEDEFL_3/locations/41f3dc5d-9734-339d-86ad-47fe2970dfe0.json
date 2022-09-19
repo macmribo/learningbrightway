@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"41f3dc5d-9734-339d-86ad-47fe2970dfe0","name":"Central America","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-CAMERICA","latitude":21.8,"longitude":-99.25,"geometry":{"type":"Point","coordinates":[-99.25,21.8]}}

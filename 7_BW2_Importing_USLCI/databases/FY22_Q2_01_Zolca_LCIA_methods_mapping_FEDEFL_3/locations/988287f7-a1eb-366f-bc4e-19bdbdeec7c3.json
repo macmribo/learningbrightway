@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"988287f7-a1eb-366f-bc4e-19bdbdeec7c3","name":"Kiribati","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"KI","latitude":-1.5,"longitude":175.03,"geometry":{"type":"Point","coordinates":[175.03,-1.5]}}

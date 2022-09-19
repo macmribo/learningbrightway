@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d88fc6ed-f21e-3464-935f-f76288b84103","name":"Switzerland","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CH","latitude":46.86,"longitude":7.9,"geometry":{"type":"Point","coordinates":[7.9,46.86]}}

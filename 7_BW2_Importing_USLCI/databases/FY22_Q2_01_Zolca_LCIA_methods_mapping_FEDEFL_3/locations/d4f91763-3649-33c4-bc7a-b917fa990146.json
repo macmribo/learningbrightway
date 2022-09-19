@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d4f91763-3649-33c4-bc7a-b917fa990146","name":"Niger","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NE","latitude":17.42,"longitude":9.39,"geometry":{"type":"Point","coordinates":[9.39,17.42]}}

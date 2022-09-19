@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"99d4fb3d-b156-3c87-9a2c-dfc0158b37c3","name":"Burundi","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BI","latitude":-3.35,"longitude":29.88,"geometry":{"type":"Point","coordinates":[29.88,-3.35]}}

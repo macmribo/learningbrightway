@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"aae773f6-9106-3fd9-95d0-c38764e6dccd","name":"US Naval Base Guantanamo Bay","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Guantanamo Bay","latitude":19.92,"longitude":-75.15,"geometry":{"type":"Point","coordinates":[-75.15,19.92]}}

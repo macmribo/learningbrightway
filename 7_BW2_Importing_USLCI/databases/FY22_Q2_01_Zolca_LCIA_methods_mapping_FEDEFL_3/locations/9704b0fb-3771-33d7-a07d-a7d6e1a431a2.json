@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9704b0fb-3771-33d7-a07d-a7d6e1a431a2","name":"United States, Oklahoma","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-OK","latitude":35.53,"longitude":-96.92,"geometry":{"type":"Point","coordinates":[-96.92,35.53]}}

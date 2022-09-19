@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"add33b5c-114e-39e1-8996-ebe46366c661","name":"HICC","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"HICC","latitude":20.25,"longitude":-156.35,"geometry":{"type":"Point","coordinates":[-156.35,20.25]}}

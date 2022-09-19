@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"74354112-1c12-3113-af80-7d1582c74bea","name":"El Salvador","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SV","latitude":13.73,"longitude":-88.86,"geometry":{"type":"Point","coordinates":[-88.86,13.73]}}

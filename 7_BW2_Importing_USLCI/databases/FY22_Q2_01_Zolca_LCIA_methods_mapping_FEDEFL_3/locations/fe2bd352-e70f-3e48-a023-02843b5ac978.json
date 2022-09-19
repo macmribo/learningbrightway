@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"fe2bd352-e70f-3e48-a023-02843b5ac978","name":"United States, Hawaii","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-HI","latitude":21.1,"longitude":-157.53,"geometry":{"type":"Point","coordinates":[-157.53,21.1]}}

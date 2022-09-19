@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"f9eab7a5-2fbd-36f4-b88f-438ba1a8da94","name":"United States, Nevada","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-NV","latitude":38.41,"longitude":-117.12,"geometry":{"type":"Point","coordinates":[-117.12,38.41]}}

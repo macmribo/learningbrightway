@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e529a9ce-a4a7-38eb-9c58-28b13b22844c","name":"Panama","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PA","latitude":8.38,"longitude":-80.92,"geometry":{"type":"Point","coordinates":[-80.92,8.38]}}

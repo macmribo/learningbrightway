@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"eb5e48e7-4123-3acc-9276-1302ea4a7d22","name":"Haiti","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"HT","latitude":19.14,"longitude":-72.27,"geometry":{"type":"Point","coordinates":[-72.27,19.14]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1c280670-4821-3d48-b168-efc6d6685406","name":"Asia","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"RAS","latitude":45.2,"longitude":96.07,"geometry":{"type":"Point","coordinates":[96.07,45.2]}}

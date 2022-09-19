@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"817ed804-f0ed-3175-b39d-7576a1c242b1","name":"Europe without Switzerland","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"Europe without Switzerland","latitude":48.59,"longitude":6.42,"geometry":{"type":"Point","coordinates":[6.42,48.59]}}

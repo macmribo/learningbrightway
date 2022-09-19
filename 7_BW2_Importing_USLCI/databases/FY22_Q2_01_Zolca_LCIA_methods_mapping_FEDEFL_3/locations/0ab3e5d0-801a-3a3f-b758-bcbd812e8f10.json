@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"0ab3e5d0-801a-3a3f-b758-bcbd812e8f10","name":"Nauru","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NR","latitude":-0.52,"longitude":166.93,"geometry":{"type":"Point","coordinates":[166.93,-0.52]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c1b291cb-8522-336e-8217-31b509c9fcdd","name":"Wallis and Futuna","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"WF","latitude":-13.78,"longitude":-177.14,"geometry":{"type":"Point","coordinates":[-177.14,-13.78]}}

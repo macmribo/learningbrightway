@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"94d03594-5b3d-3218-a669-c4d3f6daa104","name":"Maldives","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MV","latitude":3.54,"longitude":72.92,"geometry":{"type":"Point","coordinates":[72.92,3.54]}}

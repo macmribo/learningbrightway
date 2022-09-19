@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"58791f32-2c1b-3c3d-a614-1788d3b8666f","name":"Liberia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"LR","latitude":6.68,"longitude":-9.65,"geometry":{"type":"Point","coordinates":[-9.65,6.68]}}

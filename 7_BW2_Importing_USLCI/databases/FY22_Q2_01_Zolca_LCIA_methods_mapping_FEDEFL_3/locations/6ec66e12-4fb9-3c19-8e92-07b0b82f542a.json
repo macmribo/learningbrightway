@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6ec66e12-4fb9-3c19-8e92-07b0b82f542a","name":"Namibia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NA","latitude":-22.13,"longitude":17.21,"geometry":{"type":"Point","coordinates":[17.21,-22.13]}}

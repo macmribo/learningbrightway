@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"18bd9197-cb1d-333b-8352-f47535c00320","name":"Hungary","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"HU","latitude":47.07,"longitude":19.13,"geometry":{"type":"Point","coordinates":[19.13,47.07]}}

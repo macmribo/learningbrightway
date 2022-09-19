@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b6bb43df-4525-3928-a105-fb5741bddbea","name":"United Arab Emirates","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AE","latitude":23.54,"longitude":54.16,"geometry":{"type":"Point","coordinates":[54.16,23.54]}}

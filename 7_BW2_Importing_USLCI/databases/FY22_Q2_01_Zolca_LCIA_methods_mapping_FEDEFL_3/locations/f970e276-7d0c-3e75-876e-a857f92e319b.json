@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"f970e276-7d0c-3e75-876e-a857f92e319b","name":"American Samoa","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AS","latitude":-14.31,"longitude":-170.73,"geometry":{"type":"Point","coordinates":[-170.73,-14.31]}}

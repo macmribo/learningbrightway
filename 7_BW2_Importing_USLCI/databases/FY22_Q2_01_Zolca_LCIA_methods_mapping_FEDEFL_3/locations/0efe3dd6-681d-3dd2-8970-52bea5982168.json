@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"0efe3dd6-681d-3dd2-8970-52bea5982168","name":"United States, New York","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-NY","latitude":42.14,"longitude":-74.93,"geometry":{"type":"Point","coordinates":[-74.93,42.14]}}

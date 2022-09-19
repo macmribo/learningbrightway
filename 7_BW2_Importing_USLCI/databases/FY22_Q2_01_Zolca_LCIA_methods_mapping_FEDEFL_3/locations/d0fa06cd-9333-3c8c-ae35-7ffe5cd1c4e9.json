@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d0fa06cd-9333-3c8c-ae35-7ffe5cd1c4e9","name":"Sri Lanka","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"LK","latitude":7.61,"longitude":80.7,"geometry":{"type":"Point","coordinates":[80.7,7.61]}}

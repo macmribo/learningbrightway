@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7fa3b767-c460-354a-abe4-d49030b349c7","name":"Norway","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NO","latitude":61.15,"longitude":8.74,"geometry":{"type":"Point","coordinates":[8.74,61.15]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"dc634e20-7282-3fe0-b5be-9a2063390544","name":"Brazil","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BR","latitude":-10.77,"longitude":-53.08,"geometry":{"type":"Point","coordinates":[-53.08,-10.77]}}

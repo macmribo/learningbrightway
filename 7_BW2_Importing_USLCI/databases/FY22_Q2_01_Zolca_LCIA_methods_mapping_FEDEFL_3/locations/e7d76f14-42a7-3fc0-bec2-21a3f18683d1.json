@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e7d76f14-42a7-3fc0-bec2-21a3f18683d1","name":"Canary Islands","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"Canary Islands","latitude":28.33,"longitude":-15.67,"geometry":{"type":"Point","coordinates":[-15.67,28.33]}}

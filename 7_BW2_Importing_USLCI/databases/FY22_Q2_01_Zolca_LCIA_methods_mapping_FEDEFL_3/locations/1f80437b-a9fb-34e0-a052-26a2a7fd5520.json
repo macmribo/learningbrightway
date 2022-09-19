@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1f80437b-a9fb-34e0-a052-26a2a7fd5520","name":"United States, Idaho","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-ID","latitude":44.23,"longitude":-114.51,"geometry":{"type":"Point","coordinates":[-114.51,44.23]}}

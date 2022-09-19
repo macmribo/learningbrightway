@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"82a9e4d2-6595-387a-b6e4-42391d8c5bba","name":"France","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"FR","latitude":46.56,"longitude":2.55,"geometry":{"type":"Point","coordinates":[2.55,46.56]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6283d7a2-fe9b-303e-bb10-35a6cba0804d","name":"Al producing Area 6B, East/Central Europe","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"IAI Area 6B","latitude":61.28,"longitude":92.9,"geometry":{"type":"Point","coordinates":[92.9,61.28]}}

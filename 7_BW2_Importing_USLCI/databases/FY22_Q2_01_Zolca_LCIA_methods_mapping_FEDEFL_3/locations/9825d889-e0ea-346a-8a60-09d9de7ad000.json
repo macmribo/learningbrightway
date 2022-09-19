@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9825d889-e0ea-346a-8a60-09d9de7ad000","name":"China, Yunnan (云南)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-YN","latitude":24.97,"longitude":101.47,"geometry":{"type":"Point","coordinates":[101.47,24.97]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"eabb18f0-a40c-3b35-9237-0c9e1bc1d61e","name":"Venezuela, Bolivarian Republic of","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"VE","latitude":7.12,"longitude":-66.16,"geometry":{"type":"Point","coordinates":[-66.16,7.12]}}

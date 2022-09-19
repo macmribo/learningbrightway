@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ce1d5a24-80e0-34a2-91c1-c7968cc66c13","name":"Greenland","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GL","latitude":74.71,"longitude":-41.39,"geometry":{"type":"Point","coordinates":[-41.39,74.71]}}

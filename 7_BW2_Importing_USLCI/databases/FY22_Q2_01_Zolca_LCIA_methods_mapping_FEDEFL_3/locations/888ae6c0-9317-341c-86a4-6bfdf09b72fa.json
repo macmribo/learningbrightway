@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"888ae6c0-9317-341c-86a4-6bfdf09b72fa","name":"Canada, Alberta","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-AB","latitude":55.17,"longitude":-114.5,"geometry":{"type":"Point","coordinates":[-114.5,55.17]}}

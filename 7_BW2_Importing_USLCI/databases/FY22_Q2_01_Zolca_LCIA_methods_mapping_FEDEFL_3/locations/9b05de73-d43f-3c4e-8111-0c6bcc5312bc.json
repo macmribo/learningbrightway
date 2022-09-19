@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9b05de73-d43f-3c4e-8111-0c6bcc5312bc","name":"Comoros","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"KM","latitude":-11.75,"longitude":43.33,"geometry":{"type":"Point","coordinates":[43.33,-11.75]}}

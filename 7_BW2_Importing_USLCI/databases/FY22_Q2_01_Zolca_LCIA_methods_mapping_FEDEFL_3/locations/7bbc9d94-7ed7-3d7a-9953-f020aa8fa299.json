@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7bbc9d94-7ed7-3d7a-9953-f020aa8fa299","name":"China, Hunan (湖南)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-HN","latitude":27.61,"longitude":111.69,"geometry":{"type":"Point","coordinates":[111.69,27.61]}}

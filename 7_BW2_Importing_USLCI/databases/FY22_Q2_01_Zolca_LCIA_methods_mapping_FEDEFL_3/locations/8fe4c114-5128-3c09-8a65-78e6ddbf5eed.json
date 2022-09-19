@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8fe4c114-5128-3c09-8a65-78e6ddbf5eed","name":"Palau","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PW","latitude":7.5,"longitude":134.57,"geometry":{"type":"Point","coordinates":[134.57,7.5]}}

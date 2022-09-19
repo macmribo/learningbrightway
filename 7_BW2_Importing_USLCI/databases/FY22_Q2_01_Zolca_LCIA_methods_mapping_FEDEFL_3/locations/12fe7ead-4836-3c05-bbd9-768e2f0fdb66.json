@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"12fe7ead-4836-3c05-bbd9-768e2f0fdb66","name":"United States, Colorado","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-CO","latitude":39.06,"longitude":-105.32,"geometry":{"type":"Point","coordinates":[-105.32,39.06]}}

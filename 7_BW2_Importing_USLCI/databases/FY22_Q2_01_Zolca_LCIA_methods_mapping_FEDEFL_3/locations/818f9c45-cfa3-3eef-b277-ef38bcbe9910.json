@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"818f9c45-cfa3-3eef-b277-ef38bcbe9910","name":"Eritrea","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"ER","latitude":16.04,"longitude":38.21,"geometry":{"type":"Point","coordinates":[38.21,16.04]}}

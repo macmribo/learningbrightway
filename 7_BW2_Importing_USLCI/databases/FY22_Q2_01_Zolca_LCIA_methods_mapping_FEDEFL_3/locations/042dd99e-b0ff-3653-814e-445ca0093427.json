@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"042dd99e-b0ff-3653-814e-445ca0093427","name":"Canada without Quebec","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"ROC","latitude":62.47,"longitude":-101.92,"geometry":{"type":"Point","coordinates":[-101.92,62.47]}}

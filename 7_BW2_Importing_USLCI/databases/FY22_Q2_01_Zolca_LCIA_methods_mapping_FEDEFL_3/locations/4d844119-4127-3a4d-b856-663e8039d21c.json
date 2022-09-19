@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4d844119-4127-3a4d-b856-663e8039d21c","name":"United States, Maine","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-ME","latitude":44.6,"longitude":-69.39,"geometry":{"type":"Point","coordinates":[-69.39,44.6]}}

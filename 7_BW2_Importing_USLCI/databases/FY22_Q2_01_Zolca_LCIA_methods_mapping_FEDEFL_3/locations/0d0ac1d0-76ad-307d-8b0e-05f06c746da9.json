@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"0d0ac1d0-76ad-307d-8b0e-05f06c746da9","name":"Africa","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"RAF","latitude":6.41,"longitude":18.28,"geometry":{"type":"Point","coordinates":[18.28,6.41]}}

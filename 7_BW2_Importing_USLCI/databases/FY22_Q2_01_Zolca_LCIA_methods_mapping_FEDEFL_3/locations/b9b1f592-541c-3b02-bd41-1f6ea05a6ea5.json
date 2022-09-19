@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b9b1f592-541c-3b02-bd41-1f6ea05a6ea5","name":"Polynesia","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-POLYNESIA","latitude":-15.29,"longitude":-158.9,"geometry":{"type":"Point","coordinates":[-158.9,-15.29]}}

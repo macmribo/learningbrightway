@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"3d26b0b1-7065-32cf-a9c0-6c010184c684","name":"Mexico","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MX","latitude":23.95,"longitude":-102.53,"geometry":{"type":"Point","coordinates":[-102.53,23.95]}}

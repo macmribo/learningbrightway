@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"22b8b398-1b5b-3955-a162-614bb67b5927","name":"United States, Pennsylvania","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-PA","latitude":40.57,"longitude":-77.26,"geometry":{"type":"Point","coordinates":[-77.26,40.57]}}

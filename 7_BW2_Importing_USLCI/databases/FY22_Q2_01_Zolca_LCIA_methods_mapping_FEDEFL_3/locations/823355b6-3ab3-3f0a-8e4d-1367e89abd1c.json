@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"823355b6-3ab3-3f0a-8e4d-1367e89abd1c","name":"Botswana","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BW","latitude":-22.18,"longitude":23.81,"geometry":{"type":"Point","coordinates":[23.81,-22.18]}}

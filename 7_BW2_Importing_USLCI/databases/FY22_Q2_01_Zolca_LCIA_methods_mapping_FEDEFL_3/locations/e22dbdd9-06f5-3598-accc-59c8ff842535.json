@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e22dbdd9-06f5-3598-accc-59c8ff842535","name":"China, Zhejiang (浙江)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-ZJ","latitude":29.17,"longitude":120.07,"geometry":{"type":"Point","coordinates":[120.07,29.17]}}

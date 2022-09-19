@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"08a4415e-9d59-3ff9-a003-0b921d42b91e","name":"Estonia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"EE","latitude":58.67,"longitude":25.79,"geometry":{"type":"Point","coordinates":[25.79,58.67]}}

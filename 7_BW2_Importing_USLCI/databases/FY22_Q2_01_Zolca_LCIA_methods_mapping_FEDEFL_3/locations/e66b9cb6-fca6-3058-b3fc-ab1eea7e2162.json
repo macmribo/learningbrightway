@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e66b9cb6-fca6-3058-b3fc-ab1eea7e2162","name":"China, Guangxi (广西壮族自治区)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-GX","latitude":23.83,"longitude":108.77,"geometry":{"type":"Point","coordinates":[108.77,23.83]}}

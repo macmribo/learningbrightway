@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c582dec9-43ff-3b74-baa0-691df291cea6","name":"Argentina","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AR","latitude":-35.37,"longitude":-65.16,"geometry":{"type":"Point","coordinates":[-65.16,-35.37]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"adac5e63-f80f-3629-a957-3527b25891d3","name":"Angola","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AO","latitude":-12.29,"longitude":17.54,"geometry":{"type":"Point","coordinates":[17.54,-12.29]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"43b1cc1d-b7be-33d8-99dd-4280f578691a","name":"Holy See (Vatican City State)","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"VA","latitude":41.9,"longitude":12.45,"geometry":{"type":"Point","coordinates":[12.45,41.9]}}

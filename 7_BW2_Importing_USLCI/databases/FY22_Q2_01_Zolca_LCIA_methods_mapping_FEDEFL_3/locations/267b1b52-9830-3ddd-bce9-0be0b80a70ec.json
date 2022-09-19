@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"267b1b52-9830-3ddd-bce9-0be0b80a70ec","name":"China, Tianjin (天津)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-TJ","latitude":39.29,"longitude":117.32,"geometry":{"type":"Point","coordinates":[117.32,39.29]}}

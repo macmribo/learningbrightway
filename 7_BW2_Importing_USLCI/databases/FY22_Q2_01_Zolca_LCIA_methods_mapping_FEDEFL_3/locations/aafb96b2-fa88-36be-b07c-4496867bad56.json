@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"aafb96b2-fa88-36be-b07c-4496867bad56","name":"Tunisia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TN","latitude":35.38,"longitude":9.59,"geometry":{"type":"Point","coordinates":[9.59,35.38]}}

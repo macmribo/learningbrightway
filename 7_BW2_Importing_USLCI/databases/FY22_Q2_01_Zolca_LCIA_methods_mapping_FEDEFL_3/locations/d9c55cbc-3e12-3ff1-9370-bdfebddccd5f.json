@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d9c55cbc-3e12-3ff1-9370-bdfebddccd5f","name":"United States, Kansas","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-KS","latitude":38.51,"longitude":-96.8,"geometry":{"type":"Point","coordinates":[-96.8,38.51]}}

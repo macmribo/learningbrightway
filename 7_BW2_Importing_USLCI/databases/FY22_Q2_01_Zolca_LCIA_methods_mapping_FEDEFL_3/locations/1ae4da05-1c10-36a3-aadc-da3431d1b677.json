@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1ae4da05-1c10-36a3-aadc-da3431d1b677","name":"United States, Delaware","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-DE","latitude":39.34,"longitude":-75.51,"geometry":{"type":"Point","coordinates":[-75.51,39.34]}}

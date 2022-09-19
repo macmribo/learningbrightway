@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"cc8c0a97-c2df-3d73-8aff-160b65aa39e2","name":"Azerbaijan","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AZ","latitude":40.43,"longitude":47.39,"geometry":{"type":"Point","coordinates":[47.39,40.43]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"cdba052d-e53c-3173-b857-3d555fad2c16","name":"UCTE without Germany","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UCTE without Germany","latitude":45.45,"longitude":10.92,"geometry":{"type":"Point","coordinates":[10.92,45.45]}}

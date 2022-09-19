@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1e2bf244-82a6-36c2-9374-13eae0aeac38","name":"Québec","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"Québec","latitude":53.39,"longitude":-71.75,"geometry":{"type":"Point","coordinates":[-71.75,53.39]}}

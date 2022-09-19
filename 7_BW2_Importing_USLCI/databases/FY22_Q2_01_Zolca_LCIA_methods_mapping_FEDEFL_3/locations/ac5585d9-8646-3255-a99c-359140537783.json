@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ac5585d9-8646-3255-a99c-359140537783","name":"Slovenia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SI","latitude":46.12,"longitude":14.82,"geometry":{"type":"Point","coordinates":[14.82,46.12]}}

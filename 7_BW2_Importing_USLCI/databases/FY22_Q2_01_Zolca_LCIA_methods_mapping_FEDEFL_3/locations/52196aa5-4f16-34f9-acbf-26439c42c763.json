@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"52196aa5-4f16-34f9-acbf-26439c42c763","name":"Bonaire, Sint Eustatius and Saba","description":"reference location, sources: ISO 3166-1, ecoinvent 3","version":"00.00.000","code":"BQ","latitude":12.56,"longitude":-68.33,"geometry":{"type":"Point","coordinates":[-68.33,12.56]}}

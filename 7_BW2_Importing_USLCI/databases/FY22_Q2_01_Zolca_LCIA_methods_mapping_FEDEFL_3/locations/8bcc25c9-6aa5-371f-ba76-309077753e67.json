@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"8bcc25c9-6aa5-371f-ba76-309077753e67","name":"Australia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AU","latitude":-24.97,"longitude":136.18,"geometry":{"type":"Point","coordinates":[136.18,-24.97]}}

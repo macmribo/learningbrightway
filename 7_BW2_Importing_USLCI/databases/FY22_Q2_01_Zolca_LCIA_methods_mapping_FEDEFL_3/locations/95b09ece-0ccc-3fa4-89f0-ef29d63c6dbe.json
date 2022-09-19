@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"95b09ece-0ccc-3fa4-89f0-ef29d63c6dbe","name":"Eastern Asia","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-EASIA","latitude":38.21,"longitude":105.25,"geometry":{"type":"Point","coordinates":[105.25,38.21]}}

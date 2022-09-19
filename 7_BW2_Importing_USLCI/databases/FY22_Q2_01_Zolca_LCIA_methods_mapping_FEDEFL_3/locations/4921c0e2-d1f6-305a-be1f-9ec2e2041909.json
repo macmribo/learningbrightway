@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4921c0e2-d1f6-305a-be1f-9ec2e2041909","name":"Anguilla","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"AI","latitude":18.23,"longitude":-63.03,"geometry":{"type":"Point","coordinates":[-63.03,18.23]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"0ecbf942-6bcf-3d9a-886d-ed5fc8c4eca8","name":"Denmark","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"DK","latitude":56.05,"longitude":9.26,"geometry":{"type":"Point","coordinates":[9.26,56.05]}}

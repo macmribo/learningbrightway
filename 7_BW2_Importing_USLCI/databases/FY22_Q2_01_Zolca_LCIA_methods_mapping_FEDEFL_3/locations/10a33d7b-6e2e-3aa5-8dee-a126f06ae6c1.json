@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"10a33d7b-6e2e-3aa5-8dee-a126f06ae6c1","name":"China, Gansu (甘肃)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-GS","latitude":37.82,"longitude":100.92,"geometry":{"type":"Point","coordinates":[100.92,37.82]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"41d6ad07-61a5-327a-9e1b-d567041ce9e9","name":"Slovakia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SK","latitude":48.7,"longitude":19.49,"geometry":{"type":"Point","coordinates":[19.49,48.7]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e6c151d4-49e1-3b05-b1ff-b5ad5ec656cf","name":"Nicaragua","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NI","latitude":12.84,"longitude":-85.03,"geometry":{"type":"Point","coordinates":[-85.03,12.84]}}

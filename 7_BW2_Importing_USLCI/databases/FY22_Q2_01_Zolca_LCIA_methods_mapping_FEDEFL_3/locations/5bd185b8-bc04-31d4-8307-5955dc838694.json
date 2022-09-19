@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5bd185b8-bc04-31d4-8307-5955dc838694","name":"Canada, Ontario","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-ON","latitude":50.43,"longitude":-86.06,"geometry":{"type":"Point","coordinates":[-86.06,50.43]}}

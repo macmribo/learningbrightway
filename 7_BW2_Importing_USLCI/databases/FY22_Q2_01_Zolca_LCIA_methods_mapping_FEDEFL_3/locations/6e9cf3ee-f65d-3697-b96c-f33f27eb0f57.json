@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6e9cf3ee-f65d-3697-b96c-f33f27eb0f57","name":"Congo","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CG","latitude":-0.05,"longitude":15.98,"geometry":{"type":"Point","coordinates":[15.98,-0.05]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5c0f2c74-2dc9-3fce-b75d-086e7412f81f","name":"New South Wales","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"AUS-NSW","latitude":-32.16,"longitude":147.01,"geometry":{"type":"Point","coordinates":[147.01,-32.16]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"793914c9-c583-39d8-ad0f-4ed8c521b0c1","name":"Moldova, Republic of","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MD","latitude":47.19,"longitude":28.59,"geometry":{"type":"Point","coordinates":[28.59,47.19]}}

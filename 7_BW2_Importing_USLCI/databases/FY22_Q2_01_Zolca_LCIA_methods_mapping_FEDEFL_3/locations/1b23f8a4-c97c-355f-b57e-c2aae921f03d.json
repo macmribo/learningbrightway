@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1b23f8a4-c97c-355f-b57e-c2aae921f03d","name":"Uruguay","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"UY","latitude":-32.8,"longitude":-56.01,"geometry":{"type":"Point","coordinates":[-56.01,-32.8]}}

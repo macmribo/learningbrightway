@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"52c1fc37-d9e9-33a1-aaea-c2bc601b0364","name":"United States, New Jersey","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-NJ","latitude":40.31,"longitude":-74.5,"geometry":{"type":"Point","coordinates":[-74.5,40.31]}}

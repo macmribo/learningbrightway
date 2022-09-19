@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e132e45b-712d-3e2c-af19-c1f1b99c3c91","name":"United States, Kentucky","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-KY","latitude":37.66,"longitude":-84.65,"geometry":{"type":"Point","coordinates":[-84.65,37.66]}}

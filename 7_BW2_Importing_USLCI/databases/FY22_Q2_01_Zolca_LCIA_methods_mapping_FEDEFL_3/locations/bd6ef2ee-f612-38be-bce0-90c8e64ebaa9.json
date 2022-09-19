@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"bd6ef2ee-f612-38be-bce0-90c8e64ebaa9","name":"Northern Cyprus","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Northern Cyprus","latitude":35.27,"longitude":33.59,"geometry":{"type":"Point","coordinates":[33.59,35.27]}}

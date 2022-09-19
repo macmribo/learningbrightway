@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ea81aa7d-f47d-34c6-b37b-f98fabf3ff82","name":"Saint Martin (French part)","description":"reference location, sources: ISO 3166-1, ecoinvent 3","version":"00.00.000","code":"MF","latitude":18.09,"longitude":-63.04,"geometry":{"type":"Point","coordinates":[-63.04,18.09]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"de3ec0aa-2234-3a1e-bee2-75bbc715c6c9","name":"Cape Verde","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CV","latitude":15.07,"longitude":-23.63,"geometry":{"type":"Point","coordinates":[-23.63,15.07]}}

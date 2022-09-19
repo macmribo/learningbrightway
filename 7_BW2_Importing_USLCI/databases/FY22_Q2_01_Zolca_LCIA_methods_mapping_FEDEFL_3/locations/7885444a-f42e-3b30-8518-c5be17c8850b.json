@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7885444a-f42e-3b30-8518-c5be17c8850b","name":"United Kingdom","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GB","latitude":53.0,"longitude":-1.6,"geometry":{"type":"Point","coordinates":[-1.6,53.0]}}

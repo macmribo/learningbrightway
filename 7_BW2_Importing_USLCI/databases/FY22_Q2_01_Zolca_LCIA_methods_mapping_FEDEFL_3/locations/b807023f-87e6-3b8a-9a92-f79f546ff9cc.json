@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b807023f-87e6-3b8a-9a92-f79f546ff9cc","name":"Somalia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SO","latitude":9.77,"longitude":48.31,"geometry":{"type":"Point","coordinates":[48.31,9.77]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"d34c6aba-144a-3e2d-acb4-0dd5f93ae50e","name":"South America","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-SAMERICA","latitude":-15.03,"longitude":-60.73,"geometry":{"type":"Point","coordinates":[-60.73,-15.03]}}

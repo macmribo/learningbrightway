@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"2a0617ac-cf8b-3862-9c43-e2ffeb5b8d5b","name":"Uganda","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"UG","latitude":1.28,"longitude":32.38,"geometry":{"type":"Point","coordinates":[32.38,1.28]}}

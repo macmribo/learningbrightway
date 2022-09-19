@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"da657f65-6f70-3a48-893f-64cf7be37d09","name":"Northern Europe","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-NEUROPE","latitude":63.06,"longitude":13.8,"geometry":{"type":"Point","coordinates":[13.8,63.06]}}

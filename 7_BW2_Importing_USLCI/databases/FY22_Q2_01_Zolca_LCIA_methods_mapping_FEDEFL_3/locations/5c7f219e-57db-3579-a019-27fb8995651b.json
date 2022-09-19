@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5c7f219e-57db-3579-a019-27fb8995651b","name":"EU-27","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"EU-27","latitude":50.17,"longitude":9.15,"geometry":{"type":"Point","coordinates":[9.15,50.17]}}

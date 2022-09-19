@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"7fb70584-7e67-3d35-9d3a-16a62784d3a3","name":"United States, Oregon","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-OR","latitude":44.56,"longitude":-122.12,"geometry":{"type":"Point","coordinates":[-122.12,44.56]}}

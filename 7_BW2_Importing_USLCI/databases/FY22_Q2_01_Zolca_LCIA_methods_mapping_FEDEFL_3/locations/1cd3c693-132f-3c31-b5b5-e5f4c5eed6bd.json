@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1cd3c693-132f-3c31-b5b5-e5f4c5eed6bd","name":"Pakistan","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PK","latitude":29.96,"longitude":69.38,"geometry":{"type":"Point","coordinates":[69.38,29.96]}}

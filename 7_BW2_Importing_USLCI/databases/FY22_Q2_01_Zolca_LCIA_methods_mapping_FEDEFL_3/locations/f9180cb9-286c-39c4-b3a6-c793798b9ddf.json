@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"f9180cb9-286c-39c4-b3a6-c793798b9ddf","name":"Commonwealth of Independent States","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CIS","latitude":45.81,"longitude":59.08,"geometry":{"type":"Point","coordinates":[59.08,45.81]}}

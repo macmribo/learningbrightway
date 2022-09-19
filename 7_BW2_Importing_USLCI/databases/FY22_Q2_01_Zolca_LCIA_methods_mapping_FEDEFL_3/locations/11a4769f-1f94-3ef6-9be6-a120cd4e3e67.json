@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"11a4769f-1f94-3ef6-9be6-a120cd4e3e67","name":"Micronesia","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"UN-MICRONESIA","latitude":7.54,"longitude":94.38,"geometry":{"type":"Point","coordinates":[94.38,7.54]}}

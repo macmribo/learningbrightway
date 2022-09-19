@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"626726e6-0bd1-315f-b671-9a308a25b798","name":"Chad","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TD","latitude":15.36,"longitude":18.66,"geometry":{"type":"Point","coordinates":[18.66,15.36]}}

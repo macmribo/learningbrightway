@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e86115dd-61e0-3652-8b8f-79fc693dcf01","name":"United States, Connecticut","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-CT","latitude":41.58,"longitude":-72.76,"geometry":{"type":"Point","coordinates":[-72.76,41.58]}}

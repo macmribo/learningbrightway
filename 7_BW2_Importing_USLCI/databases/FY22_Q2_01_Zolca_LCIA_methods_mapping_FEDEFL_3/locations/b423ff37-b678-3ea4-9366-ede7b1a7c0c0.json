@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b423ff37-b678-3ea4-9366-ede7b1a7c0c0","name":"United States, Alaska","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-AK","latitude":61.38,"longitude":-152.26,"geometry":{"type":"Point","coordinates":[-152.26,61.38]}}

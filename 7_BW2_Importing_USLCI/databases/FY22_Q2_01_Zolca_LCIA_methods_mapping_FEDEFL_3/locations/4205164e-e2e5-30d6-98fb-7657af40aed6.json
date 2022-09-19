@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4205164e-e2e5-30d6-98fb-7657af40aed6","name":"Nordic Countries Power Association","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"NORDEL","latitude":63.76,"longitude":18.88,"geometry":{"type":"Point","coordinates":[18.88,63.76]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"190aeb66-f132-3e93-995a-70e36f3431c5","name":"Former Soviet Union","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"FSU","latitude":47.5,"longitude":49.29,"geometry":{"type":"Point","coordinates":[49.29,47.5]}}

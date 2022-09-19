@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"5c4fefda-27cf-384c-b999-be13e6b8608a","name":"Turks and Caicos Islands","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TC","latitude":21.9,"longitude":-71.95,"geometry":{"type":"Point","coordinates":[-71.95,21.9]}}

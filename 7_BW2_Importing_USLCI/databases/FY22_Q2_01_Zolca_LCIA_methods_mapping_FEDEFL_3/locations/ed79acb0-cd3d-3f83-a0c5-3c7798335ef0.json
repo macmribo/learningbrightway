@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ed79acb0-cd3d-3f83-a0c5-3c7798335ef0","name":"San Marino","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SM","latitude":43.94,"longitude":12.46,"geometry":{"type":"Point","coordinates":[12.46,43.94]}}

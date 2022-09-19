@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e0323a90-39ad-3297-8bf5-b49550572c7c","name":"Cocos (Keeling) Islands","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"CC","latitude":-12.17,"longitude":96.83,"geometry":{"type":"Point","coordinates":[96.83,-12.17]}}

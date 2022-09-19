@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c7439785-e07d-3db1-a531-12b8a73fb9c2","name":"China, Hainan (海南)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-HA","latitude":19.19,"longitude":109.74,"geometry":{"type":"Point","coordinates":[109.74,19.19]}}

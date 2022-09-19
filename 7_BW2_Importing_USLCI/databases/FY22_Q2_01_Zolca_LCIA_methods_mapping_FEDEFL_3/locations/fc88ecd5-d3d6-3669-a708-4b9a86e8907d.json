@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"fc88ecd5-d3d6-3669-a708-4b9a86e8907d","name":"China, Ningxia (宁夏回族自治区)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-NX","latitude":37.26,"longitude":106.16,"geometry":{"type":"Point","coordinates":[106.16,37.26]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1981f919-7ad2-31d5-8748-b520285f6323","name":"EU new member countries 2004","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"EU-NMC","latitude":48.7,"longitude":20.95,"geometry":{"type":"Point","coordinates":[20.95,48.7]}}

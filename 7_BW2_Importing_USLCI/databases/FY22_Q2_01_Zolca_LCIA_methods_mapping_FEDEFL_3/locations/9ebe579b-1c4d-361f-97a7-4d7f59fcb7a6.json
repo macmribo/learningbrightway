@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9ebe579b-1c4d-361f-97a7-4d7f59fcb7a6","name":"Akrotiri Sovereign Base Area","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"Akrotiri","latitude":34.63,"longitude":32.93,"geometry":{"type":"Point","coordinates":[32.93,34.63]}}

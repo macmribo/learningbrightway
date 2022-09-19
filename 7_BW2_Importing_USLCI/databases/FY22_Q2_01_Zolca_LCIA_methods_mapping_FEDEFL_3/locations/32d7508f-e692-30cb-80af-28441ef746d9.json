@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"32d7508f-e692-30cb-80af-28441ef746d9","name":"Gabon","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GA","latitude":-0.59,"longitude":11.79,"geometry":{"type":"Point","coordinates":[11.79,-0.59]}}

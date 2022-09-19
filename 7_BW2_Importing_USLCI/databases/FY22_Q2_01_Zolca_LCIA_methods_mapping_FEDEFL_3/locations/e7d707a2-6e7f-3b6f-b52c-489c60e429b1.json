@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e7d707a2-6e7f-3b6f-b52c-489c60e429b1","name":"Turkey","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TR","latitude":39.06,"longitude":35.17,"geometry":{"type":"Point","coordinates":[35.17,39.06]}}

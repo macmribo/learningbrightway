@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"0707ba09-2e91-360b-b05c-326e6a353593","name":"Curaçao","description":"reference location, sources: ISO 3166-1, ecoinvent 3","version":"00.00.000","code":"CW","latitude":12.19,"longitude":-68.97,"geometry":{"type":"Point","coordinates":[-68.97,12.19]}}

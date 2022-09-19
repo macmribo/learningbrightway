@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"560cccf0-0b87-306f-bffd-5836e1175a7a","name":"China, Chongqing (重庆)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-CQ","latitude":30.05,"longitude":107.85,"geometry":{"type":"Point","coordinates":[107.85,30.05]}}

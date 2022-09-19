@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"19b19ffc-30ca-3f1c-9376-cd2982992a59","name":"Ghana","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GH","latitude":7.96,"longitude":-1.2,"geometry":{"type":"Point","coordinates":[-1.2,7.96]}}

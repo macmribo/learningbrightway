@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4605f628-f91d-321e-8b5f-9433f46e29eb","name":"Israel","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"IL","latitude":31.02,"longitude":34.85,"geometry":{"type":"Point","coordinates":[34.85,31.02]}}

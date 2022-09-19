@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"da984e42-a589-3bbd-ac49-6ef0cbadcee2","name":"Philippines","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PH","latitude":11.11,"longitude":122.46,"geometry":{"type":"Point","coordinates":[122.46,11.11]}}

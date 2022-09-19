@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"b5bf27b2-555d-344e-bdf2-230080db5a1d","name":"Svalbard and Jan Mayen","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SJ","latitude":78.82,"longitude":18.37,"geometry":{"type":"Point","coordinates":[18.37,78.82]}}

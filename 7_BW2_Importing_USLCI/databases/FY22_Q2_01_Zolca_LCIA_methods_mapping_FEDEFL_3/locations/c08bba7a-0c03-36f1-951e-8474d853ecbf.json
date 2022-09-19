@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c08bba7a-0c03-36f1-951e-8474d853ecbf","name":"Bahrain","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BH","latitude":26.01,"longitude":50.56,"geometry":{"type":"Point","coordinates":[50.56,26.01]}}

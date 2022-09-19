@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"795237fd-9d10-3e63-8d19-b0db0f2fba2f","name":"Iraq","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"IQ","latitude":33.04,"longitude":43.77,"geometry":{"type":"Point","coordinates":[43.77,33.04]}}

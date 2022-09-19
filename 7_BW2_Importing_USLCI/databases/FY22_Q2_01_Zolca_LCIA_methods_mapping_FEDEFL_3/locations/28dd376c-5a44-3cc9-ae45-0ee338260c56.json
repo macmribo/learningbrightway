@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"28dd376c-5a44-3cc9-ae45-0ee338260c56","name":"Gibraltar","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"GI","latitude":36.13,"longitude":-5.34,"geometry":{"type":"Point","coordinates":[-5.34,36.13]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"f15daa22-c911-3f89-ba04-2f020804afd5","name":"China, Fujian (福建)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-FJ","latitude":26.07,"longitude":117.97,"geometry":{"type":"Point","coordinates":[117.97,26.07]}}

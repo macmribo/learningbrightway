@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"3691308f-2a4c-3f69-83f2-880d32e29c84","name":"South Sudan","description":"reference location, sources: ISO 3166-1, ecoinvent 3","version":"00.00.000","code":"SS","latitude":7.3,"longitude":30.25,"geometry":{"type":"Point","coordinates":[30.25,7.3]}}

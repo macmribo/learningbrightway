@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"73bebce3-95b6-31ef-adcf-6842fbdb4d76","name":"Isle of Man","description":"reference location, sources: ISO 3166-1, ecoinvent 3","version":"00.00.000","code":"IM","latitude":54.22,"longitude":-4.52,"geometry":{"type":"Point","coordinates":[-4.52,54.22]}}

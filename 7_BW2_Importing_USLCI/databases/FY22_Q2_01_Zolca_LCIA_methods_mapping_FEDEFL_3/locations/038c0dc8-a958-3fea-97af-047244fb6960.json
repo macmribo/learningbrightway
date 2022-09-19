@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"038c0dc8-a958-3fea-97af-047244fb6960","name":"Rwanda","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"RW","latitude":-1.99,"longitude":29.91,"geometry":{"type":"Point","coordinates":[29.91,-1.99]}}

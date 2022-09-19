@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1a88a0a3-7c7f-3bac-96c8-988fe871a18d","name":"EU candidate countries 2005","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"EC-CC","latitude":46.39,"longitude":20.38,"geometry":{"type":"Point","coordinates":[20.38,46.39]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"31c68c64-6657-3dcc-bc06-2d977c76315b","name":"Al producing Area 1, Africa","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"IAI Area 1","latitude":-2.34,"longitude":22.31,"geometry":{"type":"Point","coordinates":[22.31,-2.34]}}

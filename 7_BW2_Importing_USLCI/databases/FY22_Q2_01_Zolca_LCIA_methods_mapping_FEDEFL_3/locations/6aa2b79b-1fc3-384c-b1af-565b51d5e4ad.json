@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"6aa2b79b-1fc3-384c-b1af-565b51d5e4ad","name":"Oceanic","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"OCE","latitude":0.0,"longitude":0.0}

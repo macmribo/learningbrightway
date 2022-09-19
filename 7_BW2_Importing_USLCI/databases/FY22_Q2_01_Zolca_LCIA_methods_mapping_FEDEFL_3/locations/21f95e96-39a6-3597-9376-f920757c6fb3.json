@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"21f95e96-39a6-3597-9376-f920757c6fb3","name":"China, Shandong (山东)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-SD","latitude":36.35,"longitude":118.15,"geometry":{"type":"Point","coordinates":[118.15,36.35]}}

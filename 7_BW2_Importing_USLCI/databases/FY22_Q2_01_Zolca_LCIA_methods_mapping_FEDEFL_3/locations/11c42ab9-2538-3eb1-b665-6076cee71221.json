@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"11c42ab9-2538-3eb1-b665-6076cee71221","name":"Canada, Yukon","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-YK","latitude":63.63,"longitude":-135.49,"geometry":{"type":"Point","coordinates":[-135.49,63.63]}}

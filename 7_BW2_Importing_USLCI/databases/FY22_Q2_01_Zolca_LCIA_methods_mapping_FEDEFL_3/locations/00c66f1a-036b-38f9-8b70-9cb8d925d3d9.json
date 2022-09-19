@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"00c66f1a-036b-38f9-8b70-9cb8d925d3d9","name":"Yemen","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"YE","latitude":15.8,"longitude":48.35,"geometry":{"type":"Point","coordinates":[48.35,15.8]}}

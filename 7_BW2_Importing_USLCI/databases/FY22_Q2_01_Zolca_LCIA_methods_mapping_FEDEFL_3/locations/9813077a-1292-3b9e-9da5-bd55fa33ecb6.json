@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9813077a-1292-3b9e-9da5-bd55fa33ecb6","name":"EU associated countries 2005","description":"reference location, sources:  ILCD, GaBi","version":"00.00.000","code":"EU-AC","latitude":55.33,"longitude":3.72,"geometry":{"type":"Point","coordinates":[3.72,55.33]}}

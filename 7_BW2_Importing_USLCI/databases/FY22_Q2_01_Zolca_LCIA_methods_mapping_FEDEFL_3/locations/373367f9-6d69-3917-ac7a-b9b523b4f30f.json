@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"373367f9-6d69-3917-ac7a-b9b523b4f30f","name":"United States, Wyoming","description":"reference location, sources: DataSmart","version":"00.00.000","code":"US-WY","latitude":42.74,"longitude":-107.2,"geometry":{"type":"Point","coordinates":[-107.2,42.74]}}

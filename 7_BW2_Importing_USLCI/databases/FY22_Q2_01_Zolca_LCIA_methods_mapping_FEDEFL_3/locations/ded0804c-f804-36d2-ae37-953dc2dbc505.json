@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ded0804c-f804-36d2-ae37-953dc2dbc505","name":"Pitcairn","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"PN","latitude":-24.36,"longitude":-128.31,"geometry":{"type":"Point","coordinates":[-128.31,-24.36]}}

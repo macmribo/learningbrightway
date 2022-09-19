@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Category","@id":"d4cfbe20-f954-38ba-bd40-9080bb1c58c3","name":"urban","version":"00.00.000","category":{"@type":"Category","@id":"4a20a81d-a9b7-3bb4-a194-b235dff58aa4","name":"river","categoryPath":["Elementary Flows","emission","water","fresh water body"],"categoryType":"Flow"},"modelType":"FLOW"}

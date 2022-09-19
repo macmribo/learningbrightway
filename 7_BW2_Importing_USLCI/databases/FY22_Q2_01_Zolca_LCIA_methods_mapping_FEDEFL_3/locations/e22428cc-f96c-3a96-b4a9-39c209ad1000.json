@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"e22428cc-f96c-3a96-b4a9-39c209ad1000","name":"Suriname","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"SR","latitude":4.12,"longitude":-55.91,"geometry":{"type":"Point","coordinates":[-55.91,4.12]}}

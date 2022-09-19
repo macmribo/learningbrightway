@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9830e1f8-1f62-3b33-906a-cc186b93374e","name":"Mali","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"ML","latitude":17.35,"longitude":-3.52,"geometry":{"type":"Point","coordinates":[-3.52,17.35]}}

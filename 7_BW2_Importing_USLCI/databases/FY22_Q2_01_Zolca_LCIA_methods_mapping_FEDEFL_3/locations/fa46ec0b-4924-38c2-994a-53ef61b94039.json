@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"fa46ec0b-4924-38c2-994a-53ef61b94039","name":"Cambodia","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"KH","latitude":12.71,"longitude":104.56,"geometry":{"type":"Point","coordinates":[104.56,12.71]}}

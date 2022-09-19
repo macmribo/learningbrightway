@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"38af12ff-e146-3293-a429-6ddf9c28b806","name":"United States, Wisconsin","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-WI","latitude":44.25,"longitude":-89.63,"geometry":{"type":"Point","coordinates":[-89.63,44.25]}}

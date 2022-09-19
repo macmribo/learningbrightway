@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"2f53e6f3-f2ac-3041-a4e0-737e58c45321","name":"Ecuador","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"EC","latitude":-1.38,"longitude":-78.49,"geometry":{"type":"Point","coordinates":[-78.49,-1.38]}}

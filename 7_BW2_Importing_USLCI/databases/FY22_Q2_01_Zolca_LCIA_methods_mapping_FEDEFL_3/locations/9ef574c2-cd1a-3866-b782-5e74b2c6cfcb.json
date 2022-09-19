@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9ef574c2-cd1a-3866-b782-5e74b2c6cfcb","name":"United States, Washington","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-WA","latitude":47.39,"longitude":-121.57,"geometry":{"type":"Point","coordinates":[-121.57,47.39]}}

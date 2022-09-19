@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"28c494da-87ff-3996-9927-ac34ba30adbe","name":"Western Sahara","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"EH","latitude":24.55,"longitude":-13.7,"geometry":{"type":"Point","coordinates":[-13.7,24.55]}}

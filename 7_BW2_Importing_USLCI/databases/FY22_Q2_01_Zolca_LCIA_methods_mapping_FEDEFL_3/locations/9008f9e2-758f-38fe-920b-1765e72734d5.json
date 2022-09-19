@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"9008f9e2-758f-38fe-920b-1765e72734d5","name":"Kazakhstan","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"KZ","latitude":48.16,"longitude":67.3,"geometry":{"type":"Point","coordinates":[67.3,48.16]}}

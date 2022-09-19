@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"73bb4387-b307-3739-aacb-9cd62ac4049c","name":"Tanzania, United Republic of","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"TZ","latitude":-6.27,"longitude":34.82,"geometry":{"type":"Point","coordinates":[34.82,-6.27]}}

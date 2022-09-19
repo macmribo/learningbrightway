@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"910955a9-07e7-39b8-9ec8-855763108a29","name":"Belgium","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"BE","latitude":50.64,"longitude":4.66,"geometry":{"type":"Point","coordinates":[4.66,50.64]}}

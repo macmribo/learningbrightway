@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"1f2dfa56-7dcf-3583-bedd-f7aec167fec7","name":"Northern Mariana Islands","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"MP","latitude":15.0,"longitude":145.62,"geometry":{"type":"Point","coordinates":[145.62,15.0]}}

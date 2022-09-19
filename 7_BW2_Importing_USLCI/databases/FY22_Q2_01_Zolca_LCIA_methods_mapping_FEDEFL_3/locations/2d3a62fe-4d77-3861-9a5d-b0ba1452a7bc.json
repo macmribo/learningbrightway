@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"2d3a62fe-4d77-3861-9a5d-b0ba1452a7bc","name":"Canada, Newfoundland and Labrador","description":"reference location, sources:  ecoinvent 3","version":"00.00.000","code":"CA-NF","latitude":52.89,"longitude":-60.52,"geometry":{"type":"Point","coordinates":[-60.52,52.89]}}

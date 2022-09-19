@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"26f19341-0269-3662-9c33-6561ad91237f","name":"China, Shanghai (上海)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-SH","latitude":31.18,"longitude":121.44,"geometry":{"type":"Point","coordinates":[121.44,31.18]}}

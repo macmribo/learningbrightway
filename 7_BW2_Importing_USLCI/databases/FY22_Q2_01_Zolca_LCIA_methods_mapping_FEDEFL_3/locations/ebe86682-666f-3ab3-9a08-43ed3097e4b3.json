@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"ebe86682-666f-3ab3-9a08-43ed3097e4b3","name":"Kyrgyzstan","description":"reference location, sources: ISO 3166-1, ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"KG","latitude":41.46,"longitude":74.55,"geometry":{"type":"Point","coordinates":[74.55,41.46]}}

@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"c384a41a-bbea-3bc9-b333-75287ddb64bb","name":"United States, Louisiana","description":"reference location, sources: USDA, DataSmart","version":"00.00.000","code":"US-LA","latitude":31.18,"longitude":-91.87,"geometry":{"type":"Point","coordinates":[-91.87,31.18]}}

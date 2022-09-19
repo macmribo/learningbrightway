@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"60418cbc-6847-3b06-a830-253aa9bd9dba","name":"China, Hubei (湖北)","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CN-HU","latitude":30.97,"longitude":112.26,"geometry":{"type":"Point","coordinates":[112.26,30.97]}}

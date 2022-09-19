@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4b24ca1d-6a54-335b-811e-38a32aaa0967","name":"Middle East","description":"reference location, sources:  ecoinvent 3, ILCD, GaBi","version":"00.00.000","code":"RME","latitude":28.54,"longitude":48.66,"geometry":{"type":"Point","coordinates":[48.66,28.54]}}

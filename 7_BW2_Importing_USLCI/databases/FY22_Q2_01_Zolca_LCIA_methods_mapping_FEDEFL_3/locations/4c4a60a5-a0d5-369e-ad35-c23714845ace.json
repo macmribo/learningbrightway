@@ -1,0 +1,1 @@
+{"@context":"http://greendelta.github.io/olca-schema/context.jsonld","@type":"Location","@id":"4c4a60a5-a0d5-369e-ad35-c23714845ace","name":"China Southern Power Grid","description":"reference location, sources:  ecoinvent 3.2","version":"00.00.000","code":"CSG","latitude":24.56,"longitude":106.46,"geometry":{"type":"Point","coordinates":[106.46,24.56]}}
