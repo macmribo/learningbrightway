@@ -11,8 +11,8 @@
 import bw2data as bd
 import bw2calc as bc
 import bw2io as bi
-import bw_processing
-import bw_migrations
+import bw_processing # Not sure yet if I need this
+import bw_migrations # Not sure yet if I need this
 
 import os
 import numpy as np
@@ -331,7 +331,7 @@ carboncete = [act for act in bio if 'Carbon dioxide' in act['name']
                                             and 'ground' in str(act['categories'])][0]
 
 
-# #### 5.3.2. Now let's look at "our technosphere database, 
+# #### 5.3.2. Now let's look at our technosphere database
 
 # The technosphere database is composed of activities thaat can be processes (they have exchanges, input and output flows) and product flows (these can be outputs or inputs). Let's explore a different way to select an activity... let's say I am just testing and I just want a random activity. Can I do it? Selvfølgelig! Actio `.random()`!!
 
@@ -473,13 +473,13 @@ for entries in range(5, 19):
     print('# of activities with {} entries: {}'.format(entries, activities))
 
 
-# In[43]:
+# In[88]:
 
 
-entry_list = list([7, 8, 14, 15, 16, 17, 18])
+entry_list = list([7, 8, 14, 15, 16])
 
 
-# In[44]:
+# In[89]:
 
 
 for i in entry_list:
@@ -808,7 +808,7 @@ print('There are {} activities with more than 1 production flow'.format(n_more_p
 print('There are {} additional flows'.format(tot_flo - 60))    
 
 
-# Bingo
+# Bingo...
 
 # In[ ]:
 

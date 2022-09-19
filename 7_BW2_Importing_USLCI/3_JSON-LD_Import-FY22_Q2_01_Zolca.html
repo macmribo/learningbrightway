@@ -14605,8 +14605,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">bw2data</span> <span class="k">as</span> <span class="nn">bd</span>
 <span class="kn">import</span> <span class="nn">bw2calc</span> <span class="k">as</span> <span class="nn">bc</span>
 <span class="kn">import</span> <span class="nn">bw2io</span> <span class="k">as</span> <span class="nn">bi</span>
-<span class="kn">import</span> <span class="nn">bw_processing</span>
-<span class="kn">import</span> <span class="nn">bw_migrations</span>
+<span class="kn">import</span> <span class="nn">bw_processing</span> <span class="c1"># Not sure yet if I need this</span>
+<span class="kn">import</span> <span class="nn">bw_migrations</span> <span class="c1"># Not sure yet if I need this</span>
 
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -16197,7 +16197,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="5.3.2.-Now-let's-look-at-%22our-technosphere-database,">5.3.2. Now let's look at "our technosphere database,<a class="anchor-link" href="#5.3.2.-Now-let's-look-at-%22our-technosphere-database,">&#182;</a></h4>
+<h4 id="5.3.2.-Now-let's-look-at-our-technosphere-database">5.3.2. Now let's look at our technosphere database<a class="anchor-link" href="#5.3.2.-Now-let's-look-at-our-technosphere-database">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -17091,10 +17091,10 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[88]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">entry_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">([</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">18</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">entry_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">([</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -17107,7 +17107,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[89]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">entry_list</span><span class="p">:</span>
@@ -17148,27 +17148,6 @@ There are <span class="ansi-bold">34</span> activities with <span class="ansi-bo
 There are <span class="ansi-bold">13</span> activities with <span class="ansi-bold">16</span> entries. Its keys are: dict_keys([&#39;name&#39;, &#39;description&#39;, &#39;version&#39;, &#39;defaultAllocationMethod&#39;, &#39;location&#39;, &#39;dqSystem&#39;, &#39;dqEntry&#39;, &#39;allocationFactors&#39;, &#39;filename&#39;, &#39;code&#39;, &#39;unit&#39;, &#39;classifications&#39;, &#39;type&#39;, &#39;modified&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">16</span> keys, of which <span class="ansi-bold">13</span> are processes.
 
 </pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">IndexError</span>                                Traceback (most recent call last)
-Input <span class="ansi-green-fg">In [44]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> i <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> entry_list:
-<span class="ansi-green-intense-fg ansi-bold">      2</span>     activities <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">len</span>([act<span style="color: rgb(98,98,98)">.</span>as_dict() <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> act <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> db <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">len</span>(act) <span style="color: rgb(98,98,98)">==</span> i])
-<span class="ansi-green-fg">----&gt; 3</span>     keys <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg">act</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">as_dict</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">keys</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">for</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">act</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(175,0,255)">in</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">db</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">if</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">len</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">act</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">==</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">i</span><span class="ansi-yellow-bg">]</span><span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">0</span><span class="ansi-yellow-bg">]</span>
-<span class="ansi-green-intense-fg ansi-bold">      4</span>     processes <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">len</span>([act<span style="color: rgb(98,98,98)">.</span>as_dict() <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> act <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> db <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">len</span>(act) <span style="color: rgb(98,98,98)">==</span> i <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> act[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">type</span><span style="color: rgb(175,0,0)">&#39;</span>] <span style="color: rgb(98,98,98)">==</span> <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">process</span><span style="color: rgb(175,0,0)">&#39;</span>])
-<span class="ansi-green-intense-fg ansi-bold">      5</span>     len_keys <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">len</span>(keys)
-
-<span class="ansi-red-fg">IndexError</span>: list index out of range</pre>
 </div>
 </div>
 
@@ -18608,7 +18587,7 @@ There are 38 additional flows
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Bingo</p>
+<p>Bingo...</p>
 
 </div>
 </div>
