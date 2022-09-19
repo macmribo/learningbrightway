@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>JSON-LD_Import-FY22_Q2_01_Zolca</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>3_JSON-LD_Import-FY22_Q2_01_Zolca</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14559,12 +14559,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
                 },
                 displayAlign: 'center',
                 CommonHTML: {
-                    linebreaks: {
-                    automatic: true
+                    linebreaks: { 
+                    automatic: true 
                     }
                 }
             });
-
+        
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     }
@@ -14678,7 +14678,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">projects</span><span class="o">.</span><span class="n">set_current</span><span class="p">(</span><span class="s1">&#39;USLCI_FY22_Q2_1&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">projects</span><span class="o">.</span><span class="n">set_current</span><span class="p">(</span><span class="s1">&#39;USLCI_FY22_Q2_2&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14702,10 +14702,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[304]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;/Users/mmendez/Documents/Postdoc/Software_dev/Brightway/Brightway_US/mac_brightway2/notebooks/databases/OpenLCA_JSON_exports/FY22_Q2_01_Zolca_LCIA_methods_mapping_FEDEFL_3&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;../7_BW2_Importing_USLCI/databases/FY22_Q2_01_Zolca_LCIA_methods_mapping_FEDEFL_3&#39;</span>
 <span class="n">uslci</span> <span class="o">=</span> <span class="n">bi</span><span class="o">.</span><span class="n">importers</span><span class="o">.</span><span class="n">JSONLDImporter</span><span class="p">(</span>
     <span class="n">path</span><span class="p">,</span> 
     <span class="s2">&quot;USLCI_FY22_Q2_1&quot;</span><span class="p">,</span> 
@@ -15239,7 +15239,7 @@ There are 3 processes that have waste as inputs.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">elem_n</span> <span class="o">=</span> <span class="mi">0</span>
@@ -15317,7 +15317,7 @@ There are 3 processes that have waste as inputs.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">uslci</span><span class="o">.</span><span class="n">apply_strategies</span><span class="p">()</span>
@@ -15359,7 +15359,7 @@ Applying strategy: add_database_name
 Applying strategy: link_iterable_by_fields
 Applying strategy: link_iterable_by_fields
 Applying strategy: normalize_units
-Applied 17 strategies in 6.01 seconds
+Applied 17 strategies in 5.89 seconds
 
 	Created 2879 biosphere flows in separate database &#39;USLCI_FY22_Q2_1 biosphere&#39;.
 	Use either `.merge_biosphere_flows()` or `.write_separate_biosphere_database()` to write these flows.
@@ -15429,7 +15429,7 @@ Applied 17 strategies in 6.01 seconds
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">uslci</span><span class="o">.</span><span class="n">statistics</span><span class="p">()</span>
@@ -15467,7 +15467,7 @@ Applied 17 strategies in 6.01 seconds
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 
 
 
@@ -15499,7 +15499,7 @@ Applied 17 strategies in 6.01 seconds
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">uslci</span><span class="o">.</span><span class="n">apply_strategy</span><span class="p">(</span><span class="n">bi</span><span class="o">.</span><span class="n">strategies</span><span class="o">.</span><span class="n">special</span><span class="o">.</span><span class="n">add_dummy_processes_and_rename_exchanges</span><span class="p">)</span>
@@ -15550,7 +15550,7 @@ Applied 17 strategies in 6.01 seconds
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">uslci</span><span class="o">.</span><span class="n">statistics</span><span class="p">()</span>
@@ -15586,7 +15586,7 @@ Applied 17 strategies in 6.01 seconds
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 
 
 
@@ -15657,7 +15657,7 @@ You can check which databases are within the project using <code>bd.databases</c
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">databases</span> <span class="c1"># If this is the first time you run this code, there should be 0 objects in the database dictionary:</span>
@@ -15678,15 +15678,13 @@ You can check which databases are within the project using <code>bd.databases</c
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>Databases dictionary with 2 object(s):
-	USLCI_FY22_Q2_1
-	USLCI_FY22_Q2_1 biosphere</pre>
+<pre>Databases dictionary with 0 objects</pre>
 </div>
 
 </div>
@@ -15723,7 +15721,7 @@ You can check which databases are within the project using <code>bd.databases</c
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">uslci</span><span class="o">.</span><span class="n">write_separate_biosphere_database</span><span class="p">()</span>
@@ -15747,18 +15745,6 @@ You can check which databases are within the project using <code>bd.databases</c
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Vacuuming database 
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre>Writing activities to SQLite3 database:
 0% [##############################] 100% | ETA: 00:00:00
@@ -15775,11 +15761,11 @@ Total time elapsed: 00:00:00
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Title: Writing activities to SQLite3 database:
-  Started: 09/16/2022 16:32:35
-  Finished: 09/16/2022 16:32:35
+  Started: 09/19/2022 15:39:07
+  Finished: 09/19/2022 15:39:07
   Total time elapsed: 00:00:00
   CPU %: 2.40
-  Memory %: 1.61
+  Memory %: 1.58
 Created database: USLCI_FY22_Q2_1 biosphere
 </pre>
 </div>
@@ -15805,7 +15791,7 @@ Created database: USLCI_FY22_Q2_1 biosphere
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">uslci</span><span class="o">.</span><span class="n">write_database</span><span class="p">()</span>
@@ -15829,18 +15815,6 @@ Created database: USLCI_FY22_Q2_1 biosphere
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Not able to determine geocollections for all datasets. This database is not ready for regionalization.
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre>Writing activities to SQLite3 database:
 </pre>
@@ -15854,7 +15828,7 @@ Created database: USLCI_FY22_Q2_1 biosphere
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Vacuuming database 
+<pre>Not able to determine geocollections for all datasets. This database is not ready for regionalization.
 </pre>
 </div>
 </div>
@@ -15880,11 +15854,11 @@ Total time elapsed: 00:00:02
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Title: Writing activities to SQLite3 database:
-  Started: 09/16/2022 16:33:40
-  Finished: 09/16/2022 16:33:43
+  Started: 09/19/2022 15:39:16
+  Finished: 09/19/2022 15:39:18
   Total time elapsed: 00:00:02
-  CPU %: 2.00
-  Memory %: 1.62
+  CPU %: 2.20
+  Memory %: 1.59
 Created database: USLCI_FY22_Q2_1
 </pre>
 </div>
@@ -15893,7 +15867,7 @@ Created database: USLCI_FY22_Q2_1
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
 
 
 
@@ -15942,7 +15916,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">databases</span>
@@ -15963,7 +15937,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
 
 
 
@@ -16008,7 +15982,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bio</span> <span class="o">=</span> <span class="n">bd</span><span class="o">.</span><span class="n">Database</span><span class="p">(</span><span class="s1">&#39;USLCI_FY22_Q2_1 biosphere&#39;</span><span class="p">)</span>
@@ -16024,7 +15998,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">db</span> <span class="o">=</span> <span class="n">bd</span><span class="o">.</span><span class="n">Database</span><span class="p">(</span><span class="s1">&#39;USLCI_FY22_Q2_1&#39;</span><span class="p">)</span>
@@ -16074,7 +16048,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">carbon_query</span> <span class="o">=</span> <span class="p">[</span><span class="n">bio_flow</span> <span class="k">for</span> <span class="n">bio_flow</span> <span class="ow">in</span> <span class="n">bio</span> <span class="k">if</span> <span class="n">bio_flow</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;carbon&#39;</span><span class="p">)]</span> <span class="c1"># Use .lower() to make it non-case sensitive</span>
@@ -16091,7 +16065,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are </span><span class="si">{}</span><span class="s1"> carbon-related flows!&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">carbon_query</span><span class="p">)))</span>
@@ -16142,7 +16116,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bio</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s1">&#39;carbon dioxide&#39;</span><span class="p">)</span>
@@ -16163,20 +16137,20 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[54]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;resource&#39;, &#39;air&#39;)),
- &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;ground&#39;)),
- &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;air&#39;, &#39;stratosphere&#39;)),
- &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;air&#39;, &#39;troposphere&#39;, &#39;rural&#39;)),
+<pre>[&#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;air&#39;, &#39;troposphere&#39;, &#39;very high&#39;)),
  &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;air&#39;, &#39;troposphere&#39;, &#39;urban&#39;)),
+ &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;resource&#39;, &#39;air&#39;)),
+ &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;ground&#39;)),
  &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;resource&#39;, &#39;air&#39;, &#39;troposphere&#39;)),
- &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;air&#39;, &#39;troposphere&#39;, &#39;very high&#39;)),
- &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;air&#39;))]</pre>
+ &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;air&#39;)),
+ &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;air&#39;, &#39;stratosphere&#39;)),
+ &#39;Carbon dioxide&#39; (, None, (&#39;Elementary Flows&#39;, &#39;emission&#39;, &#39;air&#39;, &#39;troposphere&#39;, &#39;rural&#39;))]</pre>
 </div>
 
 </div>
@@ -16202,7 +16176,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">carboncete</span> <span class="o">=</span> <span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">bio</span> <span class="k">if</span> <span class="s1">&#39;Carbon dioxide&#39;</span> <span class="ow">in</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
@@ -16244,7 +16218,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">random_act</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">random</span><span class="p">()</span>
@@ -16266,13 +16240,13 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[66]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#39;Steam, purchased by containerboard mills&#39; (megajoule, Northern America, None)</pre>
+<pre>&#39;Spring wheat straw, carted, 2022&#39; (kilogram, Northern America, None)</pre>
 </div>
 
 </div>
@@ -16298,7 +16272,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">random_act</span><span class="o">.</span><span class="n">as_dict</span><span class="p">();</span>
@@ -16326,7 +16300,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[100]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s1">&#39;corn&#39;</span><span class="p">)</span>
@@ -16347,37 +16321,37 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[100]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;Corn, decomposition&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
- &#39;Corn, at field&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
- &#39;Pesticide, corn&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
- &#39;Fertilizer, corn&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+<pre>[&#39;Corn, at field&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
  &#39;Corn, production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
  &#39;Seed corn&#39; (, None, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
- &#39;Corn stover, carted&#39; (kilogram, Northern America, None),
- &#39;Corn stover, carted&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
- &#39;Corn stover, production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
- &#39;Corn Starch, at plant&#39; (, None, (&#39;Technosphere Flows&#39;, &#39;CUTOFF Flows&#39;)),
- &#39;Corn stover, at field&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
- &#39;Corn steep liquor&#39; (kilogram, Northern America, None),
+ &#39;Corn, decomposition&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
+ &#39;Fertilizer, corn&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Pesticide, corn&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
  &#39;Corn steep liquor&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;31-33: Manufacturing&#39;, &#39;3112: Grain and Oilseed Milling&#39;)),
- &#39;Tillage, intensive, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
- &#39;Corn grain, at conversion plant&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;48-49: Transportation and Warehousing&#39;, &#39;4842: Specialized Freight Trucking&#39;)),
- &#39;Corn, production, average, US, 2022&#39; (kilogram, Northern America, None),
- &#39;Lime, agricultural, corn production&#39; (square meter, Northern America, None),
- &#39;Corn stover, ground and stored&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
- &#39;Corn grain, harvested and stored&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
- &#39;Lime, agricultural, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Corn stover, production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
+ &#39;Corn steep liquor&#39; (kilogram, Northern America, None),
+ &#39;Corn stover, carted&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Corn Starch, at plant&#39; (, None, (&#39;Technosphere Flows&#39;, &#39;CUTOFF Flows&#39;)),
+ &#39;Corn stover, carted&#39; (kilogram, Northern America, None),
+ &#39;Corn stover, at field&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
+ &#39;Corn, whole plant, at field&#39; (kilogram, Northern America, None),
  &#39;Tillage, conservation, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Corn, decomposition, 15.5% moisture&#39; (kilogram, Northern America, None),
  &#39;Corn stover, at conversion plant&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;48-49: Transportation and Warehousing&#39;, &#39;4842: Specialized Freight Trucking&#39;)),
  &#39;Corn grain, harvested and stored&#39; (kilogram, Northern America, None),
  &#39;Harvest, corn, single pass&#39; (square meter, Northern America, None),
- &#39;Tillage, reduce, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;))]</pre>
+ &#39;Tillage, reduce, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Harvest, corn, single pass&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Lime, agricultural, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Lime, agricultural, corn production&#39; (square meter, Northern America, None),
+ &#39;Tillage, intensive, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Corn, whole plant, at field&#39; (kilogram, Northern America, None)]</pre>
 </div>
 
 </div>
@@ -16391,7 +16365,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[101]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s1">&#39;corn&#39;</span><span class="p">))</span>
@@ -16412,7 +16386,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[101]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
 
 
 
@@ -16444,7 +16418,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[121]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s1">&#39;corn&#39;</span><span class="p">,</span> <span class="nb">filter</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;categories&#39;</span><span class="p">:</span> <span class="s1">&#39;Technosphere&#39;</span><span class="p">})</span> <span class="c1"># Here I show the flows</span>
@@ -16477,32 +16451,32 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[121]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;Corn, decomposition&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
- &#39;Corn, at field&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
- &#39;Pesticide, corn&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
- &#39;Fertilizer, corn&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+<pre>[&#39;Corn, at field&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
  &#39;Corn, production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
  &#39;Seed corn&#39; (, None, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
- &#39;Corn stover, carted&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Corn, decomposition&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
+ &#39;Fertilizer, corn&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Pesticide, corn&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Corn steep liquor&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;31-33: Manufacturing&#39;, &#39;3112: Grain and Oilseed Milling&#39;)),
  &#39;Corn stover, production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
+ &#39;Corn stover, carted&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
  &#39;Corn Starch, at plant&#39; (, None, (&#39;Technosphere Flows&#39;, &#39;CUTOFF Flows&#39;)),
  &#39;Corn stover, at field&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1111: Oilseed and Grain Farming&#39;)),
- &#39;Corn steep liquor&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;31-33: Manufacturing&#39;, &#39;3112: Grain and Oilseed Milling&#39;)),
- &#39;Tillage, intensive, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
- &#39;Corn grain, at conversion plant&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;48-49: Transportation and Warehousing&#39;, &#39;4842: Specialized Freight Trucking&#39;)),
- &#39;Corn stover, ground and stored&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
- &#39;Corn grain, harvested and stored&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
- &#39;Lime, agricultural, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
  &#39;Tillage, conservation, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
  &#39;Corn stover, at conversion plant&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;48-49: Transportation and Warehousing&#39;, &#39;4842: Specialized Freight Trucking&#39;)),
  &#39;Tillage, reduce, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
  &#39;Harvest, corn, single pass&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Lime, agricultural, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Tillage, intensive, corn production&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Corn grain, harvested and stored&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
+ &#39;Corn grain, at conversion plant&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;48-49: Transportation and Warehousing&#39;, &#39;4842: Specialized Freight Trucking&#39;)),
+ &#39;Corn stover, ground and stored&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;11: Agriculture, Forestry, Fishing and Hunting&#39;, &#39;1151: Support Activities for Crop Production&#39;)),
  &#39;Ethanol, denatured, corn dry mill&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;31-33: Manufacturing&#39;, &#39;3251: Basic Chemical Manufacturing&#39;)),
  &#39;Ethanol, denatured, corn stover, biochemical&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;31-33: Manufacturing&#39;, &#39;3251: Basic Chemical Manufacturing&#39;)),
  &#39;Corn wet milling, operations, AP-42&#39; (, Northern America, (&#39;Technosphere Flows&#39;, &#39;31-33: Manufacturing&#39;, &#39;3112: Grain and Oilseed Milling&#39;)),
@@ -16532,7 +16506,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[122]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s1">&#39;corn&#39;</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;categories&#39;</span><span class="p">:</span> <span class="s1">&#39;Technosphere&#39;</span><span class="p">})</span> <span class="c1"># Here I show the processes</span>
@@ -16565,26 +16539,26 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[122]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;Corn stover, carted&#39; (kilogram, Northern America, None),
- &#39;Corn steep liquor&#39; (kilogram, Northern America, None),
- &#39;Corn, production, average, US, 2022&#39; (kilogram, Northern America, None),
- &#39;Lime, agricultural, corn production&#39; (square meter, Northern America, None),
+<pre>[&#39;Corn steep liquor&#39; (kilogram, Northern America, None),
+ &#39;Corn stover, carted&#39; (kilogram, Northern America, None),
+ &#39;Corn, whole plant, at field&#39; (kilogram, Northern America, None),
+ &#39;Corn, decomposition, 15.5% moisture&#39; (kilogram, Northern America, None),
  &#39;Corn grain, harvested and stored&#39; (kilogram, Northern America, None),
  &#39;Harvest, corn, single pass&#39; (square meter, Northern America, None),
+ &#39;Lime, agricultural, corn production&#39; (square meter, Northern America, None),
+ &#39;Corn, whole plant, at field&#39; (kilogram, Northern America, None),
  &#39;Tillage, intensive, corn production&#39; (square meter, Northern America, None),
- &#39;Corn, decomposition, 15.5% moisture&#39; (kilogram, Northern America, None),
- &#39;Corn, whole plant, at field&#39; (kilogram, Northern America, None),
- &#39;Corn stover, ground and stored&#39; (kilogram, Northern America, None),
- &#39;Corn, whole plant, at field&#39; (kilogram, Northern America, None),
  &#39;Tillage, conservation, corn production&#39; (square meter, Northern America, None),
- &#39;Corn stover, at conversion plant, 2022&#39; (kilogram, Northern America, None),
+ &#39;Corn, production, average, US, 2022&#39; (kilogram, Northern America, None),
+ &#39;Corn stover, ground and stored&#39; (kilogram, Northern America, None),
  &#39;Corn grain, at conversion plant, 2022&#39; (kilogram, Northern America, None),
+ &#39;Corn stover, at conversion plant, 2022&#39; (kilogram, Northern America, None),
  &#39;Ethanol, denatured, corn dry mill&#39; (kilogram, Northern America, None),
  &#39;Ethanol, denatured, corn dry mill&#39; (kilogram, Northern America, None),
  &#39;Corn stover, production, average, US, 2022&#39; (kilogram, Northern America, None),
@@ -16658,7 +16632,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[169]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">([</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="s1">&#39;.&#39;</span> <span class="ow">in</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]])</span>
@@ -16679,7 +16653,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[169]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 
 
 
@@ -16694,12 +16668,12 @@ Indicates that the locations given are not within the brightway2 geocollections.
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">([</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="s1">&#39;.&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]])</span>
@@ -16708,6 +16682,31 @@ Indicates that the locations given are not within the brightway2 geocollections.
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>1635</pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -16733,7 +16732,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[176]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">([</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;allocationFactors&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="s1">&#39;.&#39;</span> <span class="ow">in</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]])</span>
@@ -16754,7 +16753,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[176]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
 
 
 
@@ -16786,7 +16785,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[179]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">([</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="s1">&#39;allocationFactors&#39;</span> <span class="ow">in</span> <span class="n">act</span><span class="p">])</span>
@@ -16807,7 +16806,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[179]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
 
 
 
@@ -16851,7 +16850,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[186]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">([</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">act</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">15</span> <span class="ow">and</span> <span class="s1">&#39;.&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]])</span>
@@ -16872,13 +16871,13 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[186]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>35</pre>
+<pre>1</pre>
 </div>
 
 </div>
@@ -16892,7 +16891,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[191]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">act</span><span class="o">.</span><span class="n">as_dict</span><span class="p">()</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">act</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">15</span> <span class="ow">and</span> <span class="s1">&#39;.&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]];</span>
@@ -16920,7 +16919,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[195]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">([</span><span class="n">act</span><span class="o">.</span><span class="n">as_dict</span><span class="p">()</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">act</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">15</span><span class="p">])</span>
@@ -16941,13 +16940,13 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[195]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>198</pre>
+<pre>13</pre>
 </div>
 
 </div>
@@ -16973,7 +16972,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[205]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">median</span><span class="p">([</span><span class="nb">len</span><span class="p">(</span><span class="n">act</span><span class="o">.</span><span class="n">as_dict</span><span class="p">())</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span><span class="p">]),</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">([</span><span class="nb">len</span><span class="p">(</span><span class="n">act</span><span class="o">.</span><span class="n">as_dict</span><span class="p">())</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span><span class="p">]),</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">([</span><span class="nb">len</span><span class="p">(</span><span class="n">act</span><span class="o">.</span><span class="n">as_dict</span><span class="p">())</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span><span class="p">])</span>
@@ -16994,13 +16993,13 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[205]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>(8.0, 10.327787021630616, 3.472199859409119)</pre>
+<pre>(8.0, 9.701053799223516, 2.5536797151386317)</pre>
 </div>
 
 </div>
@@ -17038,7 +17037,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[299]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">entries</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">19</span><span class="p">):</span>
@@ -17072,13 +17071,13 @@ Indicates that the locations given are not within the brightway2 geocollections.
 # of activities with 9 entries: 0
 # of activities with 10 entries: 0
 # of activities with 11 entries: 0
-# of activities with 12 entries: 0
-# of activities with 13 entries: 0
-# of activities with 14 entries: 15
-# of activities with 15 entries: 352
-# of activities with 16 entries: 151
-# of activities with 17 entries: 34
-# of activities with 18 entries: 13
+# of activities with 12 entries: 15
+# of activities with 13 entries: 352
+# of activities with 14 entries: 151
+# of activities with 15 entries: 34
+# of activities with 16 entries: 13
+# of activities with 17 entries: 0
+# of activities with 18 entries: 0
 </pre>
 </div>
 </div>
@@ -17092,7 +17091,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[300]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">entry_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">([</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">18</span><span class="p">])</span>
@@ -17108,7 +17107,7 @@ Indicates that the locations given are not within the brightway2 geocollections.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[301]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">entry_list</span><span class="p">:</span>
@@ -17142,17 +17141,34 @@ Indicates that the locations given are not within the brightway2 geocollections.
 
 There are <span class="ansi-bold">1237</span> activities with <span class="ansi-bold">8</span> entries. Its keys are: dict_keys([&#39;code&#39;, &#39;name&#39;, &#39;categories&#39;, &#39;location&#39;, &#39;unit&#39;, &#39;type&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">8</span> keys, of which <span class="ansi-bold">0</span> are processes.
 
-There are <span class="ansi-bold">15</span> activities with <span class="ansi-bold">14</span> entries. Its keys are: dict_keys([&#39;name&#39;, &#39;version&#39;, &#39;defaultAllocationMethod&#39;, &#39;location&#39;, &#39;processDocumentation&#39;, &#39;lastInternalId&#39;, &#39;filename&#39;, &#39;unit&#39;, &#39;code&#39;, &#39;classifications&#39;, &#39;type&#39;, &#39;modified&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">14</span> keys, of which <span class="ansi-bold">15</span> are processes.
+There are <span class="ansi-bold">151</span> activities with <span class="ansi-bold">14</span> entries. Its keys are: dict_keys([&#39;name&#39;, &#39;description&#39;, &#39;version&#39;, &#39;defaultAllocationMethod&#39;, &#39;location&#39;, &#39;allocationFactors&#39;, &#39;filename&#39;, &#39;code&#39;, &#39;unit&#39;, &#39;classifications&#39;, &#39;type&#39;, &#39;modified&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">14</span> keys, of which <span class="ansi-bold">151</span> are processes.
 
-There are <span class="ansi-bold">352</span> activities with <span class="ansi-bold">15</span> entries. Its keys are: dict_keys([&#39;name&#39;, &#39;description&#39;, &#39;version&#39;, &#39;defaultAllocationMethod&#39;, &#39;location&#39;, &#39;processDocumentation&#39;, &#39;lastInternalId&#39;, &#39;filename&#39;, &#39;unit&#39;, &#39;code&#39;, &#39;classifications&#39;, &#39;type&#39;, &#39;modified&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">15</span> keys, of which <span class="ansi-bold">352</span> are processes.
+There are <span class="ansi-bold">34</span> activities with <span class="ansi-bold">15</span> entries. Its keys are: dict_keys([&#39;name&#39;, &#39;description&#39;, &#39;version&#39;, &#39;defaultAllocationMethod&#39;, &#39;location&#39;, &#39;dqSystem&#39;, &#39;dqEntry&#39;, &#39;filename&#39;, &#39;unit&#39;, &#39;code&#39;, &#39;classifications&#39;, &#39;type&#39;, &#39;modified&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">15</span> keys, of which <span class="ansi-bold">34</span> are processes.
 
-There are <span class="ansi-bold">151</span> activities with <span class="ansi-bold">16</span> entries. Its keys are: dict_keys([&#39;name&#39;, &#39;description&#39;, &#39;version&#39;, &#39;defaultAllocationMethod&#39;, &#39;location&#39;, &#39;processDocumentation&#39;, &#39;lastInternalId&#39;, &#39;allocationFactors&#39;, &#39;filename&#39;, &#39;code&#39;, &#39;unit&#39;, &#39;classifications&#39;, &#39;type&#39;, &#39;modified&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">16</span> keys, of which <span class="ansi-bold">151</span> are processes.
-
-There are <span class="ansi-bold">34</span> activities with <span class="ansi-bold">17</span> entries. Its keys are: dict_keys([&#39;name&#39;, &#39;description&#39;, &#39;version&#39;, &#39;defaultAllocationMethod&#39;, &#39;location&#39;, &#39;processDocumentation&#39;, &#39;dqSystem&#39;, &#39;dqEntry&#39;, &#39;lastInternalId&#39;, &#39;filename&#39;, &#39;unit&#39;, &#39;code&#39;, &#39;classifications&#39;, &#39;type&#39;, &#39;modified&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">17</span> keys, of which <span class="ansi-bold">34</span> are processes.
-
-There are <span class="ansi-bold">13</span> activities with <span class="ansi-bold">18</span> entries. Its keys are: dict_keys([&#39;name&#39;, &#39;description&#39;, &#39;version&#39;, &#39;defaultAllocationMethod&#39;, &#39;location&#39;, &#39;processDocumentation&#39;, &#39;dqSystem&#39;, &#39;dqEntry&#39;, &#39;lastInternalId&#39;, &#39;allocationFactors&#39;, &#39;filename&#39;, &#39;code&#39;, &#39;unit&#39;, &#39;classifications&#39;, &#39;type&#39;, &#39;modified&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">18</span> keys, of which <span class="ansi-bold">13</span> are processes.
+There are <span class="ansi-bold">13</span> activities with <span class="ansi-bold">16</span> entries. Its keys are: dict_keys([&#39;name&#39;, &#39;description&#39;, &#39;version&#39;, &#39;defaultAllocationMethod&#39;, &#39;location&#39;, &#39;dqSystem&#39;, &#39;dqEntry&#39;, &#39;allocationFactors&#39;, &#39;filename&#39;, &#39;code&#39;, &#39;unit&#39;, &#39;classifications&#39;, &#39;type&#39;, &#39;modified&#39;, &#39;database&#39;, &#39;id&#39;]). There are a total of <span class="ansi-bold">16</span> keys, of which <span class="ansi-bold">13</span> are processes.
 
 </pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">IndexError</span>                                Traceback (most recent call last)
+Input <span class="ansi-green-fg">In [44]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> i <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> entry_list:
+<span class="ansi-green-intense-fg ansi-bold">      2</span>     activities <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">len</span>([act<span style="color: rgb(98,98,98)">.</span>as_dict() <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> act <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> db <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">len</span>(act) <span style="color: rgb(98,98,98)">==</span> i])
+<span class="ansi-green-fg">----&gt; 3</span>     keys <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg">act</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">as_dict</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">keys</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">for</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">act</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(175,0,255)">in</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">db</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">if</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">len</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">act</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">==</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">i</span><span class="ansi-yellow-bg">]</span><span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">0</span><span class="ansi-yellow-bg">]</span>
+<span class="ansi-green-intense-fg ansi-bold">      4</span>     processes <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">len</span>([act<span style="color: rgb(98,98,98)">.</span>as_dict() <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> act <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> db <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">len</span>(act) <span style="color: rgb(98,98,98)">==</span> i <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> act[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">type</span><span style="color: rgb(175,0,0)">&#39;</span>] <span style="color: rgb(98,98,98)">==</span> <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">process</span><span style="color: rgb(175,0,0)">&#39;</span>])
+<span class="ansi-green-intense-fg ansi-bold">      5</span>     len_keys <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">len</span>(keys)
+
+<span class="ansi-red-fg">IndexError</span>: list index out of range</pre>
 </div>
 </div>
 
@@ -17172,15 +17188,32 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">act</span><span class="o">.</span><span class="n">as_dict</span><span class="p">()</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">act</span><span class="p">)</span> <span class="o">==</span> <span class="mi">7</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[302]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">act</span><span class="o">.</span><span class="n">as_dict</span><span class="p">()</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">act</span><span class="p">)</span> <span class="o">==</span> <span class="mi">7</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dummy</span> <span class="o">=</span> <span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">act</span><span class="p">)</span> <span class="o">==</span> <span class="mi">7</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">dummy</span>
 </pre></div>
 
      </div>
@@ -17198,19 +17231,54 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[302]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[54]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[{&#39;name&#39;: &#39;dummy&#39;,
-  &#39;database&#39;: &#39;USLCI_FY22_Q2_1&#39;,
-  &#39;code&#39;: &#39;dummy&#39;,
-  &#39;categories&#39;: (&#39;dummy&#39;,),
-  &#39;location&#39;: &#39;GLO&#39;,
-  &#39;type&#39;: &#39;process&#39;,
-  &#39;id&#39;: 98322}]</pre>
+<pre>&#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,))</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">exc</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">dummy</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[Exchange: 1 None &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,)) to &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,))&gt;]</pre>
 </div>
 
 </div>
@@ -17307,7 +17375,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -17321,31 +17389,6 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>42</pre>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div>
@@ -17390,7 +17433,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[123]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bad_stuff</span> <span class="o">=</span> <span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">bio</span> <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Carbon dioxide&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
@@ -17406,7 +17449,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[124]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[58]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">myLCIAdata</span> <span class="o">=</span> <span class="p">[[(</span><span class="n">bad_stuff</span><span class="p">[</span><span class="s1">&#39;database&#39;</span><span class="p">],</span> <span class="n">bad_stuff</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]),</span> <span class="mf">2.0</span><span class="p">]]</span> <span class="c1"># A method list needs: a reference to the flow: tuple (database, &#39;code&#39;)), a characterization factor number, and localization (if no localization is given, &#39;GLO&#39; is used)</span>
@@ -17439,7 +17482,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[125]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">extr_alu</span> <span class="o">=</span> <span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;c&#39;</span><span class="p">)][</span><span class="mi">0</span><span class="p">]</span>
@@ -17455,7 +17498,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[126]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">functional_unit</span> <span class="o">=</span> <span class="p">{</span><span class="n">extr_alu</span> <span class="p">:</span> <span class="mi">5</span><span class="p">}</span>
@@ -17471,7 +17514,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[127]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">functional_unit</span><span class="p">)</span>
@@ -17492,7 +17535,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[127]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[61]:</div>
 
 
 
@@ -17539,7 +17582,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[128]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lca</span> <span class="o">=</span> <span class="n">bc</span><span class="o">.</span><span class="n">LCA</span><span class="p">(</span><span class="n">functional_unit</span><span class="p">,</span> <span class="n">method_key</span><span class="p">)</span> 
@@ -17555,7 +17598,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[129]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[63]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#bc.LeastSquaresLCA(lca)</span>
@@ -17571,7 +17614,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[130]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lca</span><span class="o">.</span><span class="n">lci</span><span class="p">()</span> 
@@ -17602,7 +17645,7 @@ There are <span class="ansi-bold">13</span> activities with <span class="ansi-bo
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">NonsquareTechnosphere</span>                     Traceback (most recent call last)
-Input <span class="ansi-green-fg">In [130]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-fg">()</span>
+Input <span class="ansi-green-fg">In [64]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-fg">()</span>
 <span class="ansi-green-fg">----&gt; 1</span> <span class="ansi-yellow-bg">lca</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">lci</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span> 
 <span class="ansi-green-intense-fg ansi-bold">      2</span> lca<span style="color: rgb(98,98,98)">.</span>lcia()
 <span class="ansi-green-intense-fg ansi-bold">      3</span> lca<span style="color: rgb(98,98,98)">.</span>score
@@ -17668,19 +17711,65 @@ File <span class="ansi-green-fg">~/Documents/Postdoc/Software_dev/Brightway/Brig
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[131]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are: &#39;</span><span class="p">,</span> <span class="mi">927</span> <span class="o">-</span> <span class="mi">566</span><span class="p">,</span> <span class="s1">&#39;additional products.&#39;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>There are:  361 additional products.
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[69]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_activities</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">n_processes</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">process</span> <span class="ow">in</span> <span class="n">db</span><span class="p">:</span>
-    <span class="n">n_prod</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">n_flow</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">m_bio</span> <span class="o">=</span> <span class="mi">0</span>
+    
+<span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span><span class="p">:</span>
+
     <span class="n">n_activities</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">process</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;process&#39;</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;process&#39;</span><span class="p">:</span>
         <span class="n">n_processes</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;product&#39;</span><span class="p">:</span>
+        <span class="n">n_flow</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;biosphere&#39;</span><span class="p">:</span> <span class="c1"># This is just a sanity check to see if there are some biosphere flows laying around.</span>
+        <span class="n">m_bio</span> <span class="o">+=</span> <span class="mi">1</span>
     
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are in total </span><span class="si">{}</span><span class="s1"> activities.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n_activities</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are in total </span><span class="si">{}</span><span class="s1"> processess.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n_processes</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Of which, </span><span class="si">{}</span><span class="s1"> are processess, </span><span class="si">{}</span><span class="s1"> are products (technosphere flows) and </span><span class="si">{}</span><span class="s1"> are biosphere flows.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n_processes</span><span class="p">,</span> <span class="n">n_flow</span><span class="p">,</span> <span class="n">m_bio</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -17703,7 +17792,7 @@ File <span class="ansi-green-fg">~/Documents/Postdoc/Software_dev/Brightway/Brig
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>There are in total 1803 activities.
-There are in total 566 processess.
+Of which, 566 are processess, 1237 are products (technosphere flows) and 0 are biosphere flows.
 </pre>
 </div>
 </div>
@@ -17719,7 +17808,116 @@ There are in total 566 processess.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>So... There are a total of 1803 activities. From those, 566 are processes and 927 are products (i.e. technosphere flows)</p>
+<p>So... There are a total of 1803 activities. From those, 566 are processes and 1237 are products (i.e. technosphere flows)</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Ok.... those are a bunch of products. My problem here is that I need only 566 products to be linked with processes to make the matrix square. Let's see which processes have more processes as outputs. One of them is the waste flows, maybe I could create a dummy process that takes the waste flows so they are not hanging. I don't know...</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>I select a product that has a lot of waste outputs, let's see how these are labeled:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[70]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">natural_soda_ash</span> <span class="o">=</span> <span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;0d95cc8b-a9a0-3630-a760-1ab4d88257d8&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">([</span><span class="n">exc</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">natural_soda_ash</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()])</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[71]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>80</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Ok 80 exchanges, which ones are outputs?</p>
 
 </div>
 </div>
@@ -17729,10 +17927,229 @@ There are in total 566 processess.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[133]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[72]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="s1">&#39;Technosphere Flow&#39;</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;categories&#39;</span><span class="p">])]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">exc</span><span class="o">.</span><span class="n">as_dict</span><span class="p">()</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">natural_soda_ash</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()][</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[72]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>dict_keys([&#39;amount&#39;, &#39;unit&#39;, &#39;type&#39;, &#39;name&#39;, &#39;code&#39;, &#39;input&#39;, &#39;output&#39;])</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Interesting, there is a key called <code>output</code> which it should not have. Let's see what's inside:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">exc</span><span class="o">.</span><span class="n">as_dict</span><span class="p">()</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">natural_soda_ash</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()][</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[73]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;amount&#39;: 1000.0,
+ &#39;unit&#39;: &#39;kilogram&#39;,
+ &#39;type&#39;: &#39;production&#39;,
+ &#39;name&#39;: &#39;Natural soda ash (Sodium carbonate), at plant&#39;,
+ &#39;code&#39;: &#39;c0af8d39-2a03-3e1d-8548-67989e0fda5a&#39;,
+ &#39;input&#39;: (&#39;USLCI_FY22_Q2_1&#39;, &#39;c0af8d39-2a03-3e1d-8548-67989e0fda5a&#39;),
+ &#39;output&#39;: (&#39;USLCI_FY22_Q2_1&#39;, &#39;0d95cc8b-a9a0-3630-a760-1ab4d88257d8&#39;)}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li><code>'input': ('USLCI_FY22_Q2_1', 'c0af8d39-2a03-3e1d-8548-67989e0fda5a')</code>: Technosphere flow --&gt; Natural soda ash (Sodium carbonate), at plant</li>
+<li><code>'output': ('USLCI_FY22_Q2_1', '0d95cc8b-a9a0-3630-a760-1ab4d88257d8')</code>: Process --&gt; Natural soda ash (Sodium carbonate), at plant</li>
+</ul>
+<p>Interesting, the <code>output</code> is the process... I am not sure this makes sense because Brightway2 should only have <code>inputs</code>.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">exc</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">natural_soda_ash</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()</span> <span class="k">if</span> <span class="n">exc</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;production&#39;</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[74]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[Exchange: 1000.0  &#39;Natural soda ash (Sodium carbonate), at plant&#39; (, United States, (&#39;Technosphere Flows&#39;, &#39;21: Mining, Quarrying, and Oil and Gas Extraction&#39;, &#39;2123: Nonmetallic Mineral Mining and Quarrying&#39;)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;,
+ Exchange: 160.0 None &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;,
+ Exchange: 57.9 None &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;,
+ Exchange: 0.107 None &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;,
+ Exchange: 6.75 None &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[75]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">([</span><span class="n">exc</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">natural_soda_ash</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()</span> <span class="k">if</span> <span class="n">exc</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;production&#39;</span><span class="p">])</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[75]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>5</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Aha, all these wastes are dummies... is there a way a can call them something different than <code>production</code>? Let's see if all the dummies I created are the ones making my life miserable :)</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">natural_soda_ash</span><span class="o">.</span><span class="n">exchanges</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">exc</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;production&#39;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">exc</span><span class="p">)</span>
+        <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">counter</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -17753,22 +18170,14 @@ There are in total 566 processess.
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-Input <span class="ansi-green-fg">In [133]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-fg">----&gt; 1</span> [act <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> act <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> db <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">Technosphere Flow</span><span style="color: rgb(175,0,0)">&#39;</span> <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">str</span>(act[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">categories</span><span style="color: rgb(175,0,0)">&#39;</span>])]
-
-Input <span class="ansi-green-fg">In [133]</span>, in <span class="ansi-cyan-fg">&lt;listcomp&gt;</span><span class="ansi-blue-fg">(.0)</span>
-<span class="ansi-green-fg">----&gt; 1</span> [act <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> act <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> db <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">Technosphere Flow</span><span style="color: rgb(175,0,0)">&#39;</span> <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">str</span>(<span class="ansi-yellow-bg">act</span><span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">categories</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg">]</span>)]
-
-File <span class="ansi-green-fg">~/miniconda3/envs/bw2_json/lib/python3.10/site-packages/bw2data/backends/proxies.py:226</span>, in <span class="ansi-cyan-fg">Activity.__getitem__</span><span class="ansi-blue-fg">(self, key)</span>
-<span class="ansi-green-intense-fg ansi-bold">    223</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> key <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> rp<span style="color: rgb(98,98,98)">.</span>get(<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">properties</span><span style="color: rgb(175,0,0)">&#39;</span>, []):
-<span class="ansi-green-intense-fg ansi-bold">    224</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> rp[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">properties</span><span style="color: rgb(175,0,0)">&#39;</span>][key]
-<span class="ansi-green-fg">--&gt; 226</span> <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> <span class="ansi-bold" style="color: rgb(215,95,95)">KeyError</span>
-
-<span class="ansi-red-fg">KeyError</span>: </pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Exchange: 1000.0  &#39;Natural soda ash (Sodium carbonate), at plant&#39; (, United States, (&#39;Technosphere Flows&#39;, &#39;21: Mining, Quarrying, and Oil and Gas Extraction&#39;, &#39;2123: Nonmetallic Mineral Mining and Quarrying&#39;)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;
+Exchange: 160.0 None &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;
+Exchange: 57.9 None &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;
+Exchange: 0.107 None &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;
+Exchange: 6.75 None &#39;dummy&#39; (None, GLO, (&#39;dummy&#39;,)) to &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None)&gt;
+5
+</pre>
 </div>
 </div>
 
@@ -17784,7 +18193,7 @@ File <span class="ansi-green-fg">~/miniconda3/envs/bw2_json/lib/python3.10/site-
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">1803</span> <span class="o">-</span> <span class="mi">566</span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
      </div>
@@ -17792,24 +18201,152 @@ File <span class="ansi-green-fg">~/miniconda3/envs/bw2_json/lib/python3.10/site-
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_activities</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">n_processes</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">process</span> <span class="ow">in</span> <span class="n">db</span><span class="p">:</span>
-    <span class="n">n_prod</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="n">n_activities</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">process</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;process&#39;</span><span class="p">:</span>
-        <span class="n">n_processes</span> <span class="o">+=</span> <span class="mi">1</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_more_prod</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">tot_flo</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;process&#39;</span><span class="p">:</span>
+        <span class="n">n_exc</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">act</span><span class="o">.</span><span class="n">exchanges</span><span class="p">():</span>            
+            <span class="k">if</span> <span class="n">exc</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;production&#39;</span><span class="p">:</span>
+                <span class="n">n_exc</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">n_exc</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">n_more_prod</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The activity: </span><span class="si">{}</span><span class="s1"> has </span><span class="si">{}</span><span class="s1"> production exchanges.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">act</span><span class="p">,</span> <span class="n">n_exc</span><span class="p">))</span>
+            <span class="n">tot_flo</span> <span class="o">+=</span> <span class="n">n_exc</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are </span><span class="si">{}</span><span class="s1"> activities with more than 1 production flow&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n_more_prod</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are </span><span class="si">{}</span><span class="s1"> additional flows&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">tot_flo</span> <span class="o">-</span> <span class="mi">60</span><span class="p">))</span>              
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
     
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are in total </span><span class="si">{}</span><span class="s1"> activities.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n_activities</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are in total </span><span class="si">{}</span><span class="s1"> processess.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n_processes</span><span class="p">))</span>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>The activity: &#39;Natural soda ash (Sodium carbonate), at plant&#39; (kilogram, United States, None) has 5 production exchanges.
+The activity: &#39;Steel, stainless 304, quarto plate&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Aluminum, hot rolling, at plant&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Corn steep liquor&#39; (kilogram, Northern America, None) has 3 production exchanges.
+The activity: &#39;Aluminum, hot rolling, at plant&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Aluminum, primary ingot, at plant&#39; (kilogram, Northern America, None) has 9 production exchanges.
+The activity: &#39;Steel, stainless 304, flat rolled coil&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Aluminum, secondary ingot, at plant&#39; (kilogram, Northern America, None) has 10 production exchanges.
+The activity: &#39;Aluminum, extrusion, at plant&#39; (kilogram, Northern America, None) has 10 production exchanges.
+The activity: &#39;Aluminum, extrusion, at plant&#39; (kilogram, Northern America, None) has 10 production exchanges.
+The activity: &#39;Steel, stainless 304, quarto plate&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Aluminum, cold rolling, at plant&#39; (kilogram, Northern America, None) has 12 production exchanges.
+The activity: &#39;Aluminum, secondary ingot, at plant&#39; (kilogram, Northern America, None) has 10 production exchanges.
+The activity: &#39;Aluminum, primary ingot, at plant&#39; (kilogram, Northern America, None) has 9 production exchanges.
+The activity: &#39;Aluminum, extrusion, at plant&#39; (kilogram, Northern America, None) has 10 production exchanges.
+The activity: &#39;Sodium hydroxide; chlor-alkali average, membrane cell; at plant; 50% solution state&#39; (kilogram, Northern America, None) has 2 production exchanges.
+The activity: &#39;Polyethylene, high density, HDPE, virgin resin, at plant&#39; (kilogram, Northern America, None) has 8 production exchanges.
+The activity: &#39;Steel, stainless 304, scrap&#39; (kilogram, Global, None) has 11 production exchanges.
+The activity: &#39;Steel, stainless 304, scrap&#39; (kilogram, Global, None) has 11 production exchanges.
+The activity: &#39;Aluminum, secondary ingot, at plant&#39; (kilogram, Northern America, None) has 10 production exchanges.
+The activity: &#39;Aluminum, extrusion, at plant&#39; (kilogram, Northern America, None) has 10 production exchanges.
+The activity: &#39;Asphalt binder, 8% ground rubber tire (GRT), consumption mix, at terminal, from crude oil, 8% ground rubber tire&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Aluminum, hot rolling, at plant&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Hydrogen, chlor-alkali average, membrane cell; at plant&#39; (kilogram, Northern America, None) has 2 production exchanges.
+The activity: &#39;Aluminum, secondary ingot, at plant&#39; (kilogram, Northern America, None) has 10 production exchanges.
+The activity: &#39;Steel, stainless 304, flat rolled coil&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Steel, stainless 304, quarto plate&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Natural gas, at extraction, Marcellus Shale, kg&#39; (kilogram, United States, None) has 2 production exchanges.
+The activity: &#39;Steel, stainless 304, quarto plate&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Steel, stainless 304, quarto plate&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Paraxylene, at plant, kg&#39; (kilogram, Northern America, None) has 4 production exchanges.
+The activity: &#39;Natural gas, at extraction, conventional onshore, kg&#39; (kilogram, United States, None) has 2 production exchanges.
+The activity: &#39;Steel, stainless 304, flat rolled coil&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Asphalt binder, 3.5% styrene-butadiene-styrene (SBS), consumption mix, at terminal, from crude oil, 3.5% styrene-butadiene-styrene&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Natural gas, at extraction, Barnett Shale, kg&#39; (kilogram, United States, None) has 2 production exchanges.
+The activity: &#39;Steel, stainless 304, quarto plate&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Steel, stainless 304, flat rolled coil&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Natural gas, at extraction, coal bed methane, kg&#39; (kilogram, United States, None) has 2 production exchanges.
+The activity: &#39;Steel, stainless 304, scrap&#39; (kilogram, Global, None) has 11 production exchanges.
+The activity: &#39;Ethylene glycol, materials production, organic compound, at plant, kg&#39; (kilogram, Northern America, None) has 5 production exchanges.
+The activity: &#39;Ethylene, materials production, organic compound, at plant, kg&#39; (kilogram, United States, None) has 7 production exchanges.
+The activity: &#39;Polypropylene, PP, virgin resin, at plant&#39; (kilogram, Northern America, None) has 6 production exchanges.
+The activity: &#39;Steel, stainless 304, flat rolled coil&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Aluminum, cold rolling, at plant&#39; (kilogram, Northern America, None) has 12 production exchanges.
+The activity: &#39;Asphalt binder, 0.5% polyphosphoric acid (PPA), consumption mix, at terminal, from crude oil, 0.5% polyphosphoric acid&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Aluminum, primary ingot, at plant&#39; (kilogram, Northern America, None) has 9 production exchanges.
+The activity: &#39;Polystyrene, expanded, EPS, virgin resin; batch suspension polymerization; industry average, at plant&#39; (kilogram, Northern America, None) has 7 production exchanges.
+The activity: &#39;Aluminum, cold rolling, at plant&#39; (kilogram, Northern America, None) has 12 production exchanges.
+The activity: &#39;Natural gas, at extraction, conventional offshore, kg&#39; (kilogram, United States, None) has 2 production exchanges.
+The activity: &#39;Polyethylene, low-density, LDPE, virgin resin, at plant&#39; (kilogram, Northern America, None) has 7 production exchanges.
+The activity: &#39;Steel, stainless 304, scrap&#39; (kilogram, Global, None) has 11 production exchanges.
+The activity: &#39;Steel, stainless 304, scrap&#39; (kilogram, Global, None) has 11 production exchanges.
+The activity: &#39;Asphalt binder, no additives, consumption mix, at terminal, from crude oil&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Polyethylene, high density, HDPE, virgin resin, at plant&#39; (kilogram, Northern America, None) has 8 production exchanges.
+The activity: &#39;Aluminum, primary ingot, at plant&#39; (kilogram, Northern America, None) has 9 production exchanges.
+The activity: &#39;Steel, stainless 304, scrap&#39; (kilogram, Global, None) has 11 production exchanges.
+The activity: &#39;Propylene, materials production, organic compound, at plant, kg&#39; (kilogram, Northern America, None) has 7 production exchanges.
+The activity: &#39;Steel, stainless 304, flat rolled coil&#39; (kilogram, Northern America, None) has 11 production exchanges.
+The activity: &#39;Aluminum, cold rolling, at plant&#39; (kilogram, Northern America, None) has 12 production exchanges.
+The activity: &#39;Aluminum, hot rolling, at plant&#39; (kilogram, Northern America, None) has 11 production exchanges.
+There are 60 activities with more than 1 production flow
+There are 471 additional flows
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Ok, 60 activities with more than 1 production flow. If I add all of them and substract 60 (because 60 activities should have 1 production) I get 471 additional flows, more than the 361 that are unpaired. Where are these 110 extra flows coming from? Looking at this output, it seems like there are some processes that are repeated.... WHYYY</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Let's check some of these processes:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[83]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">])</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Steel, stainless 304, flat rolled coil&#39;</span> <span class="ow">and</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;process&#39;</span><span class="p">]</span>
 </pre></div>
 
      </div>
@@ -17817,6 +18354,265 @@ File <span class="ansi-green-fg">~/miniconda3/envs/bw2_json/lib/python3.10/site-
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[83]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[(&#39;Steel, stainless 304, flat rolled coil&#39;,
+  &#39;49f5324b-fc33-36e9-b5af-3c80d73492bd.3f2fed05-f530-32e9-b0f9-0dcb5280aa9d&#39;),
+ (&#39;Steel, stainless 304, flat rolled coil&#39;,
+  &#39;49f5324b-fc33-36e9-b5af-3c80d73492bd.04e2c1f0-3de4-369c-b16f-cb598637080d&#39;),
+ (&#39;Steel, stainless 304, flat rolled coil&#39;,
+  &#39;49f5324b-fc33-36e9-b5af-3c80d73492bd.ddd41ace-b67e-306c-908c-cdc7ee770808&#39;),
+ (&#39;Steel, stainless 304, flat rolled coil&#39;,
+  &#39;49f5324b-fc33-36e9-b5af-3c80d73492bd.88e09cb2-7d73-3785-858c-469ad271dbef&#39;),
+ (&#39;Steel, stainless 304, flat rolled coil&#39;,
+  &#39;49f5324b-fc33-36e9-b5af-3c80d73492bd.0516b21b-b1c8-3eb4-9b2e-5981a50be898&#39;),
+ (&#39;Steel, stainless 304, flat rolled coil&#39;,
+  &#39;49f5324b-fc33-36e9-b5af-3c80d73492bd.e2866178-01b8-329e-ae07-4e8a0030b39f&#39;)]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Interesting... they share the initial code, and they have a different code at the end...</p>
+<ul>
+<li><code>Steel, stainless 304, flat rolled coil', '49f5324b-fc33-36e9-b5af-3c80d73492bd.3f2fed05-f530-32e9-b0f9-0dcb5280aa9d</code>: Steel, stainless 304, flat rolled coil (FLOW)</li>
+<li><code>Steel, stainless 304, flat rolled coil', '49f5324b-fc33-36e9-b5af-3c80d73492bd.04e2c1f0-3de4-369c-b16f-cb598637080d</code>: Water (groundwater from technosphere, waste water)</li>
+<li><code>Steel, stainless 304, flat rolled coil', '49f5324b-fc33-36e9-b5af-3c80d73492bd.ddd41ace-b67e-306c-908c-cdc7ee770808</code>: Water (river water from technosphere, turbined)</li>
+<li><code>Steel, stainless 304, flat rolled coil', '49f5324b-fc33-36e9-b5af-3c80d73492bd.88e09cb2-7d73-3785-858c-469ad271dbef</code>: Water (river water from technosphere, waste water)</li>
+<li><code>Steel, stainless 304, flat rolled coil', '49f5324b-fc33-36e9-b5af-3c80d73492bd.0516b21b-b1c8-3eb4-9b2e-5981a50be898</code>: Water (sea water from technosphere, waste water)</li>
+<li><code>Steel, stainless 304, flat rolled coil', '49f5324b-fc33-36e9-b5af-3c80d73492bd.e2866178-01b8-329e-ae07-4e8a0030b39f</code>: Water (sea water from technosphere, cooling water)</li>
+</ul>
+<p>Ooookey, so brightway2 has created a new process for each technosphere flow that was a production flow, smart way of getting square matrix. I guess this is why we have those extra flows, if I add them... will they sum 110?</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[86]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_more_prod</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">tot_flo</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;process&#39;</span> <span class="ow">and</span> <span class="s2">&quot;.&quot;</span> <span class="ow">in</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]:</span>
+        <span class="n">n_exc</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">act</span><span class="o">.</span><span class="n">exchanges</span><span class="p">():</span>            
+            <span class="k">if</span> <span class="n">exc</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;production&#39;</span><span class="p">:</span>
+                <span class="n">n_exc</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">n_exc</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">n_more_prod</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The activity: </span><span class="si">{}</span><span class="s1">, with code </span><span class="si">{}</span><span class="s1"> has </span><span class="si">{}</span><span class="s1"> production exchanges.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">],</span> <span class="n">n_exc</span><span class="p">))</span>
+            <span class="n">tot_flo</span> <span class="o">+=</span> <span class="n">n_exc</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are </span><span class="si">{}</span><span class="s1"> activities with more than 1 production flow&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n_more_prod</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are </span><span class="si">{}</span><span class="s1"> additional flows&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">tot_flo</span> <span class="o">-</span> <span class="mi">60</span><span class="p">))</span>              
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>The activity: Polyethylene, high density, HDPE, virgin resin, at plant, with code 2712f03a-80fe-4a2b-9005-ca9ba99f7eb3.0def374e-dc34-4f2a-81d6-1a8f4eb7faa6 has 8 production exchanges.
+The activity: Aluminum, secondary ingot, at plant, with code bcc68f88-debb-3fc3-93ee-5ceadcef0b14.36549ddd-3dca-3b48-a1b0-7c6889afba05 has 10 production exchanges.
+The activity: Steel, stainless 304, scrap, with code 34897ebd-aa3d-347c-91ee-876c3f835fdb.0516b21b-b1c8-3eb4-9b2e-5981a50be898 has 11 production exchanges.
+The activity: Steel, stainless 304, flat rolled coil, with code 49f5324b-fc33-36e9-b5af-3c80d73492bd.04e2c1f0-3de4-369c-b16f-cb598637080d has 11 production exchanges.
+The activity: Aluminum, hot rolling, at plant, with code 381d3e3d-29ae-3101-a95b-56a4cec08486.88e09cb2-7d73-3785-858c-469ad271dbef has 11 production exchanges.
+The activity: Aluminum, extrusion, at plant, with code 77fe2197-8861-3569-8d85-07151789b1e7.ddd41ace-b67e-306c-908c-cdc7ee770808 has 10 production exchanges.
+The activity: Aluminum, primary ingot, at plant, with code 99963138-ddf9-3b32-9e93-69593d76cb08.88e09cb2-7d73-3785-858c-469ad271dbef has 9 production exchanges.
+The activity: Aluminum, cold rolling, at plant, with code 2b196386-eb1a-352a-aeda-4d003144f6df.0516b21b-b1c8-3eb4-9b2e-5981a50be898 has 12 production exchanges.
+The activity: Steel, stainless 304, quarto plate, with code 8560388b-7ea1-38b7-befc-fd25d5deb450.88e09cb2-7d73-3785-858c-469ad271dbef has 11 production exchanges.
+The activity: Steel, stainless 304, quarto plate, with code 8560388b-7ea1-38b7-befc-fd25d5deb450.0516b21b-b1c8-3eb4-9b2e-5981a50be898 has 11 production exchanges.
+The activity: Steel, stainless 304, scrap, with code 34897ebd-aa3d-347c-91ee-876c3f835fdb.0178afd7-c74a-3a8f-8f15-d57904d3c377 has 11 production exchanges.
+The activity: Aluminum, secondary ingot, at plant, with code bcc68f88-debb-3fc3-93ee-5ceadcef0b14.ddd41ace-b67e-306c-908c-cdc7ee770808 has 10 production exchanges.
+The activity: Polyethylene, high density, HDPE, virgin resin, at plant, with code 2712f03a-80fe-4a2b-9005-ca9ba99f7eb3.c747a0a0-bd5d-3a78-af02-58a5027d6cf5 has 8 production exchanges.
+The activity: Aluminum, secondary ingot, at plant, with code bcc68f88-debb-3fc3-93ee-5ceadcef0b14.88e09cb2-7d73-3785-858c-469ad271dbef has 10 production exchanges.
+The activity: Steel, stainless 304, quarto plate, with code 8560388b-7ea1-38b7-befc-fd25d5deb450.ddd41ace-b67e-306c-908c-cdc7ee770808 has 11 production exchanges.
+The activity: Aluminum, primary ingot, at plant, with code 99963138-ddf9-3b32-9e93-69593d76cb08.ddd41ace-b67e-306c-908c-cdc7ee770808 has 9 production exchanges.
+The activity: Aluminum, hot rolling, at plant, with code 381d3e3d-29ae-3101-a95b-56a4cec08486.ddd41ace-b67e-306c-908c-cdc7ee770808 has 11 production exchanges.
+The activity: Aluminum, extrusion, at plant, with code 77fe2197-8861-3569-8d85-07151789b1e7.88e09cb2-7d73-3785-858c-469ad271dbef has 10 production exchanges.
+The activity: Steel, stainless 304, scrap, with code 34897ebd-aa3d-347c-91ee-876c3f835fdb.88e09cb2-7d73-3785-858c-469ad271dbef has 11 production exchanges.
+The activity: Aluminum, hot rolling, at plant, with code 381d3e3d-29ae-3101-a95b-56a4cec08486.dc4d39f5-33ce-3633-8b50-0ebd40aa06cf has 11 production exchanges.
+The activity: Steel, stainless 304, flat rolled coil, with code 49f5324b-fc33-36e9-b5af-3c80d73492bd.88e09cb2-7d73-3785-858c-469ad271dbef has 11 production exchanges.
+The activity: Aluminum, hot rolling, at plant, with code 381d3e3d-29ae-3101-a95b-56a4cec08486.0516b21b-b1c8-3eb4-9b2e-5981a50be898 has 11 production exchanges.
+The activity: Steel, stainless 304, quarto plate, with code 8560388b-7ea1-38b7-befc-fd25d5deb450.99620b27-83a1-301d-8290-1d94cd81af3f has 11 production exchanges.
+The activity: Aluminum, extrusion, at plant, with code 77fe2197-8861-3569-8d85-07151789b1e7.0516b21b-b1c8-3eb4-9b2e-5981a50be898 has 10 production exchanges.
+The activity: Steel, stainless 304, quarto plate, with code 8560388b-7ea1-38b7-befc-fd25d5deb450.e2866178-01b8-329e-ae07-4e8a0030b39f has 11 production exchanges.
+The activity: Steel, stainless 304, quarto plate, with code 8560388b-7ea1-38b7-befc-fd25d5deb450.04e2c1f0-3de4-369c-b16f-cb598637080d has 11 production exchanges.
+The activity: Steel, stainless 304, flat rolled coil, with code 49f5324b-fc33-36e9-b5af-3c80d73492bd.0516b21b-b1c8-3eb4-9b2e-5981a50be898 has 11 production exchanges.
+The activity: Steel, stainless 304, scrap, with code 34897ebd-aa3d-347c-91ee-876c3f835fdb.04e2c1f0-3de4-369c-b16f-cb598637080d has 11 production exchanges.
+The activity: Asphalt binder, 8% ground rubber tire (GRT), consumption mix, at terminal, from crude oil, 8% ground rubber tire, with code 72d5a381-8cae-4e1d-b0a3-26cc43b69867.ada21fb4-fd3a-4557-9085-9f1495ae8a0c has 11 production exchanges.
+The activity: Aluminum, extrusion, at plant, with code 77fe2197-8861-3569-8d85-07151789b1e7.8f715a36-b36b-3b20-81ea-7a7e1cdc47fe has 10 production exchanges.
+The activity: Aluminum, primary ingot, at plant, with code 99963138-ddf9-3b32-9e93-69593d76cb08.a0fb699f-0085-3ad2-99bf-e4ea891e61ba has 9 production exchanges.
+The activity: Aluminum, primary ingot, at plant, with code 99963138-ddf9-3b32-9e93-69593d76cb08.0516b21b-b1c8-3eb4-9b2e-5981a50be898 has 9 production exchanges.
+The activity: Steel, stainless 304, flat rolled coil, with code 49f5324b-fc33-36e9-b5af-3c80d73492bd.e2866178-01b8-329e-ae07-4e8a0030b39f has 11 production exchanges.
+The activity: Steel, stainless 304, flat rolled coil, with code 49f5324b-fc33-36e9-b5af-3c80d73492bd.ddd41ace-b67e-306c-908c-cdc7ee770808 has 11 production exchanges.
+The activity: Steel, stainless 304, flat rolled coil, with code 49f5324b-fc33-36e9-b5af-3c80d73492bd.3f2fed05-f530-32e9-b0f9-0dcb5280aa9d has 11 production exchanges.
+The activity: Steel, stainless 304, scrap, with code 34897ebd-aa3d-347c-91ee-876c3f835fdb.e2866178-01b8-329e-ae07-4e8a0030b39f has 11 production exchanges.
+The activity: Aluminum, cold rolling, at plant, with code 2b196386-eb1a-352a-aeda-4d003144f6df.e929f473-7780-3eca-94e4-a2d0f7d4b8b0 has 12 production exchanges.
+The activity: Steel, stainless 304, scrap, with code 34897ebd-aa3d-347c-91ee-876c3f835fdb.ddd41ace-b67e-306c-908c-cdc7ee770808 has 11 production exchanges.
+The activity: Aluminum, secondary ingot, at plant, with code bcc68f88-debb-3fc3-93ee-5ceadcef0b14.0516b21b-b1c8-3eb4-9b2e-5981a50be898 has 10 production exchanges.
+The activity: Aluminum, cold rolling, at plant, with code 2b196386-eb1a-352a-aeda-4d003144f6df.88e09cb2-7d73-3785-858c-469ad271dbef has 12 production exchanges.
+The activity: Aluminum, cold rolling, at plant, with code 2b196386-eb1a-352a-aeda-4d003144f6df.ddd41ace-b67e-306c-908c-cdc7ee770808 has 12 production exchanges.
+There are 41 activities with more than 1 production flow
+There are 373 additional flows
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Wow, these are more activities than I expected... then these newly created processess are multiplied but they are not fixing anything because all of them have multiple <code>production</code> processes...</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Let's look at the processes that were not 'multiplied' my guess is that these are the ones with waste flows as production, the previous ones had technosphere flows as outputs.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[87]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_more_prod</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">tot_flo</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;process&#39;</span> <span class="ow">and</span> <span class="s2">&quot;.&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]:</span>
+        <span class="n">n_exc</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">act</span><span class="o">.</span><span class="n">exchanges</span><span class="p">():</span>            
+            <span class="k">if</span> <span class="n">exc</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;production&#39;</span><span class="p">:</span>
+                <span class="n">n_exc</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">n_exc</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">n_more_prod</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The activity: </span><span class="si">{}</span><span class="s1">, with code </span><span class="si">{}</span><span class="s1"> has </span><span class="si">{}</span><span class="s1"> production exchanges.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">],</span> <span class="n">n_exc</span><span class="p">))</span>
+            <span class="n">tot_flo</span> <span class="o">+=</span> <span class="n">n_exc</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are </span><span class="si">{}</span><span class="s1"> activities with more than 1 production flow&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n_more_prod</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are </span><span class="si">{}</span><span class="s1"> additional flows&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">tot_flo</span> <span class="o">-</span> <span class="mi">60</span><span class="p">))</span>    
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>The activity: Natural soda ash (Sodium carbonate), at plant, with code 0d95cc8b-a9a0-3630-a760-1ab4d88257d8 has 5 production exchanges.
+The activity: Polypropylene, PP, virgin resin, at plant, with code 2e8facf6-46aa-4ddb-95de-a4e2a00eb2bb has 6 production exchanges.
+The activity: Natural gas, at extraction, coal bed methane, kg, with code 0945cc82-1126-45c3-b525-6d4fc913aa09 has 2 production exchanges.
+The activity: Ethylene, materials production, organic compound, at plant, kg, with code 520ecb54-7b55-42ca-97c3-4b8192189356 has 7 production exchanges.
+The activity: Natural gas, at extraction, Barnett Shale, kg, with code e7425edd-537c-497f-aa4b-7a8a79b1ab4a has 2 production exchanges.
+The activity: Natural gas, at extraction, Marcellus Shale, kg, with code 5b7c9f9b-8460-4afd-a560-b441f0fcf408 has 2 production exchanges.
+The activity: Ethylene glycol, materials production, organic compound, at plant, kg, with code 2a78de43-fdf2-4c5f-b527-89db6568ace8 has 5 production exchanges.
+The activity: Natural gas, at extraction, conventional offshore, kg, with code bc4c2bad-4bdb-4402-8aed-74efc5781057 has 2 production exchanges.
+The activity: Asphalt binder, 0.5% polyphosphoric acid (PPA), consumption mix, at terminal, from crude oil, 0.5% polyphosphoric acid, with code 28d7d56e-a751-492c-9bb1-08f19ea4ac37 has 11 production exchanges.
+The activity: Polystyrene, expanded, EPS, virgin resin; batch suspension polymerization; industry average, at plant, with code cf1241fd-8c01-3412-9030-8650b8e75669 has 7 production exchanges.
+The activity: Asphalt binder, no additives, consumption mix, at terminal, from crude oil, with code f8ce5199-1666-452b-a267-8797c94d0560 has 11 production exchanges.
+The activity: Paraxylene, at plant, kg, with code d32a7e23-c6c0-400a-8134-656a3e13c11f has 4 production exchanges.
+The activity: Propylene, materials production, organic compound, at plant, kg, with code 49d309a8-0c93-4eeb-a342-2fe2254a0bec has 7 production exchanges.
+The activity: Asphalt binder, 3.5% styrene-butadiene-styrene (SBS), consumption mix, at terminal, from crude oil, 3.5% styrene-butadiene-styrene, with code bbf3dc45-a370-405e-8996-7358b7f1841c has 11 production exchanges.
+The activity: Natural gas, at extraction, conventional onshore, kg, with code f2996639-3901-4d02-8046-4e647947b7cb has 2 production exchanges.
+The activity: Corn steep liquor, with code 68f4d066-5043-34cc-a944-5041732f8e7a has 3 production exchanges.
+The activity: Polyethylene, low-density, LDPE, virgin resin, at plant, with code 6a12cba1-889d-4515-90f8-89feb8d662f2 has 7 production exchanges.
+The activity: Hydrogen, chlor-alkali average, membrane cell; at plant, with code f179f70b-5b18-4602-9513-18ed79485ac7 has 2 production exchanges.
+The activity: Sodium hydroxide; chlor-alkali average, membrane cell; at plant; 50% solution state, with code 344a7ac0-8c18-4869-bb63-3e44e811a1d9 has 2 production exchanges.
+There are 19 activities with more than 1 production flow
+There are 38 additional flows
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Bingo</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -17849,18 +18645,6 @@ File <span class="ansi-green-fg">~/miniconda3/envs/bw2_json/lib/python3.10/site-
 </div>
 </div>
 
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>We initially have 454 processes and 454 production flows. So probably brightway has mislabeled some of the activities as processes and others as production.</p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -17869,7 +18653,7 @@ File <span class="ansi-green-fg">~/miniconda3/envs/bw2_json/lib/python3.10/site-
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">566</span><span class="o">+</span><span class="mi">173</span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
      </div>
@@ -17877,50 +18661,6 @@ File <span class="ansi-green-fg">~/miniconda3/envs/bw2_json/lib/python3.10/site-
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">927</span><span class="o">-</span><span class="mi">739</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">566</span> <span class="o">-</span> <span class="mi">454</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>These 112 processes are either mislabeled or added dummy processes.</p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -17945,66 +18685,7 @@ File <span class="ansi-green-fg">~/miniconda3/envs/bw2_json/lib/python3.10/site-
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">exc</span><span class="p">,</span> <span class="n">dumb</span><span class="p">[</span><span class="n">exc</span><span class="p">])</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">dumb</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">db</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">exc</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">exc</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">uslci</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">process_key</span><span class="p">,</span> <span class="n">process_values</span> <span class="ow">in</span> <span class="n">uslci</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;processes&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">exc</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">process_values</span><span class="p">[</span><span class="s1">&#39;exchanges&#39;</span><span class="p">]):</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">exc</span><span class="p">[</span><span class="s2">&quot;flow&quot;</span><span class="p">][</span><span class="s2">&quot;flowType&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;PRODUCT_FLOW&quot;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="o">~</span><span class="n">exc</span><span class="p">[</span><span class="s2">&quot;input&quot;</span><span class="p">])</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">exc</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;quantitativeReference&#39;</span><span class="p">)</span> <span class="ow">is</span> <span class="kc">True</span><span class="p">):</span>
-            <span class="n">prod_n</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">prod_n</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> has </span><span class="si">{}</span><span class="s1"> products&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">process_values</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="n">prod_n</span><span class="p">))</span>
-    <span class="n">total_prod</span> <span class="o">+=</span> <span class="n">prod_n</span>
-
-    <span class="c1">#print(&#39;{} has {} products&#39;.format(process_values[&#39;name&#39;], prod_n))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are </span><span class="si">{}</span><span class="s1"> products&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">total_prod</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">exc</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">dumb</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()]</span>
 </pre></div>
 
      </div>
@@ -18021,136 +18702,6 @@ File <span class="ansi-green-fg">~/miniconda3/envs/bw2_json/lib/python3.10/site-
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">dir</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">exc_df</span> <span class="o">=</span> <span class="n">processes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()</span><span class="o">.</span><span class="n">to_dataframe</span><span class="p">()</span>
-<span class="n">production</span> <span class="o">=</span> <span class="n">exc_df</span><span class="p">[</span><span class="n">exc_df</span><span class="p">[</span><span class="s1">&#39;edge_type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;production&#39;</span><span class="p">]</span>
-<span class="n">production</span>
 </pre></div>
 
      </div>

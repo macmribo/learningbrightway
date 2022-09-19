@@ -257,10 +257,10 @@ exercise_activity
 
 # As mentioned before, we also installed methods:
 
-# In[27]:
+# In[1]:
 
 
-list(bw.methods)
+list(bw.methods);
 
 
 # Select a random method:

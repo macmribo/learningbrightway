@@ -38,7 +38,7 @@ bd.projects.set_current('MLD_JSON_0')
 # In[4]:
 
 
-path = '/Users/mmendez/Documents/Postdoc/Software_dev/Brightway/BW_Tutorials/learningbrightway/7_BW2_Importing_USLCI/databases/My_little_database'
+path = '../7_BW2_Importing_USLCI/databases/My_little_database' # For some reason if I use the relative path it throws me an error
 mld = bi.importers.JSONLDImporter(
     path, 
     "My_little_dataset_v0", 
@@ -189,18 +189,6 @@ lca.score
 
 
 # Scoooooooore!!!
-
-# In[ ]:
-
-
-
-
-
-# In[22]:
-
-
-mld.data
-
 
 # In[ ]:
 
