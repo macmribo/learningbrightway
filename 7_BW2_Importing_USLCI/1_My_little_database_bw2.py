@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 
 import brightway2 as bw
@@ -44,19 +44,19 @@ import pandas as pd
 # ```
 # 
 
-# In[4]:
+# In[2]:
 
 
 bw.projects.set_current('MLD_in_bw_2')
 
 
-# In[5]:
+# In[3]:
 
 
 db = bw.Database('My_little_database')
 
 
-# In[7]:
+# In[4]:
 
 
 db
@@ -72,7 +72,7 @@ db
 # *  In JSON-LD, `'units'` are not included here, they are included in the flows, I think this unit is the unit of the reference flow or 'quantitativeReference'
 # * Exchanges - They always have to have 'input', 'amount' and 'type' minimum, you know outputs based on the sign, check out bw sign convention https://2.docs.brightway.dev/intro.html#getting-the-signs-right, I also need to see how to specify the reference flow
 
-# In[203]:
+# In[5]:
 
 
 db.write({
@@ -197,20 +197,14 @@ db.write({
 
 # Let's define the functional unit: We want to know how much GWP does the assembly of 5 bottles produce.First we start by searching the unit process of interest `Bottle prodcution`:
 
-# In[204]:
+# In[6]:
 
 
 bottellita = db.search('Bottle')[0]
 bottellita
 
 
-# In[205]:
-
-
-activity.exchanges()
-
-
-# In[211]:
+# In[7]:
 
 
 functional_unit = {db.search('Bottle')[0] : 5.0}
@@ -218,7 +212,7 @@ functional_unit = {db.search('Bottle')[0] : 5.0}
 
 # Let's now try to add some lcia methods... [source](https://2.docs.brightway.dev/intro.html#lcia-method-documents), stackoverflow question about doing a manual input of lcia methods [here](https://stackoverflow.com/questions/41466234/create-very-simple-lcia-method-in-brightway2).
 
-# In[212]:
+# In[8]:
 
 
 myLCIAdata = [[(u'My_little_database', u'cd154d8f-0694-43b2-b4ab-e44101e122bd'), 2, u'GLO']] # A method list needs: a reference to the flow: tuple (database, 'code')), a characterization factor number, and localization (if no localization is given, 'GLO' is used)
@@ -230,7 +224,7 @@ my_method.register(**my_metadata)
 my_method.write(myLCIAdata)
 
 
-# In[213]:
+# In[9]:
 
 
 my_method.metadata
@@ -239,7 +233,7 @@ my_method.metadata
 # Now we are ready to run the LCA!
 # 
 
-# In[214]:
+# In[10]:
 
 
 lca = bw.LCA(functional_unit, method_key) #run LCA calculations again with method
@@ -249,13 +243,13 @@ lca.score
 print(lca.inventory)
 
 
-# In[215]:
+# In[11]:
 
 
 lca.score # If I add location, it braks the scores and it shows 0.0
 
 
-# Where is the geolocation dictionary?
+# 
 
 # In[ ]:
 
@@ -264,9 +258,13 @@ lca.score # If I add location, it braks the scores and it shows 0.0
 
 
 # Questions:
-# * How does it know the allocation? Does it always generalize it?
-# * Figure out how it maps country codes
-# * Does the negative sign indicated resource?
-# * How do I import the LCIA methods and categories?
-# * Fix the non-unitary issue. 
 # 
+# * Figure out how it maps country codes. WCheckout the geocollection dictionary.
+# 
+# 
+
+# In[ ]:
+
+
+
+

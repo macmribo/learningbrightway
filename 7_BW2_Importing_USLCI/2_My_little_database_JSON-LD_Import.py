@@ -35,10 +35,10 @@ bd.projects.set_current('MLD_JSON_0')
 
 # #### Import JSON-LD:
 
-# In[6]:
+# In[4]:
 
 
-path = '/Users/mmendez/Documents/Postdoc/Software_dev/Brightway/Brightway_US/US_LCI_BW_Project/notebooks/databases/My_little_database/JSON-LD/My_little_database'
+path = '/Users/mmendez/Documents/Postdoc/Software_dev/Brightway/BW_Tutorials/learningbrightway/7_BW2_Importing_USLCI/databases/My_little_database'
 mld = bi.importers.JSONLDImporter(
     path, 
     "My_little_dataset_v0", 
@@ -48,7 +48,7 @@ mld = bi.importers.JSONLDImporter(
 
 # #### Apply strategies to map JSON-LD to Brightway2 schema:
 
-# In[6]:
+# In[5]:
 
 
 mld.apply_strategies()
@@ -56,7 +56,7 @@ mld.apply_strategies()
 
 # #### Check database dictionaries:
 
-# In[7]:
+# In[6]:
 
 
 bd.databases # As expected, nothing was written.
@@ -64,13 +64,13 @@ bd.databases # As expected, nothing was written.
 
 # #### Write the biosphere database:
 
-# In[8]:
+# In[7]:
 
 
 mld.write_separate_biosphere_database()
 
 
-# In[9]:
+# In[8]:
 
 
 bd.databases
@@ -78,13 +78,13 @@ bd.databases
 
 # #### Write the technosphere database:
 
-# In[10]:
+# In[9]:
 
 
 bio = bd.Database('My_little_dataset_v0 biosphere')
 
 
-# In[11]:
+# In[10]:
 
 
 mld.write_database()
@@ -96,13 +96,13 @@ mld.write_database()
 #     <li>The importer does not import the LCIA methods. <i>Hint:</i> Check bw2setup() function, this one loads LCIAs and biosphere flows.</li>
 # </div>
 
-# In[12]:
+# In[11]:
 
 
 bd.databases
 
 
-# In[13]:
+# In[12]:
 
 
 db = bd.Database('My_little_dataset_v0')
@@ -110,7 +110,7 @@ db = bd.Database('My_little_dataset_v0')
 
 # #### Let's look at the biosphere flows:
 
-# In[14]:
+# In[13]:
 
 
 [act for act in bio]
@@ -118,7 +118,7 @@ db = bd.Database('My_little_dataset_v0')
 
 # #### And now let's look at the our technosphere processes and products:
 
-# In[15]:
+# In[14]:
 
 
 [act for act in db]
@@ -126,7 +126,7 @@ db = bd.Database('My_little_dataset_v0')
 
 # #### Which ones are processes and which ones are products? Let's also get their codes:
 
-# In[16]:
+# In[15]:
 
 
 [(act['name'], act['type'], act['code']) for act in db]
@@ -137,14 +137,14 @@ db = bd.Database('My_little_dataset_v0')
 # 
 # First, let's find the `Bad stuff` biosphere flow.
 
-# In[17]:
+# In[16]:
 
 
 bad_flow = [act for act in bio if act['name'] == 'Bad stuff'][0]
 bad_flow.as_dict()
 
 
-# In[18]:
+# In[17]:
 
 
 myLCIAdata = [[(bad_flow['database'], bad_flow['code']), 2.0]] # A method list needs: a reference to the flow: tuple (database, 'code')), a characterization factor number, and localization (if no localization is given, 'GLO' is used)
@@ -158,13 +158,13 @@ my_method.write(myLCIAdata)
 # #### Now we define a functional unit:
 # This one might be a bit counterintuitive, our functional unit here is **Impact of assembling 5 bottles**, intuintively one would select the activity, but bw2 selects the flow coming out of the `Bottle assembly` activity (i.e. `Bottle`, which is a `product` not a `process`).
 
-# In[19]:
+# In[18]:
 
 
 activity = [act for act in db if act['name'] == 'Bottle'][0]
 
 
-# In[20]:
+# In[19]:
 
 
 functional_unit = {activity : 5}
@@ -172,7 +172,7 @@ functional_unit = {activity : 5}
 
 # #### Run the LCA!
 
-# In[21]:
+# In[20]:
 
 
 lca = bc.LCA(functional_unit, method_key) 
@@ -182,17 +182,13 @@ lca.score
 print(lca.inventory)
 
 
-# In[22]:
+# In[21]:
 
 
 lca.score
 
 
-# In[ ]:
-
-
-
-
+# Scoooooooore!!!
 
 # In[ ]:
 
@@ -200,7 +196,7 @@ lca.score
 
 
 
-# In[23]:
+# In[22]:
 
 
 mld.data
