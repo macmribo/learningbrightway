@@ -30,7 +30,7 @@ bd.projects.dir
 # In[3]:
 
 
-bd.projects.set_current('MLD_JSON_0')
+bd.projects.set_current('MLD_JSON_2')
 
 
 # #### Import JSON-LD:
@@ -116,17 +116,35 @@ db = bd.Database('My_little_dataset_v0')
 [act for act in bio]
 
 
-# #### And now let's look at the our technosphere processes and products:
+# #### And now let's look at the our processes and products:
 
 # In[14]:
 
 
-[act for act in db]
+[(act.as_dict(), act['unit']) for act in bio]
+
+
+# In[15]:
+
+
+[(act, act['type'], act['unit']) for act in db]
+
+
+# In[16]:
+
+
+[(act['name'],[exc for exc in act.exchanges()]) for act in db if act['type'] == 'process']
+
+
+# In[17]:
+
+
+[(act['name'],[exc for exc in act.exchanges()]) for act in db if act['type'] == 'process']
 
 
 # #### Which ones are processes and which ones are products? Let's also get their codes:
 
-# In[15]:
+# In[18]:
 
 
 [(act['name'], act['type'], act['code']) for act in db]
@@ -137,14 +155,14 @@ db = bd.Database('My_little_dataset_v0')
 # 
 # First, let's find the `Bad stuff` biosphere flow.
 
-# In[16]:
+# In[19]:
 
 
 bad_flow = [act for act in bio if act['name'] == 'Bad stuff'][0]
 bad_flow.as_dict()
 
 
-# In[17]:
+# In[20]:
 
 
 myLCIAdata = [[(bad_flow['database'], bad_flow['code']), 2.0]] # A method list needs: a reference to the flow: tuple (database, 'code')), a characterization factor number, and localization (if no localization is given, 'GLO' is used)
@@ -158,40 +176,73 @@ my_method.write(myLCIAdata)
 # #### Now we define a functional unit:
 # This one might be a bit counterintuitive, our functional unit here is **Impact of assembling 5 bottles**, intuintively one would select the activity, but bw2 selects the flow coming out of the `Bottle assembly` activity (i.e. `Bottle`, which is a `product` not a `process`).
 
-# In[18]:
+# In[21]:
 
 
 activity = [act for act in db if act['name'] == 'Bottle'][0]
 
 
-# In[19]:
+# In[22]:
 
 
-functional_unit = {activity : 5}
+functional_unit = {activity : 5} #Impact of 5 bottles
 
 
 # #### Run the LCA!
 
-# In[20]:
+# In[23]:
 
 
 lca = bc.LCA(functional_unit, method_key) 
-lca.lci() 
-lca.lcia()
-lca.score
-print(lca.inventory)
 
 
-# In[21]:
+# In[24]:
 
 
-lca.score
+lca.lci()   # Builds matrices, solves the system, generates an LCI matrix.
+
+
+# In[27]:
+
+
+lca2 = bc.LCA(functional_unit, method_key) 
+
+
+# In[29]:
+
+
+len(dir(lca2))
+
+
+# In[30]:
+
+
+len(dir(lca))
+
+
+# In[31]:
+
+
+lca.lcia()  # Characterization, i.e. the multiplication of the elements  
+            # of the LCI matrix with characterization factors from the chosen method
+
+
+# In[32]:
+
+
+lca.score    # Returns the score, i.e. the sum of the characterized inventory
+
+
+# In[35]:
+
+
+lca2.lcia()
+
+
+# In[38]:
+
+
+dir(lca2)
 
 
 # Scoooooooore!!!
-
-# In[ ]:
-
-
-
-

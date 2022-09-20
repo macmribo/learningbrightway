@@ -396,6 +396,12 @@ TRACI_resp_effect_method
 TRACI_resp_effect_method.load()
 
 
+# In[ ]:
+
+
+tracita = TRACI_resp_effect_method.load()
+
+
 # In[45]:
 
 
@@ -518,6 +524,24 @@ random_act['location']
                     and 'Denmark' in act['categories'][1]
 ][0] # Don't forget to select!
 # Caution, capitalization (or lack of!) might affect the search query!
+
+
+# In[ ]:
+
+
+
+
+
+# In[164]:
+
+
+[(act['code'], [exc for exc in act.exchanges()]) for act in fw][1]
+
+
+# In[ ]:
+
+
+
 
 
 # ### 1.4.2 &ensp; LCI Exchanges
