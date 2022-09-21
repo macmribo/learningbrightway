@@ -2195,15 +2195,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:zoom="0.21615737"
-     inkscape:cx="3668.6235"
-     inkscape:cy="3495.1388"
+     inkscape:zoom="0.99467825"
+     inkscape:cx="4435.6052"
+     inkscape:cy="1767.9084"
      inkscape:window-width="1757"
      inkscape:window-height="853"
      inkscape:window-x="1568"
      inkscape:window-y="91"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg144418" />
+     inkscape:current-layer="g144416" />
   <g
      transform="translate(1643 -487)"
      lucid:page-tab-id="0_0"
@@ -10028,20 +10028,6 @@
        transform="matrix(1,0,0,1,3133.7156452487675,4662.020573898732) translate(176.81481481481478 49.777777777777764)"
        id="use135847" />
     <path
-       d="M2635.82 1258.45a15 15 0 0 1 15-15h273.88a15 15 0 0 1 15 15 15 15 0 0 1-15 15h-273.88a15 15 0 0 1-15-15z"
-       stroke="#000"
-       stroke-opacity="0"
-       stroke-width="3"
-       fill="#dfe3e8"
-       id="path135849" />
-    <path
-       d="M2616.06 1270.6a15 15 0 0 1 15-15h273.88a15 15 0 0 1 15 15 15 15 0 0 1-15 15h-273.88a15 15 0 0 1-15-15z"
-       stroke="#000"
-       stroke-opacity="0"
-       stroke-width="3"
-       fill="#ced4db"
-       id="path135851" />
-    <path
        d="M2651.33 1173.5c26.8 0 48.5 13.44 48.5 30 0 16.58-21.7 30-48.5 30h-145.55c-26.8 0-48.52-13.42-48.52-30 0-16.56 21.72-30 48.52-30z"
        stroke="#000"
        stroke-opacity="0"
@@ -10533,13 +10519,6 @@
        fill="#fff"
        id="path136033" />
     <path
-       d="M2705.22 2073.36a15 15 0 0 1 15-15h252.65a15 15 0 0 1 15 15 15 15 0 0 1-15 15h-252.65a15 15 0 0 1-15-15z"
-       stroke="#000"
-       stroke-opacity="0"
-       stroke-width="3"
-       fill="#dfe3e8"
-       id="path136035" />
-    <path
        d="M3384.13 2778.23a15 15 0 0 1 15-15h128.52a15 15 0 0 1 15 15 15 15 0 0 1-15 15h-128.52a15 15 0 0 1-15-15z"
        stroke="#cfe4ff"
        stroke-width="3"
@@ -10561,10 +10540,10 @@
        transform="matrix(1,0,0,1,2486.6614679100003,2015.521101998806) translate(52.51851851851857 30.708333333333332)"
        id="use136043" />
     <path
-       d="M2881.68 2270.6a17.8 17.8 0 0 1 17.8-17.8h231.6a17.8 17.8 0 0 1 17.8 17.8 17.8 17.8 0 0 1-17.8 17.8h-231.6a17.8 17.8 0 0 1-17.8-17.8z"
+       d="m 2881.5039,2270.6 a 17.823468,13.954743 0 0 1 17.8235,-13.9547 h 231.9052 a 17.823468,13.954743 0 0 1 17.8235,13.9547 17.823468,13.954743 0 0 1 -17.8235,13.9547 H 2899.3274 A 17.823468,13.954743 0 0 1 2881.5039,2270.6 Z"
        stroke="#cfe4ff"
-       stroke-width="3"
-       fill="#fff"
+       stroke-width="2.81392"
+       fill="#ffffff"
        id="path136045" />
     <use
        xlink:href="#dY"
@@ -10704,13 +10683,6 @@
        stroke-width=".05"
        fill="#5e5e5e"
        id="path136097" />
-    <path
-       d="M2686.83 2085.52a15 15 0 0 1 15-15h252.66a15 15 0 0 1 15 15 15 15 0 0 1-15 15h-252.67a15 15 0 0 1-15-15z"
-       stroke="#000"
-       stroke-opacity="0"
-       stroke-width="3"
-       fill="#ced4db"
-       id="path136099" />
     <path
        d="M2829.32 2359.55a15 15 0 0 1 15-15h120.78a15 15 0 0 1 15 15 15 15 0 0 1-15 15h-120.78a15 15 0 0 1-15-15z"
        stroke="#dfe3e8"
