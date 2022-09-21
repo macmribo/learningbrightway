@@ -14686,6 +14686,22 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14693,7 +14709,19 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Import-JSON-LD:">Import JSON-LD:<a class="anchor-link" href="#Import-JSON-LD:">&#182;</a></h4>
+<h3 id="Debugging-units">Debugging units<a class="anchor-link" href="#Debugging-units">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Here I solely extract the whole database without any changes, the JSONImporter</p>
+
 </div>
 </div>
 </div>
@@ -14702,15 +14730,27 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;../7_BW2_Importing_USLCI/databases/My_little_database&#39;</span> <span class="c1"># For some reason if I use the relative path it throws me an error</span>
-<span class="n">mld</span> <span class="o">=</span> <span class="n">bi</span><span class="o">.</span><span class="n">importers</span><span class="o">.</span><span class="n">JSONLDImporter</span><span class="p">(</span>
-    <span class="n">path</span><span class="p">,</span> 
-    <span class="s2">&quot;My_little_dataset_v0&quot;</span><span class="p">,</span> 
-    <span class="n">preferred_allocation</span><span class="o">=</span><span class="s2">&quot;PHYSICAL_ALLOCATION&quot;</span>
-<span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">bw2io.extractors.json_ld</span> <span class="kn">import</span> <span class="n">JSONLDExtractor</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
 </pre></div>
 
      </div>
@@ -14726,7 +14766,56 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">db</span> <span class="o">=</span> <span class="n">mld</span><span class="o">.</span><span class="n">data</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">extractor</span> <span class="o">=</span> <span class="n">JSONLDExtractor</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">path0</span> <span class="o">=</span> <span class="s1">&#39;../7_BW2_Importing_USLCI/databases/My_little_database&#39;</span> <span class="c1"># For some reason if I use the relative path it throws me an error</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">JSONLDExtractor</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">path0</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Import-JSON-LD-LCI:">Import JSON-LD LCI:<a class="anchor-link" href="#Import-JSON-LD-LCI:">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;../7_BW2_Importing_USLCI/databases/My_little_database&#39;</span> <span class="c1"># For some reason if I use the relative path it throws me an error</span>
+<span class="n">mld</span> <span class="o">=</span> <span class="n">bi</span><span class="o">.</span><span class="n">importers</span><span class="o">.</span><span class="n">JSONLDImporter</span><span class="p">(</span>
+    <span class="n">path</span><span class="p">,</span> 
+    <span class="s2">&quot;My_little_dataset_v0&quot;</span><span class="p">,</span> 
+    <span class="n">preferred_allocation</span><span class="o">=</span><span class="s2">&quot;PHYSICAL_ALLOCATION&quot;</span>
+<span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14750,7 +14839,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld</span><span class="o">.</span><span class="n">apply_strategies</span><span class="p">()</span>
@@ -14820,123 +14909,10 @@ Applied 17 strategies in 0.00 seconds
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">databases</span> <span class="c1"># As expected, nothing was written.</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>Databases dictionary with 2 object(s):
-	My_little_dataset_v0
-	My_little_dataset_v0 biosphere</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Write-the-biosphere-database:">Write the biosphere database:<a class="anchor-link" href="#Write-the-biosphere-database:">&#182;</a></h4>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld</span><span class="o">.</span><span class="n">write_separate_biosphere_database</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>Writing activities to SQLite3 database:
-0% [###] 100% | ETA: 00:00:00
-Total time elapsed: 00:00:00
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Title: Writing activities to SQLite3 database:
-  Started: 09/21/2022 09:41:50
-  Finished: 09/21/2022 09:41:50
-  Total time elapsed: 00:00:00
-  CPU %: 2.60
-  Memory %: 0.48
-Created database: My_little_dataset_v0 biosphere
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">databases</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">databases</span> <span class="c1"># As expected, nothing was written.</span>
 </pre></div>
 
      </div>
@@ -14978,6 +14954,119 @@ Created database: My_little_dataset_v0 biosphere
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Write-the-biosphere-database:">Write the biosphere database:<a class="anchor-link" href="#Write-the-biosphere-database:">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld</span><span class="o">.</span><span class="n">write_separate_biosphere_database</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>Writing activities to SQLite3 database:
+0% [###] 100% | ETA: 00:00:00
+Total time elapsed: 00:00:00
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Title: Writing activities to SQLite3 database:
+  Started: 09/21/2022 15:17:27
+  Finished: 09/21/2022 15:17:27
+  Total time elapsed: 00:00:00
+  CPU %: 2.50
+  Memory %: 0.49
+Created database: My_little_dataset_v0 biosphere
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">databases</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>Databases dictionary with 2 object(s):
+	My_little_dataset_v0
+	My_little_dataset_v0 biosphere</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="Write-the-technosphere-database:">Write the technosphere database:<a class="anchor-link" href="#Write-the-technosphere-database:">&#182;</a></h4>
 </div>
 </div>
@@ -14987,7 +15076,7 @@ Created database: My_little_dataset_v0 biosphere
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bio</span> <span class="o">=</span> <span class="n">bd</span><span class="o">.</span><span class="n">Database</span><span class="p">(</span><span class="s1">&#39;My_little_dataset_v0 biosphere&#39;</span><span class="p">)</span>
@@ -15003,7 +15092,7 @@ Created database: My_little_dataset_v0 biosphere
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld</span><span class="o">.</span><span class="n">write_database</span><span class="p">()</span>
@@ -15066,10 +15155,10 @@ Total time elapsed: 00:00:00
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Title: Writing activities to SQLite3 database:
-  Started: 09/21/2022 09:41:50
-  Finished: 09/21/2022 09:41:50
+  Started: 09/21/2022 15:17:27
+  Finished: 09/21/2022 15:17:27
   Total time elapsed: 00:00:00
-  CPU %: 2.60
+  CPU %: 2.50
   Memory %: 0.49
 Created database: My_little_dataset_v0
 </pre>
@@ -15079,7 +15168,7 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 
 
 
@@ -15114,80 +15203,10 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">databases</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>Databases dictionary with 2 object(s):
-	My_little_dataset_v0
-	My_little_dataset_v0 biosphere</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">db</span> <span class="o">=</span> <span class="n">bd</span><span class="o">.</span><span class="n">Database</span><span class="p">(</span><span class="s1">&#39;My_little_dataset_v0&#39;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Let's-look-at-the-biosphere-flows:">Let's look at the biosphere flows:<a class="anchor-link" href="#Let's-look-at-the-biosphere-flows:">&#182;</a></h4>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">bio</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bd</span><span class="o">.</span><span class="n">databases</span>
 </pre></div>
 
      </div>
@@ -15211,9 +15230,434 @@ Created database: My_little_dataset_v0
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;Virgin metals&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)),
+<pre>Databases dictionary with 2 object(s):
+	My_little_dataset_v0
+	My_little_dataset_v0 biosphere</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">db</span> <span class="o">=</span> <span class="n">bd</span><span class="o">.</span><span class="n">Database</span><span class="p">(</span><span class="s1">&#39;My_little_dataset_v0&#39;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Let's-import-the-methods">Let's import the methods<a class="anchor-link" href="#Let's-import-the-methods">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld_methods</span> <span class="o">=</span> <span class="n">bi</span><span class="o">.</span><span class="n">importers</span><span class="o">.</span><span class="n">JSONLDLCIAImporter</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld_methods</span><span class="o">.</span><span class="n">apply_strategy</span><span class="p">(</span><span class="n">bi</span><span class="o">.</span><span class="n">strategies</span><span class="o">.</span><span class="n">json_ld_lcia</span><span class="o">.</span><span class="n">json_ld_lcia_add_method_metadata</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Applying strategy: json_ld_lcia_add_method_metadata
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld_methods</span><span class="o">.</span><span class="n">apply_strategy</span><span class="p">(</span><span class="n">bi</span><span class="o">.</span><span class="n">strategies</span><span class="o">.</span><span class="n">json_ld_lcia</span><span class="o">.</span><span class="n">json_ld_lcia_set_method_metadata</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Applying strategy: json_ld_lcia_set_method_metadata
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld_methods</span><span class="o">.</span><span class="n">apply_strategy</span><span class="p">(</span><span class="n">bi</span><span class="o">.</span><span class="n">strategies</span><span class="o">.</span><span class="n">json_ld_lcia</span><span class="o">.</span><span class="n">json_ld_lcia_convert_to_list</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Applying strategy: json_ld_lcia_convert_to_list
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld_methods</span><span class="o">.</span><span class="n">data</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>dict_values([{&#39;@context&#39;: &#39;http://greendelta.github.io/olca-schema/context.jsonld&#39;, &#39;@type&#39;: &#39;ImpactCategory&#39;, &#39;@id&#39;: &#39;6ff74fb6-3d8e-4c2e-ba7e-64e2fd4376c4&#39;, &#39;name&#39;: &#39;Global warming&#39;, &#39;version&#39;: &#39;00.00.000&#39;, &#39;referenceUnitName&#39;: &#39;kg CO2 eq&#39;, &#39;impactFactors&#39;: [{&#39;@type&#39;: &#39;ImpactFactor&#39;, &#39;value&#39;: 2.0, &#39;flow&#39;: {&#39;@type&#39;: &#39;Flow&#39;, &#39;@id&#39;: &#39;cd154d8f-0694-43b2-b4ab-e44101e122bd&#39;, &#39;name&#39;: &#39;Bad stuff&#39;, &#39;categoryPath&#39;: [&#39;Elementary flows&#39;, &#39;emissions&#39;], &#39;flowType&#39;: &#39;ELEMENTARY_FLOW&#39;, &#39;location&#39;: &#39;DJ&#39;, &#39;refUnit&#39;: &#39;kg&#39;}, &#39;unit&#39;: {&#39;@type&#39;: &#39;Unit&#39;, &#39;@id&#39;: &#39;027023c8-b17c-42f9-babe-893b69d48254&#39;, &#39;name&#39;: &#39;kg&#39;}, &#39;flowProperty&#39;: {&#39;@type&#39;: &#39;FlowProperty&#39;, &#39;@id&#39;: &#39;65d0b9d1-3295-4e2d-8b1c-71ef05c71fe2&#39;, &#39;name&#39;: &#39;Mass&#39;}}], &#39;filename&#39;: &#39;/Users/mmendez/Documents/Postdoc/Software_dev/Brightway/BW_Tutorials/learningbrightway/7_BW2_Importing_USLCI/databases/My_little_database/lcia_categories/6ff74fb6-3d8e-4c2e-ba7e-64e2fd4376c4.json&#39;, &#39;parent&#39;: {&#39;name&#39;: &#39;Mac IAM&#39;, &#39;description&#39;: &#39;&#39;, &#39;version&#39;: &#39;00.00.001&#39;, &#39;lastChange&#39;: &#39;2022-08-29T17:47:45.711-06:00&#39;}}])</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># codes = {o[&quot;code&quot;] for o in bio}</span>
+<span class="c1"># print(len(codes))</span>
+<span class="c1"># for method in mld_methods.data:</span>
+<span class="c1">#     for cf in method[&#39;impactFactors&#39;]:</span>
+<span class="c1">#         if cf[&quot;flow&quot;][&quot;@id&quot;] in codes:</span>
+<span class="c1">#             cf[&quot;input&quot;] = (bio, cf[&quot;flow&quot;][&quot;@id&quot;])</span>
+<span class="c1">#             print(cf[&quot;input&quot;])</span>
+            
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mld_methods</span><span class="o">.</span><span class="n">match_biosphere_by_id</span><span class="p">(</span><span class="s1">&#39;My_little_dataset_v0 biosphere&#39;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Used
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">asdfasdfa</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
+Input <span class="ansi-green-fg">In [23]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-fg">----&gt; 1</span> <span class="ansi-yellow-bg">asdfasdfa</span>
+
+<span class="ansi-red-fg">NameError</span>: name &#39;asdfasdfa&#39; is not defined</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Let's-look-at-the-biosphere-flows:">Let's look at the biosphere flows:<a class="anchor-link" href="#Let's-look-at-the-biosphere-flows:">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">bio</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[&#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)),
  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)),
- &#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;))]</pre>
+ &#39;Virgin metals&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;))]</pre>
 </div>
 
 </div>
@@ -15238,7 +15682,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">act</span><span class="o">.</span><span class="n">as_dict</span><span class="p">(),</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">])</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">bio</span><span class="p">]</span>
@@ -15259,20 +15703,29 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[({&#39;code&#39;: &#39;cd154d8f-0694-43b2-b4ab-e44101e122bd&#39;,
+<pre>[({&#39;code&#39;: &#39;8849be54-1b13-4d7e-85f6-2297817333f2&#39;,
+   &#39;name&#39;: &#39;Crude oil&#39;,
+   &#39;categories&#39;: (&#39;Elementary flows&#39;, &#39;resources&#39;),
+   &#39;CAS number&#39;: None,
+   &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
+   &#39;unit&#39;: &#39;&#39;,
+   &#39;type&#39;: &#39;emission&#39;,
+   &#39;id&#39;: 83},
+  &#39;&#39;),
+ ({&#39;code&#39;: &#39;cd154d8f-0694-43b2-b4ab-e44101e122bd&#39;,
    &#39;name&#39;: &#39;Bad stuff&#39;,
    &#39;categories&#39;: (&#39;Elementary flows&#39;, &#39;emissions&#39;),
    &#39;CAS number&#39;: None,
    &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
    &#39;unit&#39;: &#39;&#39;,
    &#39;type&#39;: &#39;emission&#39;,
-   &#39;id&#39;: 39},
+   &#39;id&#39;: 84},
   &#39;&#39;),
  ({&#39;code&#39;: &#39;7528830a-7344-43be-b484-ac4dc625f272&#39;,
    &#39;name&#39;: &#39;Virgin metals&#39;,
@@ -15281,16 +15734,7 @@ Created database: My_little_dataset_v0
    &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
    &#39;unit&#39;: &#39;&#39;,
    &#39;type&#39;: &#39;emission&#39;,
-   &#39;id&#39;: 37},
-  &#39;&#39;),
- ({&#39;code&#39;: &#39;8849be54-1b13-4d7e-85f6-2297817333f2&#39;,
-   &#39;name&#39;: &#39;Crude oil&#39;,
-   &#39;categories&#39;: (&#39;Elementary flows&#39;, &#39;resources&#39;),
-   &#39;CAS number&#39;: None,
-   &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
-   &#39;unit&#39;: &#39;&#39;,
-   &#39;type&#39;: &#39;emission&#39;,
-   &#39;id&#39;: 38},
+   &#39;id&#39;: 82},
   &#39;&#39;)]</pre>
 </div>
 
@@ -15305,7 +15749,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">act</span><span class="p">,</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">],</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">])</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span><span class="p">]</span>
@@ -15326,26 +15770,26 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Bottle assembly&#39; (number_of_items, Djibouti, None),
-  &#39;process&#39;,
-  &#39;number_of_items&#39;),
- (&#39;Plastic manufacturing&#39; (kilogram, Djibouti, None), &#39;process&#39;, &#39;kilogram&#39;),
- (&#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)),
+<pre>[(&#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)),
   &#39;product&#39;,
   &#39;&#39;),
  (&#39;Bottle&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Assemblers&#39;)), &#39;product&#39;, &#39;&#39;),
+ (&#39;Bottle assembly&#39; (number_of_items, Djibouti, None),
+  &#39;process&#39;,
+  &#39;number_of_items&#39;),
  (&#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None),
   &#39;process&#39;,
   &#39;kilogram&#39;),
- (&#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)),
+ (&#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)),
   &#39;product&#39;,
-  &#39;&#39;)]</pre>
+  &#39;&#39;),
+ (&#39;Plastic manufacturing&#39; (kilogram, Djibouti, None), &#39;process&#39;, &#39;kilogram&#39;)]</pre>
 </div>
 
 </div>
@@ -15359,7 +15803,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],[</span><span class="n">exc</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">act</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()])</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;process&#39;</span><span class="p">]</span>
@@ -15380,7 +15824,7 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 
 
 
@@ -15412,7 +15856,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],[</span><span class="n">exc</span> <span class="k">for</span> <span class="n">exc</span> <span class="ow">in</span> <span class="n">act</span><span class="o">.</span><span class="n">exchanges</span><span class="p">()])</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;process&#39;</span><span class="p">]</span>
@@ -15433,25 +15877,25 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Plastic manufacturing&#39;,
-  [Exchange: 1.0  &#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
-   Exchange: 2.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
-   Exchange: 1.0  &#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;]),
+<pre>[(&#39;Stainless steel manufacturing&#39;,
+  [Exchange: 1.0  &#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;,
+   Exchange: 1.0  &#39;Virgin metals&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;,
+   Exchange: 3.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;]),
  (&#39;Bottle assembly&#39;,
   [Exchange: 1.0  &#39;Bottle&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Assemblers&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;,
    Exchange: 0.25  &#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;,
    Exchange: 0.1  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;,
    Exchange: 0.3  &#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;]),
- (&#39;Stainless steel manufacturing&#39;,
-  [Exchange: 1.0  &#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;,
-   Exchange: 1.0  &#39;Virgin metals&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;,
-   Exchange: 3.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;])]</pre>
+ (&#39;Plastic manufacturing&#39;,
+  [Exchange: 1.0  &#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
+   Exchange: 2.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
+   Exchange: 1.0  &#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;])]</pre>
 </div>
 
 </div>
@@ -15476,7 +15920,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">],</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">])</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span><span class="p">]</span>
@@ -15497,18 +15941,18 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Bottle&#39;, &#39;product&#39;, &#39;b806c2cd-d563-43c4-a0c9-9c7dd5d513d3&#39;),
- (&#39;Plastic&#39;, &#39;product&#39;, &#39;62714200-1a0d-43fb-9b48-99df3f233c94&#39;),
- (&#39;Bottle assembly&#39;, &#39;process&#39;, &#39;fae6799b-7326-452c-92b3-76758bbcac22&#39;),
- (&#39;Stainless steel manufacturing&#39;,
+<pre>[(&#39;Stainless steel manufacturing&#39;,
   &#39;process&#39;,
   &#39;7e5ec332-09fd-4706-8373-3f140a539028&#39;),
+ (&#39;Plastic&#39;, &#39;product&#39;, &#39;62714200-1a0d-43fb-9b48-99df3f233c94&#39;),
+ (&#39;Bottle assembly&#39;, &#39;process&#39;, &#39;fae6799b-7326-452c-92b3-76758bbcac22&#39;),
+ (&#39;Bottle&#39;, &#39;product&#39;, &#39;b806c2cd-d563-43c4-a0c9-9c7dd5d513d3&#39;),
  (&#39;Stainless steel&#39;, &#39;product&#39;, &#39;3355a1b9-8fbf-40de-b449-ea6399a8a323&#39;),
  (&#39;Plastic manufacturing&#39;, &#39;process&#39;, &#39;2fc6deea-6437-4b9f-bf91-89bca44d30f0&#39;)]</pre>
 </div>
@@ -15537,7 +15981,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bad_flow</span> <span class="o">=</span> <span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">bio</span> <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Bad stuff&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
@@ -15559,7 +16003,7 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 
 
 
@@ -15572,7 +16016,7 @@ Created database: My_little_dataset_v0
  &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
  &#39;unit&#39;: &#39;&#39;,
  &#39;type&#39;: &#39;emission&#39;,
- &#39;id&#39;: 39}</pre>
+ &#39;id&#39;: 84}</pre>
 </div>
 
 </div>
@@ -15586,7 +16030,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">myLCIAdata</span> <span class="o">=</span> <span class="p">[[(</span><span class="n">bad_flow</span><span class="p">[</span><span class="s1">&#39;database&#39;</span><span class="p">],</span> <span class="n">bad_flow</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]),</span> <span class="mf">2.0</span><span class="p">]]</span> <span class="c1"># A method list needs: a reference to the flow: tuple (database, &#39;code&#39;)), a characterization factor number, and localization (if no localization is given, &#39;GLO&#39; is used)</span>
@@ -15619,7 +16063,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">activity</span> <span class="o">=</span> <span class="p">[</span><span class="n">act</span> <span class="k">for</span> <span class="n">act</span> <span class="ow">in</span> <span class="n">db</span> <span class="k">if</span> <span class="n">act</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Bottle&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
@@ -15635,7 +16079,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">functional_unit</span> <span class="o">=</span> <span class="p">{</span><span class="n">activity</span> <span class="p">:</span> <span class="mi">5</span><span class="p">}</span> <span class="c1">#Impact of 5 bottles</span>
@@ -15662,7 +16106,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lca</span> <span class="o">=</span> <span class="n">bc</span><span class="o">.</span><span class="n">LCA</span><span class="p">(</span><span class="n">functional_unit</span><span class="p">,</span> <span class="n">method_key</span><span class="p">)</span> 
@@ -15678,7 +16122,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="nb">dir</span><span class="p">(</span><span class="n">lca</span><span class="p">))</span>
@@ -15699,7 +16143,7 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
 
 
 
@@ -15719,7 +16163,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lca</span><span class="o">.</span><span class="n">lci</span><span class="p">()</span>   <span class="c1"># Builds matrices, solves the system, generates an LCI matrix.</span>
@@ -15735,7 +16179,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="nb">dir</span><span class="p">(</span><span class="n">lca</span><span class="p">))</span>
@@ -15756,7 +16200,7 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
 
 
 
@@ -15776,7 +16220,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lca</span><span class="o">.</span><span class="n">lcia</span><span class="p">()</span>  <span class="c1"># Characterization, i.e. the multiplication of the elements  </span>
@@ -15793,7 +16237,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="nb">dir</span><span class="p">(</span><span class="n">lca</span><span class="p">))</span>
@@ -15814,7 +16258,7 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
 
 
 
@@ -15834,7 +16278,7 @@ Created database: My_little_dataset_v0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lca</span><span class="o">.</span><span class="n">score</span>    <span class="c1"># Returns the score, i.e. the sum of the characterized inventory</span>
@@ -15855,7 +16299,7 @@ Created database: My_little_dataset_v0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
 
 
 
@@ -15882,6 +16326,22 @@ Created database: My_little_dataset_v0
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div>
 </body>
 

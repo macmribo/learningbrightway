@@ -34,6 +34,33 @@ bd.projects.dir
 bd.projects.set_current('USLCI_FY22_Q2_2')
 
 
+# In[ ]:
+
+
+
+
+
+# Exporter import
+
+# In[81]:
+
+
+from bw2io.extractors.json_ld import JSONLDExtractor
+
+
+# In[82]:
+
+
+path0 = '../7_BW2_Importing_USLCI/databases/FY22_Q2_01_Zolca_LCIA_methods_mapping_FEDEFL_3' # For some reason if I use the relative path it throws me an error
+data = JSONLDExtractor.extract(path0)
+
+
+# In[ ]:
+
+
+
+
+
 # ## 3. Import JSON-LD:
 
 # In[4]:
@@ -47,7 +74,7 @@ uslci = bi.importers.JSONLDImporter(
 )
 
 
-# ### 3.1 Debuggin the processes that have AvoidedProduct = True and input = True
+# ### 3.1 Debugging the processes that have AvoidedProduct = True and input = True
 
 # OpenLCI sets avoided products (AvoidedProducts = True) as inputs (input = True) and they are always outputs. This issue gives an error while applying strategies `apply_strategies()`, specifically it gives the error using the function `json_ld_label_exchange_type`, this is fixed in cell [7].
 
