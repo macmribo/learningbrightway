@@ -31,7 +31,7 @@ bd.projects.dir
 # In[3]:
 
 
-bd.projects.set_current('USLCI_FY22_Q2_2')
+bd.projects.set_current('USLCI_FY22_Q2_4')
 
 
 # In[ ]:
@@ -78,7 +78,7 @@ uslci = bi.importers.JSONLDImporter(
 
 # OpenLCI sets avoided products (AvoidedProducts = True) as inputs (input = True) and they are always outputs. This issue gives an error while applying strategies `apply_strategies()`, specifically it gives the error using the function `json_ld_label_exchange_type`, this is fixed in cell [7].
 
-# In[7]:
+# In[ ]:
 
 
 uslci.data.keys()
@@ -86,7 +86,7 @@ uslci.data.keys()
 #[e for e in uslci.data if e['name'] == 'Electricity, at eGrid, SRVC, 2010'][0]
 
 
-# In[8]:
+# In[ ]:
 
 
 for i, l in enumerate(uslci.data['processes']['2a78de43-fdf2-4c5f-b527-89db6568ace8']['exchanges'][:2]):
@@ -96,7 +96,7 @@ for i, l in enumerate(uslci.data['processes']['2a78de43-fdf2-4c5f-b527-89db6568a
         uslci.data['processes']['2a78de43-fdf2-4c5f-b527-89db6568ace8']['exchanges'][i] = l
 
 
-# In[9]:
+# In[ ]:
 
 
 for process_key, process_values in uslci.data['processes'].items():
@@ -111,13 +111,13 @@ for process_key, process_values in uslci.data['processes'].items():
 
 # I use these cells to investigate and count flows and processes. I need to know how many processes, elemental, waste and production flows there are because even though I fixed the JSON-LD importer and managed to import USLCI and link the activities, it cannot run the LCA because the matrix is not square. There are 566 processes and 927 processes. I believe the extra processes are mislabeled flows.
 
-# In[10]:
+# In[ ]:
 
 
 len(uslci.data['processes']), len(uslci.data['flows'])
 
 
-# In[11]:
+# In[ ]:
 
 
 total_prod =0
@@ -138,7 +138,7 @@ print('There are {} products'.format(total_prod))
 
 # Now let's check how many processes has waste as output:
 
-# In[12]:
+# In[ ]:
 
 
 process_n = 0
@@ -155,7 +155,7 @@ print('There are {} processes that have waste as outputs.'.format(process_n))
 
 # Not necessary but let's check how many processes has waste as input:
 
-# In[13]:
+# In[ ]:
 
 
 process_n = 0
@@ -172,7 +172,7 @@ print('There are {} processes that have waste as inputs.'.format(process_n))
 
 # Is any of these flows labeled as quantitativeReference?
 
-# In[14]:
+# In[ ]:
 
 
 total_waste =0
@@ -191,7 +191,7 @@ print('There are {} waste flows as quantitativeReference'.format(total_waste))
 
 # No, awesome! Let's check how many flows are biosphere:
 
-# In[15]:
+# In[ ]:
 
 
 elem_n = 0
@@ -207,7 +207,7 @@ print('There are {} elementary flows in total'.format(elem_n))
 
 # These strategies adapts the JSON-LD schema with the Brightway2 schema.
 
-# In[16]:
+# In[7]:
 
 
 uslci.apply_strategies()
@@ -227,7 +227,7 @@ uslci.apply_strategies()
 
 # Now let's check some statistics, what we mostly care about is that everything is linked!
 
-# In[17]:
+# In[ ]:
 
 
 uslci.statistics()
@@ -235,7 +235,7 @@ uslci.statistics()
 
 # This is expected, there are certain exchanges unlinked because the are production flows that go nowhere. Only emissions and resources are entitled to do this. So, what do we do? We assign dummy processes. There is a function in the brightway-io package, but I had to tweak it to make it work (`if "input" not in exc or "amount" not in exc:` added because it was throwing me a weird error). After fixing it, let's apply the dummy-maker strategy:
 
-# In[18]:
+# In[ ]:
 
 
 uslci.apply_strategy(bi.strategies.special.add_dummy_processes_and_rename_exchanges)
@@ -243,7 +243,7 @@ uslci.apply_strategy(bi.strategies.special.add_dummy_processes_and_rename_exchan
 
 # Let's apply the statistics again and...uslci.statistics()
 
-# In[19]:
+# In[ ]:
 
 
 uslci.statistics()
@@ -265,7 +265,7 @@ uslci.statistics()
 # This means that it has splitted the USLCI into a different database. This is because it will use this database to generate the biosphere matrix. It also makes easier to query processes and flows.
 # You can check which databases are within the project using `bd.databases`. If this is the first time you run this code, there should be 0 objects in the database dictionary, if there are already written databases.
 
-# In[20]:
+# In[ ]:
 
 
 bd.databases # If this is the first time you run this code, there should be 0 objects in the database dictionary:
@@ -275,7 +275,7 @@ bd.databases # If this is the first time you run this code, there should be 0 ob
 
 # #### 5.1.1. Write the biosphere database:
 
-# In[21]:
+# In[ ]:
 
 
 uslci.write_separate_biosphere_database()
@@ -283,7 +283,7 @@ uslci.write_separate_biosphere_database()
 
 # #### 5.1.2.Write the technosphere database:
 
-# In[22]:
+# In[ ]:
 
 
 uslci.write_database()
@@ -299,7 +299,7 @@ uslci.write_database()
 
 # Now you should see the uploaded database dictionaries:
 
-# In[23]:
+# In[ ]:
 
 
 bd.databases
@@ -309,13 +309,13 @@ bd.databases
 
 # Hoorraaay! Now let's be tidy and save them in variables for easy access:
 
-# In[24]:
+# In[ ]:
 
 
 bio = bd.Database('USLCI_FY22_Q2_1 biosphere')
 
 
-# In[25]:
+# In[ ]:
 
 
 db = bd.Database('USLCI_FY22_Q2_1')
@@ -323,25 +323,25 @@ db = bd.Database('USLCI_FY22_Q2_1')
 
 # ## 6 Import the LCIA methods
 
-# In[26]:
+# In[ ]:
 
 
 uslci_methods = bi.importers.JSONLDLCIAImporter(path)
 
 
-# In[27]:
+# In[ ]:
 
 
 uslci_methods.apply_strategies()
 
 
-# In[28]:
+# In[ ]:
 
 
 uslci_methods.match_biosphere_by_id('USLCI_FY22_Q2_1 biosphere')
 
 
-# In[29]:
+# In[ ]:
 
 
 uslci_methods.statistics()
@@ -349,7 +349,7 @@ uslci_methods.statistics()
 
 # These are the available methods:
 
-# In[30]:
+# In[ ]:
 
 
 if [things['name'] for things in uslci_methods.data][0] in bd.methods:
@@ -358,10 +358,16 @@ else:
     uslci_methods.write_methods()
 
 
-# In[31]:
+# In[ ]:
 
 
 list(bd.methods)
+
+
+# In[ ]:
+
+
+uslci.statistics()
 
 
 # In[ ]:
@@ -376,14 +382,14 @@ list(bd.methods)
 
 # You can search activities using list comprehension:
 
-# In[32]:
+# In[ ]:
 
 
 carbon_query = [bio_flow for bio_flow in bio if bio_flow['name'].lower().startswith('carbon')] # Use .lower() to make it non-case sensitive
 carbon_query; # Remove ';' if you want to reveal the output!
 
 
-# In[33]:
+# In[ ]:
 
 
 print('There are {} carbon-related flows!'.format(len(carbon_query)))
@@ -391,7 +397,7 @@ print('There are {} carbon-related flows!'.format(len(carbon_query)))
 
 # You can also use `.search()` to find the flow:
 
-# In[34]:
+# In[ ]:
 
 
 bio.search('carbon dioxide')
@@ -399,7 +405,7 @@ bio.search('carbon dioxide')
 
 # Let's refine our search and save one of these in a variable:
 
-# In[35]:
+# In[ ]:
 
 
 carboncete = [act for act in bio if 'Carbon dioxide' in act['name']
@@ -412,7 +418,7 @@ carboncete = [act for act in bio if 'Carbon dioxide' in act['name']
 
 # The technosphere database is composed of activities thaat can be processes (they have exchanges, input and output flows) and product flows (these can be outputs or inputs). Let's explore a different way to select an activity... let's say I am just testing and I just want a random activity. Can I do it? Selvfølgelig! Actio `.random()`!!
 
-# In[36]:
+# In[ ]:
 
 
 random_act = db.random()
@@ -421,7 +427,7 @@ random_act
 
 # Let's look at it with more intensity...
 
-# In[37]:
+# In[ ]:
 
 
 random_act.as_dict();
@@ -429,13 +435,13 @@ random_act.as_dict();
 
 # Looking at this closely, you can see that there are no exchanges, this is because these are saved in a different location. Let's now look at a specific process:
 
-# In[38]:
+# In[ ]:
 
 
 db.search('corn')
 
 
-# In[39]:
+# In[ ]:
 
 
 len(db.search('corn'))
@@ -443,7 +449,7 @@ len(db.search('corn'))
 
 # You can also filter your search:
 
-# In[40]:
+# In[ ]:
 
 
 db.search('corn', filter={'categories': 'Technosphere'}) # Here I show the flows
@@ -451,7 +457,7 @@ db.search('corn', filter={'categories': 'Technosphere'}) # Here I show the flows
 
 # You can also `mask`!
 
-# In[41]:
+# In[ ]:
 
 
 db.search('corn', mask={'categories': 'Technosphere'}) # Here I show the processes
@@ -459,15 +465,13 @@ db.search('corn', mask={'categories': 'Technosphere'}) # Here I show the process
 
 # It is also important to stress the importance of filtering, because the `search` function returns a maximum of 25 possible candidates. This is why I prefer list comprehension.
 
-# Weird, there are codes merged in one.
-
-# In[42]:
+# In[ ]:
 
 
 len([act['code'] for act in db if '.' in act['code']])
 
 
-# In[43]:
+# In[ ]:
 
 
 len([act['code'] for act in db if '.' not in act['code']])
@@ -480,7 +484,7 @@ len([act['code'] for act in db if '.' not in act['code']])
 # 
 # Let's start if all of them have `allocationFactors`
 
-# In[44]:
+# In[ ]:
 
 
 len([act['allocationFactors'] for act in db if '.' in act['code']])
@@ -488,7 +492,7 @@ len([act['allocationFactors'] for act in db if '.' in act['code']])
 
 # All of these have allocationFactors. Sanity check!
 
-# In[45]:
+# In[ ]:
 
 
 len([act for act in db if 'allocationFactors' in act])
@@ -498,13 +502,13 @@ len([act for act in db if 'allocationFactors' in act])
 
 # Here I filter for the processes that have more than 15 entries and do not have a '.' in the code. I want to check if these are normal processes and why do they have so many entries:
 
-# In[46]:
+# In[ ]:
 
 
 len([act for act in db if len(act) > 15 and '.' not in act['code']])
 
 
-# In[47]:
+# In[ ]:
 
 
 [act.as_dict() for act in db if len(act) > 15 and '.' not in act['code']];
@@ -512,7 +516,7 @@ len([act for act in db if len(act) > 15 and '.' not in act['code']])
 
 # Ok, these processes did not drop some of the entries... so something does not work in the JSON-LD importer, these processes are escaping the mapping for some reason. However, their code is normal.
 
-# In[48]:
+# In[ ]:
 
 
 len([act.as_dict() for act in db if len(act) > 15])
@@ -520,7 +524,7 @@ len([act.as_dict() for act in db if len(act) > 15])
 
 # 198 processes have a looot of entries, the average entry number should be:
 
-# In[49]:
+# In[ ]:
 
 
 np.median([len(act.as_dict()) for act in db]), np.mean([len(act.as_dict()) for act in db]), np.std([len(act.as_dict()) for act in db])
@@ -530,7 +534,7 @@ np.median([len(act.as_dict()) for act in db]), np.mean([len(act.as_dict()) for a
 
 # Let's be more specific:
 
-# In[50]:
+# In[ ]:
 
 
 activity_list = []
@@ -542,20 +546,20 @@ for entries in range(5, 19):
 
 # Let's check out the 7 entry process, it does not have a unit... why?
 
-# In[51]:
+# In[ ]:
 
 
 [act.as_dict() for act in db if len(act) == 7];
 
 
-# In[52]:
+# In[ ]:
 
 
 dummy = [act for act in db if len(act) == 7][0]
 dummy
 
 
-# In[53]:
+# In[ ]:
 
 
 [exc for exc in dummy.exchanges()]
@@ -565,7 +569,7 @@ dummy
 
 # To drop some of these entries I just have to modify the functiondef json_ld_remove_fields(db) in the `brightway2-io/strategies/json_ld`
 
-# In[54]:
+# In[ ]:
 
 
 len([act for act in db if 'corn' in act['name'].lower()])
@@ -577,7 +581,7 @@ len([act for act in db if 'corn' in act['name'].lower()])
 
 # ### Let's add an LCIA method
 
-# In[55]:
+# In[ ]:
 
 
 method_gw = [act for act in bd.methods if 'Global warming' in str(act) and 'TRACI' in str(act)][0]
@@ -588,7 +592,7 @@ my_method = bd.Method(method_key)
 # #### Now we define a functional unit:
 # I will select `Aluminium, extrusion, at plant`
 
-# In[56]:
+# In[ ]:
 
 
 alu = [act for act in db if act['name'].lower().startswith('aluminium, extrusion')][0]
@@ -596,13 +600,13 @@ print(alu.as_dict()['id'])
 alu.as_dict()
 
 
-# In[57]:
+# In[ ]:
 
 
 functional_unit = {alu : 5}
 
 
-# In[58]:
+# In[ ]:
 
 
 type(functional_unit)
@@ -610,19 +614,19 @@ type(functional_unit)
 
 # #### Run the LCA!
 
-# In[59]:
+# In[ ]:
 
 
 lca = bc.LCA(functional_unit, method_key) 
 
 
-# In[60]:
+# In[ ]:
 
 
 #bc.LeastSquaresLCA(lca)
 
 
-# In[61]:
+# In[ ]:
 
 
 lca.lci() 
@@ -631,215 +635,108 @@ lca.score
 print(lca.inventory)
 
 
-# In[78]:
+# In[ ]:
 
 
-lca.technosphere_matrix.toarray()
+962 - 601
 
 
-# In[65]:
+# ## 
+
+# In[ ]:
 
 
-dir(lca)
+n_process = len([act for act in db if act['type'] == 'process'])
+n_process
 
 
 # In[ ]:
 
 
-
-
-
-# In[64]:
-
-
-lca.demand.items()
+n_prod = len([act for act in db if act['type'] == 'product'])
+n_prod
 
 
 # In[ ]:
 
 
-lca.demand
+techno_shape = lca.technosphere_matrix.todense().shape
+techno_shape[0]
 
 
 # In[ ]:
 
 
-fdgsad
+print('We have a total of {} products, {} processes, and the technosphere has {} product in it.\nWhat are those {} extra products in the matrix?\nWhat are the {} excluded then?'.format(n_prod, n_process, techno_shape[0], techno_shape[0]-n_process, n_prod-techno_shape[0]))
 
 
-# Not square matrix. Let's find out which processes have more than one product:
+# Ok... I think those are the products that don't have a process related to it... these could be waste technosphere flows. Let's check it out.
 
 # In[ ]:
 
 
-n_activities = 0
-n_processes = 0
-n_flow = 0
-m_bio = 0
-    
+prod_count = 0
+waste_count = 0
+techno_count = 0
+type_list = []
 for act in db:
-    n_activities += 1
     if act['type'] == 'process':
-        n_processes += 1
-    elif act['type'] == 'product':
-        n_flow += 1
-    elif act['type'] == 'biosphere': # This is just a sanity check to see if there are some biosphere flows laying around.
-        m_bio += 1
-    
-print('There are in total {} activities.'.format(n_activities))
-print('Of which, {} are processess, {} are products (technosphere flows) and {} are biosphere flows.'.format(n_processes, n_flow, m_bio))
+        for exc in act.exchanges():
+            type_list.append(exc['type'])
 
-
-# So... There are a total of 1803 activities. From those, 601 are processes and 1237 are products (i.e. technosphere flows)
-
-# Ok.... those are a bunch of products. My problem here is that I need only 601 production products to be linked with processes to make the matrix square. Let's see which processes have more processes as outputs. One of them is the waste flows, maybe I could create a dummy process that takes the waste flows so they are not hanging. I don't know...
 
 # In[ ]:
 
 
-production_counter = 0
+len(type_list)
+
+
+# In[ ]:
+
+
+type_set = set(type_list)
+
+
+# In[ ]:
+
+
+type_set
+
+
+# In[ ]:
+
+
+pd.value_counts(np.array(type_list))
+
+
+# Are there processes without production?
+
+# In[ ]:
+
+
 for act in db:
+    prod_counter = 0
     for exc in act.exchanges():
         if exc['type'] == 'production':
-            production_counter += 1
+            prod_counter += 1
             
-print(production_counter)
-
-
-# I select a product that has a lot of waste outputs, let's see how these are labeled:
-
-# In[ ]:
-
-
-uslci.statistics()
+            
 
 
 # In[ ]:
 
 
-natural_soda_ash = [act for act in db if act['code'] == '0d95cc8b-a9a0-3630-a760-1ab4d88257d8'][0]
-
-
-# In[ ]:
-
-
-len([exc for exc in natural_soda_ash.exchanges()])
-
-
-# Ok 80 exchanges, which ones are outputs?
-
-# In[ ]:
-
-
-[exc.as_dict().keys() for exc in natural_soda_ash.exchanges()][0]
-
-
-# Interesting, there is a key called `output` which it should not have. Let's see what's inside:
-
-# In[ ]:
-
-
-[exc.as_dict() for exc in natural_soda_ash.exchanges()][0]
-
-
-# - `'input': ('USLCI_FY22_Q2_1', 'c0af8d39-2a03-3e1d-8548-67989e0fda5a')`: Technosphere flow --> Natural soda ash (Sodium carbonate), at plant
-# - `'output': ('USLCI_FY22_Q2_1', '0d95cc8b-a9a0-3630-a760-1ab4d88257d8')`: Process --> Natural soda ash (Sodium carbonate), at plant
-# 
-# Interesting, the `output` is the process... I am not sure this makes sense because Brightway2 should only have `inputs`.
-
-# In[ ]:
-
-
-[exc for exc in natural_soda_ash.exchanges() if exc['type'] == 'production']
-
-
-# In[ ]:
-
-
-len([exc for exc in natural_soda_ash.exchanges() if exc['type'] == 'production'])
-
-
-# Aha, all these wastes are dummies... is there a way a can call them something different than `production`? Let's see if all the dummies I created are the ones making my life miserable :)
-
-# In[ ]:
-
-
-counter = 0
-for exc in natural_soda_ash.exchanges():
-    if exc['type'] == 'production':
-        print(exc)
-        counter += 1
-print(counter)
-
-
-# In[ ]:
-
-
-uslci.statistics()
-
-
-# What are those flows that are not production?
-
-# In[ ]:
-
-
+listita = []
 for act in db:
-    continue
+    if '.' in act['code']:
+        print(act['code'])
+        listita.append(act)
 
 
 # In[ ]:
 
 
-act#['type']
-
-
-# In[ ]:
-
-
-a = [[exc['type'] for exc in act.exchanges()] for act in db if act['type']=='process']
-b = [item for sublist in a for item in sublist]
-
-
-# In[ ]:
-
-
-pd.Series(b).value_counts()
-
-
-# In[ ]:
-
-
-llave = [act.as_dict().keys() for act in db]
-
-
-# In[ ]:
-
-
-pd.Series(llave).value_counts()
-
-
-# In[ ]:
-
-
-[act.get('unit') for act in db][:100]
-
-
-# In[ ]:
-
-
-[act.get('classifications') for act in db]
-
-
-# In[ ]:
-
-
-[act.get('classifications') for act in db]
-
-
-# In[ ]:
-
-
-
+[[act for act in db if act['code'] == '0e42a306-ee2d-362e-8bc3-580000096459.fa5304ba-de40-35cf-a5d6-3e09d9b79205'][0].exchanges()]
 
 
 # In[ ]:

@@ -14899,10 +14899,10 @@ Total time elapsed: 00:00:00
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Title: Writing activities to SQLite3 database:
-  Started: 09/21/2022 18:52:11
-  Finished: 09/21/2022 18:52:11
+  Started: 09/22/2022 14:46:20
+  Finished: 09/22/2022 14:46:20
   Total time elapsed: 00:00:00
-  CPU %: 2.60
+  CPU %: 2.20
   Memory %: 0.49
 Created database: My_little_dataset_v0 biosphere
 </pre>
@@ -15075,11 +15075,11 @@ Total time elapsed: 00:00:00
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Title: Writing activities to SQLite3 database:
-  Started: 09/21/2022 18:52:11
-  Finished: 09/21/2022 18:52:11
+  Started: 09/22/2022 14:46:20
+  Finished: 09/22/2022 14:46:20
   Total time elapsed: 00:00:00
   CPU %: 2.60
-  Memory %: 0.49
+  Memory %: 0.50
 Created database: My_little_dataset_v0
 </pre>
 </div>
@@ -15486,7 +15486,7 @@ Applied 5 strategies in 0.00 seconds
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;bw2io.importers.json_ld_lcia.JSONLDLCIAImporter at 0x7fc080416b00&gt;</pre>
+<pre>&lt;bw2io.importers.json_ld_lcia.JSONLDLCIAImporter at 0x7fc008657220&gt;</pre>
 </div>
 
 </div>
@@ -15592,9 +15592,9 @@ Applied 5 strategies in 0.00 seconds
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)),
- &#39;Virgin metals&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)),
- &#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;))]</pre>
+<pre>[&#39;Virgin metals&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)),
+ &#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)),
+ &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;))]</pre>
 </div>
 
 </div>
@@ -15646,23 +15646,14 @@ Applied 5 strategies in 0.00 seconds
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[({&#39;code&#39;: &#39;8849be54-1b13-4d7e-85f6-2297817333f2&#39;,
-   &#39;name&#39;: &#39;Crude oil&#39;,
-   &#39;categories&#39;: (&#39;Elementary flows&#39;, &#39;resources&#39;),
-   &#39;CAS number&#39;: None,
-   &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
-   &#39;unit&#39;: &#39;&#39;,
-   &#39;type&#39;: &#39;emission&#39;,
-   &#39;id&#39;: 11},
-  &#39;&#39;),
- ({&#39;code&#39;: &#39;7528830a-7344-43be-b484-ac4dc625f272&#39;,
+<pre>[({&#39;code&#39;: &#39;7528830a-7344-43be-b484-ac4dc625f272&#39;,
    &#39;name&#39;: &#39;Virgin metals&#39;,
    &#39;categories&#39;: (&#39;Elementary flows&#39;, &#39;resources&#39;),
    &#39;CAS number&#39;: None,
    &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
    &#39;unit&#39;: &#39;&#39;,
    &#39;type&#39;: &#39;emission&#39;,
-   &#39;id&#39;: 10},
+   &#39;id&#39;: 19},
   &#39;&#39;),
  ({&#39;code&#39;: &#39;cd154d8f-0694-43b2-b4ab-e44101e122bd&#39;,
    &#39;name&#39;: &#39;Bad stuff&#39;,
@@ -15671,7 +15662,16 @@ Applied 5 strategies in 0.00 seconds
    &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
    &#39;unit&#39;: &#39;&#39;,
    &#39;type&#39;: &#39;emission&#39;,
-   &#39;id&#39;: 12},
+   &#39;id&#39;: 21},
+  &#39;&#39;),
+ ({&#39;code&#39;: &#39;8849be54-1b13-4d7e-85f6-2297817333f2&#39;,
+   &#39;name&#39;: &#39;Crude oil&#39;,
+   &#39;categories&#39;: (&#39;Elementary flows&#39;, &#39;resources&#39;),
+   &#39;CAS number&#39;: None,
+   &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
+   &#39;unit&#39;: &#39;&#39;,
+   &#39;type&#39;: &#39;emission&#39;,
+   &#39;id&#39;: 20},
   &#39;&#39;)]</pre>
 </div>
 
@@ -15713,20 +15713,20 @@ Applied 5 strategies in 0.00 seconds
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)),
-  &#39;product&#39;,
-  &#39;&#39;),
- (&#39;Bottle assembly&#39; (number_of_items, Djibouti, None),
-  &#39;process&#39;,
-  &#39;number_of_items&#39;),
- (&#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)),
-  &#39;product&#39;,
-  &#39;&#39;),
+<pre>[(&#39;Plastic manufacturing&#39; (kilogram, Djibouti, None), &#39;process&#39;, &#39;kilogram&#39;),
  (&#39;Bottle&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Assemblers&#39;)), &#39;product&#39;, &#39;&#39;),
  (&#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None),
   &#39;process&#39;,
   &#39;kilogram&#39;),
- (&#39;Plastic manufacturing&#39; (kilogram, Djibouti, None), &#39;process&#39;, &#39;kilogram&#39;)]</pre>
+ (&#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)),
+  &#39;product&#39;,
+  &#39;&#39;),
+ (&#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)),
+  &#39;product&#39;,
+  &#39;&#39;),
+ (&#39;Bottle assembly&#39; (number_of_items, Djibouti, None),
+  &#39;process&#39;,
+  &#39;number_of_items&#39;)]</pre>
 </div>
 
 </div>
@@ -15767,11 +15767,7 @@ Applied 5 strategies in 0.00 seconds
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Plastic manufacturing&#39;,
-  [Exchange: 1.0  &#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
-   Exchange: 2.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
-   Exchange: 1.0  &#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;]),
- (&#39;Stainless steel manufacturing&#39;,
+<pre>[(&#39;Stainless steel manufacturing&#39;,
   [Exchange: 1.0  &#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;,
    Exchange: 1.0  &#39;Virgin metals&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;,
    Exchange: 3.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;]),
@@ -15779,7 +15775,11 @@ Applied 5 strategies in 0.00 seconds
   [Exchange: 1.0  &#39;Bottle&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Assemblers&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;,
    Exchange: 0.25  &#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;,
    Exchange: 0.1  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;,
-   Exchange: 0.3  &#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;])]</pre>
+   Exchange: 0.3  &#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;]),
+ (&#39;Plastic manufacturing&#39;,
+  [Exchange: 1.0  &#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
+   Exchange: 2.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
+   Exchange: 1.0  &#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;])]</pre>
 </div>
 
 </div>
@@ -15820,7 +15820,11 @@ Applied 5 strategies in 0.00 seconds
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Bottle assembly&#39;,
+<pre>[(&#39;Plastic manufacturing&#39;,
+  [Exchange: 1.0  &#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
+   Exchange: 2.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
+   Exchange: 1.0  &#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;]),
+ (&#39;Bottle assembly&#39;,
   [Exchange: 1.0  &#39;Bottle&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Assemblers&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;,
    Exchange: 0.25  &#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;,
    Exchange: 0.1  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Bottle assembly&#39; (number_of_items, Djibouti, None)&gt;,
@@ -15828,11 +15832,7 @@ Applied 5 strategies in 0.00 seconds
  (&#39;Stainless steel manufacturing&#39;,
   [Exchange: 1.0  &#39;Stainless steel&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;,
    Exchange: 1.0  &#39;Virgin metals&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;,
-   Exchange: 3.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;]),
- (&#39;Plastic manufacturing&#39;,
-  [Exchange: 1.0  &#39;Plastic&#39; (, Djibouti, (&#39;Technosphere flows&#39;, &#39;Manufacturers&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
-   Exchange: 2.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;,
-   Exchange: 1.0  &#39;Crude oil&#39; (, None, (&#39;Elementary flows&#39;, &#39;resources&#39;)) to &#39;Plastic manufacturing&#39; (kilogram, Djibouti, None)&gt;])]</pre>
+   Exchange: 3.0  &#39;Bad stuff&#39; (, None, (&#39;Elementary flows&#39;, &#39;emissions&#39;)) to &#39;Stainless steel manufacturing&#39; (kilogram, Djibouti, None)&gt;])]</pre>
 </div>
 
 </div>
@@ -15884,14 +15884,14 @@ Applied 5 strategies in 0.00 seconds
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Plastic&#39;, &#39;product&#39;, &#39;62714200-1a0d-43fb-9b48-99df3f233c94&#39;),
- (&#39;Stainless steel&#39;, &#39;product&#39;, &#39;3355a1b9-8fbf-40de-b449-ea6399a8a323&#39;),
+<pre>[(&#39;Bottle assembly&#39;, &#39;process&#39;, &#39;fae6799b-7326-452c-92b3-76758bbcac22&#39;),
  (&#39;Bottle&#39;, &#39;product&#39;, &#39;b806c2cd-d563-43c4-a0c9-9c7dd5d513d3&#39;),
- (&#39;Bottle assembly&#39;, &#39;process&#39;, &#39;fae6799b-7326-452c-92b3-76758bbcac22&#39;),
+ (&#39;Stainless steel&#39;, &#39;product&#39;, &#39;3355a1b9-8fbf-40de-b449-ea6399a8a323&#39;),
  (&#39;Stainless steel manufacturing&#39;,
   &#39;process&#39;,
   &#39;7e5ec332-09fd-4706-8373-3f140a539028&#39;),
- (&#39;Plastic manufacturing&#39;, &#39;process&#39;, &#39;2fc6deea-6437-4b9f-bf91-89bca44d30f0&#39;)]</pre>
+ (&#39;Plastic manufacturing&#39;, &#39;process&#39;, &#39;2fc6deea-6437-4b9f-bf91-89bca44d30f0&#39;),
+ (&#39;Plastic&#39;, &#39;product&#39;, &#39;62714200-1a0d-43fb-9b48-99df3f233c94&#39;)]</pre>
 </div>
 
 </div>
@@ -15963,7 +15963,7 @@ Applied 5 strategies in 0.00 seconds
  &#39;database&#39;: &#39;My_little_dataset_v0 biosphere&#39;,
  &#39;unit&#39;: &#39;&#39;,
  &#39;type&#39;: &#39;emission&#39;,
- &#39;id&#39;: 12}</pre>
+ &#39;id&#39;: 21}</pre>
 </div>
 
 </div>
